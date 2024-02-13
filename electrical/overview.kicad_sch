@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a49ae04b-1d24-45b2-96fe-c3b3c1584f34)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "System Overview")
+    (date "2024-02-12")
+    (rev "0.5")
+    (company "N877RV")
+  )
+
+  (lib_symbols
+  )
+
+)

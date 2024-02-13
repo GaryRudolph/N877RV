@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "flyerx")(type "KiCad")(uri "${KIPRJMOD}/flyerx.kicad_sym")(options "")(descr ""))
+)
