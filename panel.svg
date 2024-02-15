@@ -29,26 +29,22 @@
       }
 
       .cls-39 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-40 {
         letter-spacing: -.04em;
       }
 
-      .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56 {
+      .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55 {
         font-family: Helvetica, Helvetica;
       }
 
-      .cls-41, .cls-57 {
+      .cls-40, .cls-56 {
         letter-spacing: .02em;
       }
 
-      .cls-41, .cls-48 {
+      .cls-40, .cls-47 {
         font-size: 14px;
       }
 
-      .cls-58 {
+      .cls-57 {
         letter-spacing: 0em;
       }
 
@@ -68,7 +64,7 @@
         stroke-width: .71px;
       }
 
-      .cls-36, .cls-59, .cls-50, .cls-55 {
+      .cls-36, .cls-58, .cls-49, .cls-54 {
         letter-spacing: .02em;
       }
 
@@ -81,31 +77,23 @@
         stroke-dasharray: 0 0 3.03 3.03;
       }
 
-      .cls-42, .cls-50, .cls-60 {
+      .cls-41, .cls-49, .cls-59 {
         font-size: 18px;
       }
 
-      .cls-61 {
-        letter-spacing: 0em;
-      }
-
-      .cls-43 {
+      .cls-42 {
         letter-spacing: -.04em;
       }
 
-      .cls-43, .cls-45, .cls-62, .cls-52, .cls-53, .cls-56 {
+      .cls-42, .cls-44, .cls-51, .cls-52, .cls-55 {
         font-size: 12px;
       }
 
-      .cls-44, .cls-49 {
+      .cls-43, .cls-48 {
         font-size: 36px;
       }
 
-      .cls-63 {
-        letter-spacing: 0em;
-      }
-
-      .cls-64 {
+      .cls-60 {
         letter-spacing: 0em;
       }
 
@@ -117,16 +105,16 @@
         stroke-dasharray: 0 0 3 3;
       }
 
-      .cls-65 {
-        letter-spacing: -.01em;
-      }
-
       .cls-12 {
         stroke-dasharray: 0 0 2.95 2.95;
       }
 
       .cls-13 {
         stroke-dasharray: 0 0 3.13 3.13;
+      }
+
+      .cls-61 {
+        letter-spacing: .02em;
       }
 
       .cls-14 {
@@ -141,19 +129,15 @@
         stroke-dasharray: 0 12;
       }
 
-      .cls-66 {
+      .cls-62 {
         letter-spacing: .02em;
       }
 
-      .cls-67 {
-        letter-spacing: 0em;
-      }
-
-      .cls-68, .cls-49 {
+      .cls-63, .cls-48 {
         letter-spacing: .02em;
       }
 
-      .cls-46 {
+      .cls-45 {
         font-size: .1px;
         letter-spacing: .02em;
       }
@@ -162,11 +146,11 @@
         stroke-width: 2px;
       }
 
-      .cls-47 {
+      .cls-46 {
         letter-spacing: .02em;
       }
 
-      .cls-47, .cls-54 {
+      .cls-46, .cls-53 {
         font-size: 18.76px;
       }
 
@@ -178,39 +162,27 @@
         stroke-dasharray: 0 0 12.65 12.65;
       }
 
-      .cls-69 {
+      .cls-64 {
         letter-spacing: -.02em;
       }
 
-      .cls-70 {
+      .cls-65 {
         letter-spacing: -.02em;
       }
 
-      .cls-62 {
-        font-family: MyriadPro-Regular, 'Myriad Pro';
-      }
-
-      .cls-71 {
+      .cls-66 {
         letter-spacing: 0em;
       }
 
-      .cls-72 {
-        letter-spacing: 0em;
-      }
-
-      .cls-49, .cls-60 {
+      .cls-48, .cls-59 {
         text-decoration: underline;
-      }
-
-      .cls-73 {
-        letter-spacing: 0em;
       }
 
       .cls-20 {
         stroke-dasharray: 0 0 3 3;
       }
 
-      .cls-51 {
+      .cls-50 {
         font-size: 19.27px;
         letter-spacing: .02em;
       }
@@ -219,20 +191,16 @@
         stroke-dasharray: 0 0 2.92 2.92;
       }
 
-      .cls-74, .cls-52 {
+      .cls-67, .cls-51 {
         letter-spacing: .02em;
       }
 
-      .cls-75 {
+      .cls-68 {
         letter-spacing: .02em;
       }
 
-      .cls-76 {
+      .cls-69 {
         letter-spacing: -.06em;
-      }
-
-      .cls-77 {
-        letter-spacing: 0em;
       }
 
       .cls-25 {
@@ -243,7 +211,7 @@
         stroke-dasharray: 0 0 2.97 2.97;
       }
 
-      .cls-53 {
+      .cls-52 {
         letter-spacing: 0em;
       }
 
@@ -253,10 +221,6 @@
 
       .cls-28 {
         stroke-dasharray: 0 0 3 3;
-      }
-
-      .cls-78 {
-        letter-spacing: 0em;
       }
 
       .cls-37 {
@@ -271,7 +235,7 @@
         stroke-dasharray: 0 3;
       }
 
-      .cls-79 {
+      .cls-70 {
         letter-spacing: 0em;
       }
 
@@ -287,19 +251,11 @@
         stroke-dasharray: 0 0 11.84 11.84;
       }
 
-      .cls-80 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-81 {
-        letter-spacing: .02em;
-      }
-
       .cls-34 {
         stroke-dasharray: 0 0 11.94 11.94;
       }
 
-      .cls-56 {
+      .cls-55 {
         letter-spacing: .02em;
       }
     </style>
@@ -1176,50 +1132,50 @@
   </g>
   <g id="Print">
     <g id="Convertible">
-      <text class="cls-42" transform="translate(1355.32 176.44)"><tspan x="0" y="0">Pull for Convertible</tspan></text>
+      <text class="cls-41" transform="translate(1355.32 176.44)"><tspan x="0" y="0">Pull for Convertible</tspan></text>
       <rect id="Border" class="cls-22" x="1344.95" y="102.24" width="172.8" height="54.77" rx="10.6" ry="10.6"/>
     </g>
     <g id="Main_CB" data-name="Main CB">
       <rect id="Border-2" data-name="Border" class="cls-22" x="2390.5" y="219.47" width="264.66" height="209.64" rx="9" ry="9"/>
-      <text class="cls-47" transform="translate(2494.51 215.34) scale(.96 1)"><tspan x="0" y="0">Master</tspan></text>
+      <text class="cls-46" transform="translate(2494.51 215.34) scale(.96 1)"><tspan x="0" y="0">Master</tspan></text>
     </g>
     <g id="Avionics_CB" data-name="Avionics CB">
       <rect id="Border-3" data-name="Border" class="cls-22" x="2390.5" y="452.71" width="264.66" height="139.79" rx="9" ry="9"/>
-      <text class="cls-54" transform="translate(2488.34 449.33) scale(.96 1)"><tspan class="cls-72" x="0" y="0">A</tspan><tspan class="cls-75" x="12.52" y="0">vionics</tspan></text>
+      <text class="cls-53" transform="translate(2488.34 449.33) scale(.96 1)"><tspan class="cls-66" x="0" y="0">A</tspan><tspan class="cls-68" x="12.52" y="0">vionics</tspan></text>
     </g>
     <g id="Master_CB" data-name="Master CB">
       <rect id="Border-4" data-name="Border" class="cls-22" x="2661.12" y="363.47" width="120.39" height="65.63" rx="9" ry="9"/>
-      <text class="cls-47" transform="translate(2687 359.33) scale(.96 1)"><tspan x="0" y="0">Airframe</tspan></text>
+      <text class="cls-46" transform="translate(2687 359.33) scale(.96 1)"><tspan x="0" y="0">Airframe</tspan></text>
     </g>
-    <text class="cls-45" transform="translate(2684.47 424.89)"><tspan class="cls-74" x="0" y="0">A</tspan><tspan class="cls-76" x="8.22" y="0">L</tspan><tspan class="cls-79" x="14.22" y="0">T</tspan></text>
-    <text class="cls-45" transform="translate(2741.15 424.89)"><tspan class="cls-74" x="0" y="0">B</tspan><tspan class="cls-76" x="8.22" y="0">A</tspan><tspan class="cls-79" x="15.55" y="0">T</tspan></text>
-    <text class="cls-52" transform="translate(2412.29 282.38)"><tspan x="0" y="0">G3X</tspan></text>
-    <text class="cls-52" transform="translate(2452.57 282.38)"><tspan x="0" y="0">AHARS</tspan></text>
-    <text class="cls-52" transform="translate(2508.94 282.38)"><tspan x="0" y="0">MAG</tspan></text>
-    <text class="cls-52" transform="translate(2562.09 282.38)"><tspan x="0" y="0">EIS</tspan></text>
-    <text class="cls-45" transform="translate(2603.91 282.38)"><tspan class="cls-74" x="0" y="0">B</tspan><tspan class="cls-76" x="8.22" y="0">A</tspan><tspan class="cls-79" x="15.55" y="0">T</tspan><tspan class="cls-74" x="22.89" y="0" xml:space="preserve"> B</tspan></text>
-    <text class="cls-52" transform="translate(2411.3 352.41)"><tspan x="0" y="0">MFU</tspan></text>
-    <text class="cls-45" transform="translate(2458.45 352.41)"><tspan class="cls-74" x="0" y="0">FLA</tspan><tspan class="cls-58" x="22.66" y="0">P</tspan></text>
-    <text class="cls-52" transform="translate(2506.5 352.41)"><tspan x="0" y="0">LAND</tspan></text>
-    <text class="cls-52" transform="translate(2559.09 352.41)"><tspan x="0" y="0">POS</tspan></text>
-    <text class="cls-52" transform="translate(2595.92 352.41)"><tspan x="0" y="0">STROBE</tspan></text>
-    <text class="cls-52" transform="translate(2402.41 425.14)"><tspan x="0" y="0">SMOKE</tspan></text>
-    <text class="cls-52" transform="translate(2462.78 425.14)"><tspan x="0" y="0">12V</tspan></text>
-    <text class="cls-45" transform="translate(2512.15 425.14)"><tspan class="cls-74" x="0" y="0">E</tspan><tspan class="cls-76" x="8.22" y="0">L</tspan><tspan class="cls-79" x="14.22" y="0">T</tspan></text>
-    <text class="cls-52" transform="translate(2415.95 516.46)"><tspan x="0" y="0">G5</tspan></text>
-    <text class="cls-45" transform="translate(2461.11 516.46)"><tspan class="cls-74" x="0" y="0">N</tspan><tspan class="cls-76" x="8.88" y="0">A</tspan><tspan class="cls-66" x="16.22" y="0">V</tspan></text>
-    <text class="cls-52" transform="translate(2502.94 516.46)"><tspan x="0" y="0">XPDR*</tspan></text>
-    <text class="cls-52" transform="translate(2552.76 516.46)"><tspan x="0" y="0">ADS-B</tspan><tspan x="3.44" y="14.4">OUT*</tspan></text>
-    <text class="cls-52" transform="translate(2601.91 516.46)"><tspan x="0" y="0">ADS-B</tspan><tspan x="12.66" y="14.4">IN</tspan></text>
-    <text class="cls-52" transform="translate(2410.29 586.47)"><tspan x="0" y="0">COM</tspan></text>
-    <text class="cls-45" transform="translate(2465.65 586.47)"><tspan class="cls-74" x="0" y="0">A</tspan><tspan class="cls-58" x="8.22" y="0">P</tspan></text>
-    <text class="cls-52" transform="translate(2152.49 677.5)"><tspan x="0" y="0">SXM</tspan></text>
-    <text class="cls-52" transform="translate(2153.15 722.67)"><tspan x="0" y="0">AUX</tspan></text>
-    <text class="cls-52" transform="translate(2195.55 722.67)"><tspan x="0" y="0">IN</tspan></text>
-    <text class="cls-45" transform="translate(2224.89 722.93)"><tspan class="cls-74" x="0" y="0">OU</tspan><tspan class="cls-79" x="18.43" y="0">T</tspan></text>
-    <text class="cls-44" transform="translate(1362.09 75.39)"><tspan class="cls-68" x="0" y="0">N877</tspan><tspan class="cls-38" x="88.65" y="0">R</tspan><tspan class="cls-74" x="114.67" y="0">V</tspan></text>
-    <text class="cls-60" transform="translate(1697.17 61.61)"><tspan class="cls-55" x="0" y="0">EXPERI</tspan><tspan class="cls-36" x="67.97" y="0">MEN</tspan><tspan class="cls-37" x="108.94" y="0">T</tspan><tspan class="cls-36" x="118.93" y="0">A</tspan><tspan class="cls-35" x="132.25" y="0">L</tspan></text>
-    <text class="cls-50" transform="translate(1698.7 87.43)"><tspan x="0" y="0">This aircraft does not comply with Federal</tspan><tspan x="0" y="21">Safety Regulations for “standard aircraft”</tspan></text>
+    <text class="cls-44" transform="translate(2684.47 424.89)"><tspan class="cls-67" x="0" y="0">A</tspan><tspan class="cls-69" x="8.22" y="0">L</tspan><tspan class="cls-70" x="14.22" y="0">T</tspan></text>
+    <text class="cls-44" transform="translate(2741.15 424.89)"><tspan class="cls-67" x="0" y="0">B</tspan><tspan class="cls-69" x="8.22" y="0">A</tspan><tspan class="cls-70" x="15.55" y="0">T</tspan></text>
+    <text class="cls-51" transform="translate(2412.29 282.38)"><tspan x="0" y="0">G3X</tspan></text>
+    <text class="cls-51" transform="translate(2452.57 282.38)"><tspan x="0" y="0">AHARS</tspan></text>
+    <text class="cls-51" transform="translate(2508.94 282.38)"><tspan x="0" y="0">MAG</tspan></text>
+    <text class="cls-51" transform="translate(2562.09 282.38)"><tspan x="0" y="0">EIS</tspan></text>
+    <text class="cls-44" transform="translate(2603.91 282.38)"><tspan class="cls-67" x="0" y="0">B</tspan><tspan class="cls-69" x="8.22" y="0">A</tspan><tspan class="cls-70" x="15.55" y="0">T</tspan><tspan class="cls-67" x="22.89" y="0" xml:space="preserve"> B</tspan></text>
+    <text class="cls-51" transform="translate(2411.3 352.41)"><tspan x="0" y="0">MFU</tspan></text>
+    <text class="cls-44" transform="translate(2458.45 352.41)"><tspan class="cls-67" x="0" y="0">FLA</tspan><tspan class="cls-57" x="22.66" y="0">P</tspan></text>
+    <text class="cls-51" transform="translate(2506.5 352.41)"><tspan x="0" y="0">LAND</tspan></text>
+    <text class="cls-51" transform="translate(2559.09 352.41)"><tspan x="0" y="0">POS</tspan></text>
+    <text class="cls-51" transform="translate(2595.92 352.41)"><tspan x="0" y="0">STROBE</tspan></text>
+    <text class="cls-51" transform="translate(2402.41 425.14)"><tspan x="0" y="0">SMOKE</tspan></text>
+    <text class="cls-51" transform="translate(2462.78 425.14)"><tspan x="0" y="0">12V</tspan></text>
+    <text class="cls-44" transform="translate(2512.15 425.14)"><tspan class="cls-67" x="0" y="0">E</tspan><tspan class="cls-69" x="8.22" y="0">L</tspan><tspan class="cls-70" x="14.22" y="0">T</tspan></text>
+    <text class="cls-51" transform="translate(2415.95 516.46)"><tspan x="0" y="0">G5</tspan></text>
+    <text class="cls-44" transform="translate(2461.11 516.46)"><tspan class="cls-67" x="0" y="0">N</tspan><tspan class="cls-69" x="8.88" y="0">A</tspan><tspan class="cls-62" x="16.22" y="0">V</tspan></text>
+    <text class="cls-51" transform="translate(2502.94 516.46)"><tspan x="0" y="0">XPDR*</tspan></text>
+    <text class="cls-51" transform="translate(2552.76 516.46)"><tspan x="0" y="0">ADS-B</tspan><tspan x="3.44" y="14.4">OUT*</tspan></text>
+    <text class="cls-51" transform="translate(2601.91 516.46)"><tspan x="0" y="0">ADS-B</tspan><tspan x="12.66" y="14.4">IN</tspan></text>
+    <text class="cls-51" transform="translate(2410.29 586.47)"><tspan x="0" y="0">COM</tspan></text>
+    <text class="cls-44" transform="translate(2465.65 586.47)"><tspan class="cls-67" x="0" y="0">A</tspan><tspan class="cls-57" x="8.22" y="0">P</tspan></text>
+    <text class="cls-51" transform="translate(2152.49 677.5)"><tspan x="0" y="0">SXM</tspan></text>
+    <text class="cls-51" transform="translate(2153.15 722.67)"><tspan x="0" y="0">AUX</tspan></text>
+    <text class="cls-51" transform="translate(2195.55 722.67)"><tspan x="0" y="0">IN</tspan></text>
+    <text class="cls-44" transform="translate(2224.89 722.93)"><tspan class="cls-67" x="0" y="0">OU</tspan><tspan class="cls-70" x="18.43" y="0">T</tspan></text>
+    <text class="cls-43" transform="translate(1362.09 75.39)"><tspan class="cls-63" x="0" y="0">N877</tspan><tspan class="cls-38" x="88.65" y="0">R</tspan><tspan class="cls-67" x="114.67" y="0">V</tspan></text>
+    <text class="cls-59" transform="translate(1697.17 61.61)"><tspan class="cls-54" x="0" y="0">EXPERI</tspan><tspan class="cls-36" x="67.97" y="0">MEN</tspan><tspan class="cls-37" x="108.94" y="0">T</tspan><tspan class="cls-36" x="118.93" y="0">A</tspan><tspan class="cls-35" x="132.25" y="0">L</tspan></text>
+    <text class="cls-49" transform="translate(1698.7 87.43)"><tspan x="0" y="0">This aircraft does not comply with Federal</tspan><tspan x="0" y="21">Safety Regulations for “standard aircraft”</tspan></text>
     <g id="Pot">
       <circle id="Circle" class="cls-23" cx="932.27" cy="694.9" r="11.52"/>
       <circle id="Notch" class="cls-23" cx="899.87" cy="694.9" r="4.5"/>
@@ -1251,36 +1207,36 @@
         </g>
       </g>
     </g>
-    <text class="cls-50" transform="translate(2393.69 132.23)"><tspan x="0" y="0">Backup</tspan></text>
+    <text class="cls-49" transform="translate(2393.69 132.23)"><tspan x="0" y="0">Backup</tspan></text>
     <rect class="cls-22" x="2390.5" y="138.61" width="67.15" height="56.23" rx="9" ry="9"/>
     <rect class="cls-22" x="2135" y="661.05" width="125.54" height="68.78" rx="9" ry="9"/>
     <g id="Master_CB-2" data-name="Master CB">
       <rect id="Border-5" data-name="Border" class="cls-22" x="1705.89" y="661.05" width="120.39" height="74.6" rx="9" ry="9"/>
-      <text class="cls-47" transform="translate(1737.77 655.23) scale(.96 1)"><tspan x="0" y="0">Master</tspan></text>
+      <text class="cls-46" transform="translate(1737.77 655.23) scale(.96 1)"><tspan x="0" y="0">Master</tspan></text>
     </g>
-    <text class="cls-45" transform="translate(1718.69 730.1)"><tspan class="cls-74" x="0" y="0">B</tspan><tspan class="cls-76" x="8.22" y="0">A</tspan><tspan class="cls-79" x="15.55" y="0">T</tspan></text>
-    <text class="cls-45" transform="translate(1791.35 730.1)"><tspan class="cls-74" x="0" y="0">A</tspan><tspan class="cls-76" x="8.22" y="0">L</tspan><tspan class="cls-79" x="14.22" y="0">T</tspan></text>
-    <text class="cls-45" transform="translate(1848.91 730.1)"><tspan class="cls-74" x="0" y="0">BACKU</tspan><tspan class="cls-58" x="42.42" y="0">P</tspan></text>
-    <text class="cls-45" transform="translate(1917.04 730.1)"><tspan class="cls-76" x="0" y="0">A</tspan><tspan class="cls-74" x="7.33" y="0">VIONICS</tspan></text>
+    <text class="cls-44" transform="translate(1718.69 730.1)"><tspan class="cls-67" x="0" y="0">B</tspan><tspan class="cls-69" x="8.22" y="0">A</tspan><tspan class="cls-70" x="15.55" y="0">T</tspan></text>
+    <text class="cls-44" transform="translate(1791.35 730.1)"><tspan class="cls-67" x="0" y="0">A</tspan><tspan class="cls-69" x="8.22" y="0">L</tspan><tspan class="cls-70" x="14.22" y="0">T</tspan></text>
+    <text class="cls-44" transform="translate(1848.91 730.1)"><tspan class="cls-67" x="0" y="0">BACKU</tspan><tspan class="cls-57" x="42.42" y="0">P</tspan></text>
+    <text class="cls-44" transform="translate(1917.04 730.1)"><tspan class="cls-69" x="0" y="0">A</tspan><tspan class="cls-67" x="7.33" y="0">VIONICS</tspan></text>
     <rect class="cls-22" x="1397.04" y="661.05" width="68.78" height="68.78" rx="9" ry="9"/>
-    <text class="cls-42" transform="translate(1398.11 650.59)"><tspan class="cls-38" x="0" y="0">T</tspan><tspan class="cls-59" x="11" y="0">O / G</tspan><tspan class="cls-40" x="55.63" y="0">A</tspan></text>
-    <text class="cls-52" transform="translate(1229.93 657.4)"><tspan x="0" y="0">FLAPS</tspan></text>
+    <text class="cls-41" transform="translate(1398.11 650.59)"><tspan class="cls-38" x="0" y="0">T</tspan><tspan class="cls-58" x="11" y="0">O / G</tspan><tspan class="cls-39" x="55.63" y="0">A</tspan></text>
+    <text class="cls-51" transform="translate(1229.93 657.4)"><tspan x="0" y="0">FLAPS</tspan></text>
     <g id="Master_CB-3" data-name="Master CB">
       <rect id="Border-6" data-name="Border" class="cls-22" x="890.36" y="666.44" width="261.02" height="71.68" rx="9" ry="9"/>
-      <text class="cls-51" transform="translate(985.3 661.67) scale(.93 1)"><tspan x="0" y="0">Dimmers</tspan></text>
+      <text class="cls-50" transform="translate(985.3 661.67) scale(.93 1)"><tspan x="0" y="0">Dimmers</tspan></text>
     </g>
-    <text class="cls-45" transform="translate(1002.82 730.1)"><tspan class="cls-76" x="0" y="0">P</tspan><tspan class="cls-74" x="7.33" y="0">ANE</tspan><tspan class="cls-70" x="32.66" y="0">L</tspan></text>
-    <text class="cls-52" transform="translate(1093.5 730.1)"><tspan x="0" y="0">CABIN</tspan></text>
-    <text class="cls-45" transform="translate(903.28 730.1)"><tspan class="cls-76" x="0" y="0">A</tspan><tspan class="cls-74" x="7.33" y="0">VIONICS</tspan></text>
+    <text class="cls-44" transform="translate(1002.82 730.1)"><tspan class="cls-69" x="0" y="0">P</tspan><tspan class="cls-67" x="7.33" y="0">ANE</tspan><tspan class="cls-65" x="32.66" y="0">L</tspan></text>
+    <text class="cls-51" transform="translate(1093.5 730.1)"><tspan x="0" y="0">CABIN</tspan></text>
+    <text class="cls-44" transform="translate(903.28 730.1)"><tspan class="cls-69" x="0" y="0">A</tspan><tspan class="cls-67" x="7.33" y="0">VIONICS</tspan></text>
     <g id="Master_CB-4" data-name="Master CB">
       <rect id="Border-7" data-name="Border" class="cls-22" x="430.89" y="667.03" width="351.09" height="71.09" rx="9" ry="9"/>
-      <text class="cls-47" transform="translate(581.13 661.23) scale(.96 1)"><tspan x="0" y="0">Lights</tspan></text>
+      <text class="cls-46" transform="translate(581.13 661.23) scale(.96 1)"><tspan x="0" y="0">Lights</tspan></text>
     </g>
-    <text class="cls-52" transform="translate(434.64 730.35)"><tspan x="0" y="0">LANDING</tspan></text>
-    <text class="cls-45" transform="translate(520.74 730.1)"><tspan class="cls-76" x="0" y="0">T</tspan><tspan class="cls-74" x="6.66" y="0">AXI</tspan></text>
-    <text class="cls-45" transform="translate(591.63 730.1)"><tspan class="cls-70" x="0" y="0">W</tspan><tspan class="cls-74" x="11.1" y="0">AG</tspan></text>
-    <text class="cls-52" transform="translate(648.53 730.35)"><tspan x="0" y="0">POSITION</tspan></text>
-    <text class="cls-52" transform="translate(724.75 730.6)"><tspan x="0" y="0">STROBE</tspan></text>
+    <text class="cls-51" transform="translate(434.64 730.35)"><tspan x="0" y="0">LANDING</tspan></text>
+    <text class="cls-44" transform="translate(520.74 730.1)"><tspan class="cls-69" x="0" y="0">T</tspan><tspan class="cls-67" x="6.66" y="0">AXI</tspan></text>
+    <text class="cls-44" transform="translate(591.63 730.1)"><tspan class="cls-65" x="0" y="0">W</tspan><tspan class="cls-67" x="11.1" y="0">AG</tspan></text>
+    <text class="cls-51" transform="translate(648.53 730.35)"><tspan x="0" y="0">POSITION</tspan></text>
+    <text class="cls-51" transform="translate(724.75 730.6)"><tspan x="0" y="0">STROBE</tspan></text>
     <g id="Strobe-2" data-name="Strobe">
       <g id="Switch_Cutout-10" data-name="Switch Cutout">
         <path class="cls-5" d="M840.84,677.58v2.02h-4.32v-2.02c-8.92,1.07-15.84,8.65-15.84,17.86,0,9.94,8.06,18,18,18s18-8.06,18-18c0-9.21-6.92-16.79-15.84-17.86Z"/>
@@ -1298,12 +1254,12 @@
         </g>
       </g>
     </g>
-    <text class="cls-52" transform="translate(816.58 730.6)"><tspan x="0" y="0">SMOKE</tspan></text>
-    <text class="cls-48" transform="translate(1192.9 117.59)"><tspan class="cls-69" x="0" y="0">W</tspan><tspan class="cls-57" x="12.95" y="0">ARNING</tspan></text>
-    <text class="cls-41" transform="translate(1266.98 117.59)"><tspan x="0" y="0">CAUTION</tspan></text>
-    <text class="cls-41" transform="translate(1613.96 117.84)"><tspan x="0" y="0">GLIDE</tspan></text>
-    <text class="cls-46" transform="translate(1563.26 118.07)"><tspan x="0" y="0">BACKUP</tspan></text>
-    <text class="cls-48" transform="translate(1534.18 118.1)"><tspan class="cls-57" x="0" y="0">BACKU</tspan><tspan class="cls-64" x="49.49" y="0">P</tspan></text>
+    <text class="cls-51" transform="translate(816.58 730.6)"><tspan x="0" y="0">SMOKE</tspan></text>
+    <text class="cls-47" transform="translate(1192.9 117.59)"><tspan class="cls-64" x="0" y="0">W</tspan><tspan class="cls-56" x="12.95" y="0">ARNING</tspan></text>
+    <text class="cls-40" transform="translate(1266.98 117.59)"><tspan x="0" y="0">CAUTION</tspan></text>
+    <text class="cls-40" transform="translate(1613.96 117.84)"><tspan x="0" y="0">GLIDE</tspan></text>
+    <text class="cls-45" transform="translate(1563.26 118.07)"><tspan x="0" y="0">BACKUP</tspan></text>
+    <text class="cls-47" transform="translate(1534.18 118.1)"><tspan class="cls-56" x="0" y="0">BACKU</tspan><tspan class="cls-60" x="49.49" y="0">P</tspan></text>
     <circle class="cls-16" cx="2424.52" cy="481.59" r="22.5"/>
     <circle class="cls-16" cx="2474.25" cy="481.59" r="22.5"/>
     <circle class="cls-16" cx="2522.82" cy="481.59" r="22.5"/>
@@ -1314,34 +1270,34 @@
     <circle class="cls-16" cx="2522.83" cy="247.59" r="22.5"/>
     <circle class="cls-16" cx="2571.98" cy="247.59" r="22.5"/>
     <circle class="cls-16" cx="2424.52" cy="167.21" r="22.5"/>
-    <text class="cls-62" transform="translate(2466.72 148.41)"><tspan x="0" y="0">Bac</tspan><tspan class="cls-61" x="17.66" y="0">k</tspan><tspan class="cls-73" x="23.34" y="0">up p</tspan><tspan class="cls-77" x="46.15" y="0">o</tspan><tspan class="cls-39" x="52.66" y="0">w</tspan><tspan x="61.37" y="0">er uses a</tspan><tspan x="0" y="14.4">fuse panel </tspan><tspan class="cls-80" x="54.08" y="14.4">f</tspan><tspan x="57.43" y="14.4">or</tspan><tspan class="cls-81" x="67.94" y="14.4"> </tspan><tspan class="cls-71" x="70.73" y="14.4">the same</tspan><tspan x="0" y="28.8">i</tspan><tspan class="cls-63" x="2.81" y="28.8">t</tspan><tspan x="6.71" y="28.8">ems ci</tspan><tspan class="cls-78" x="38.21" y="28.8">r</tspan><tspan x="42.01" y="28.8">cled bel</tspan><tspan class="cls-77" x="81.21" y="28.8">o</tspan><tspan x="87.72" y="28.8">w </tspan><tspan class="cls-67" x="99.09" y="28.8">e</tspan><tspan class="cls-65" x="105.07" y="28.8">x</tspan><tspan class="cls-63" x="110.45" y="28.8">c</tspan><tspan x="115.75" y="28.8">ept</tspan><tspan x="0" y="43.2">whe</tspan><tspan class="cls-39" x="21.5" y="43.2">r</tspan><tspan x="25.31" y="43.2">e no</tspan><tspan class="cls-63" x="47.11" y="43.2">t</tspan><tspan x="51.01" y="43.2">ed </tspan></text>
-    <text class="cls-62" transform="translate(2526.15 581.7)"><tspan x="0" y="0">* </tspan><tspan class="cls-63" x="7.52" y="0">U</tspan><tspan x="15.22" y="0">sed on bac</tspan><tspan class="cls-61" x="69.07" y="0">k</tspan><tspan class="cls-73" x="74.75" y="0">up p</tspan><tspan class="cls-77" x="97.56" y="0">o</tspan><tspan class="cls-39" x="104.06" y="0">w</tspan><tspan x="112.77" y="0">er</tspan></text>
-    <text class="cls-52" transform="translate(800.53 60.18)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(808.75 64.17) scale(.58)"><tspan x="0" y="0">NE</tspan></text>
-    <text class="cls-52" transform="translate(800.53 74.58)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(808.75 78.57) scale(.58)"><tspan x="0" y="0">NO</tspan></text>
-    <text class="cls-52" transform="translate(822.76 60.18)"><tspan x="0" y="0">200 kt</tspan><tspan x="0" y="14.4">167 kt</tspan></text>
-    <text class="cls-52" transform="translate(1011.46 60.18)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(1019.68 64.17) scale(.58)"><tspan x="0" y="0">FE</tspan></text>
-    <text class="cls-52" transform="translate(1034.38 60.18)"><tspan x="0" y="0">95 kt 20°</tspan><tspan x="0" y="14.4">87 kt Full</tspan></text>
-    <text class="cls-52" transform="translate(947.55 60.18)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-53" transform="translate(955.77 64.17) scale(.58)"><tspan x="0" y="0">Y</tspan></text>
-    <text class="cls-52" transform="translate(947.55 74.58)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(955.77 78.57) scale(.58)"><tspan x="0" y="0">X</tspan></text>
-    <text class="cls-52" transform="translate(966.78 60.18)"><tspan x="0" y="0">75 kt</tspan><tspan x="0" y="14.4">65 kt</tspan></text>
-    <text class="cls-52" transform="translate(1106.2 60.18)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(1114.42 64.17) scale(.58)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-52" transform="translate(1106.2 74.58)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(1114.42 78.57) scale(.58)"><tspan x="0" y="0">S0</tspan></text>
-    <text class="cls-52" transform="translate(1129.12 60.18)"><tspan x="0" y="0">55 kt</tspan><tspan x="0" y="14.4">50 kt</tspan></text>
-    <text class="cls-52" transform="translate(877.57 60.18)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-43" transform="translate(885.79 64.17) scale(.58)"><tspan x="0" y="0">A</tspan></text>
-    <text class="cls-52" transform="translate(877.57 74.58)"><tspan x="0" y="0">V</tspan></text>
-    <text class="cls-56" transform="translate(885.79 78.57) scale(.58)"><tspan x="0" y="0">G</tspan></text>
-    <text class="cls-52" transform="translate(893.8 60.18)"><tspan x="0" y="0">123 kt</tspan><tspan x="0" y="14.4" xml:space="preserve">  80 kt</tspan></text>
+    <text class="cls-44" transform="translate(2466.72 148.41)"><tspan x="0" y="0">Backup power uses a</tspan><tspan x="0" y="14.4">fuse panel for</tspan><tspan class="cls-61" x="72.71" y="14.4"> </tspan><tspan x="76.29" y="14.4">the same</tspan><tspan x="0" y="28.8">items circled below except</tspan><tspan x="0" y="43.2">where noted </tspan></text>
+    <text class="cls-44" transform="translate(2516.15 581.7)"><tspan x="0" y="0">* Used on backup power</tspan></text>
+    <text class="cls-51" transform="translate(800.53 60.18)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(808.75 64.17) scale(.58)"><tspan x="0" y="0">NE</tspan></text>
+    <text class="cls-51" transform="translate(800.53 74.58)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(808.75 78.57) scale(.58)"><tspan x="0" y="0">NO</tspan></text>
+    <text class="cls-51" transform="translate(822.76 60.18)"><tspan x="0" y="0">200 kt</tspan><tspan x="0" y="14.4">167 kt</tspan></text>
+    <text class="cls-51" transform="translate(1011.46 60.18)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(1019.68 64.17) scale(.58)"><tspan x="0" y="0">FE</tspan></text>
+    <text class="cls-51" transform="translate(1034.38 60.18)"><tspan x="0" y="0">95 kt 20°</tspan><tspan x="0" y="14.4">87 kt Full</tspan></text>
+    <text class="cls-51" transform="translate(947.55 60.18)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-52" transform="translate(955.77 64.17) scale(.58)"><tspan x="0" y="0">Y</tspan></text>
+    <text class="cls-51" transform="translate(947.55 74.58)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(955.77 78.57) scale(.58)"><tspan x="0" y="0">X</tspan></text>
+    <text class="cls-51" transform="translate(966.78 60.18)"><tspan x="0" y="0">75 kt</tspan><tspan x="0" y="14.4">65 kt</tspan></text>
+    <text class="cls-51" transform="translate(1106.2 60.18)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(1114.42 64.17) scale(.58)"><tspan x="0" y="0">S</tspan></text>
+    <text class="cls-51" transform="translate(1106.2 74.58)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(1114.42 78.57) scale(.58)"><tspan x="0" y="0">S0</tspan></text>
+    <text class="cls-51" transform="translate(1129.12 60.18)"><tspan x="0" y="0">55 kt</tspan><tspan x="0" y="14.4">50 kt</tspan></text>
+    <text class="cls-51" transform="translate(877.57 60.18)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-42" transform="translate(885.79 64.17) scale(.58)"><tspan x="0" y="0">A</tspan></text>
+    <text class="cls-51" transform="translate(877.57 74.58)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-55" transform="translate(885.79 78.57) scale(.58)"><tspan x="0" y="0">G</tspan></text>
+    <text class="cls-51" transform="translate(893.8 60.18)"><tspan x="0" y="0">123 kt</tspan><tspan x="0" y="14.4" xml:space="preserve">  80 kt</tspan></text>
   </g>
   <g id="Bezels">
-    <text class="cls-49" transform="translate(110.71 70.03)"><tspan x="0" y="0">v3</tspan></text>
+    <text class="cls-48" transform="translate(110.71 70.03)"><tspan x="0" y="0">v3</tspan></text>
     <g id="Bend">
       <g>
         <line class="cls-17" x1="2738.77" y1="747.35" x2="2737.27" y2="747.35"/>
