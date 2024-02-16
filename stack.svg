@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.84 447.44">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: .02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        fill: #d1d3d4;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .25px;
+      }
+
+      .cls-7 {
+        fill: #bcbec0;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        stroke-dasharray: 0 3;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-9 {
+        stroke-dasharray: 0 0 3 3;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        font-size: 6px;
+      }
+
+      .cls-13, .cls-14 {
+        fill: #231f20;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-14 {
+        font-size: 12px;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-10" x="123.72" y="22.77" width="9" height="151.2"/>
+    <rect class="cls-10" x="132.72" y="22.05" width="9" height="152.64"/>
+    <rect class="cls-10" x="141.72" y="23.13" width="9" height="150.48"/>
+  </g>
+  <g>
+    <rect class="cls-10" x="123.72" y="176.27" width="9" height="145.44"/>
+    <rect class="cls-10" x="132.72" y="177.71" width="9" height="142.56"/>
+    <rect class="cls-10" x="141.72" y="176.09" width="9" height="145.8"/>
+  </g>
+  <g>
+    <rect class="cls-10" x="123.72" y="327.08" width="9" height="117.36"/>
+    <rect class="cls-10" x="132.72" y="326.36" width="9" height="118.8"/>
+    <rect class="cls-10" x="141.72" y="324.2" width="9" height="123.12"/>
+  </g>
+  <rect class="cls-7" x="123.72" y="173.97" width="9" height="2.3"/>
+  <rect class="cls-6" x="141.72" y="173.61" width="9" height="2.3"/>
+  <rect class="cls-7" x="123.72" y="321.71" width="9" height="2.3"/>
+  <rect class="cls-7" x="141.72" y="321.89" width="9" height="2.3"/>
+  <g>
+    <line class="cls-10" x1="141.72" y1="22.05" x2="143.22" y2="22.05"/>
+    <line class="cls-9" x1="146.22" y1="22.05" x2="210.72" y2="22.05"/>
+    <line class="cls-10" x1="212.22" y1="22.05" x2="213.72" y2="22.05"/>
+  </g>
+  <g>
+    <line class="cls-10" x1="141.72" y1="445.16" x2="143.22" y2="445.16"/>
+    <line class="cls-9" x1="146.22" y1="445.16" x2="210.72" y2="445.16"/>
+    <line class="cls-10" x1="212.22" y1="445.16" x2="213.72" y2="445.16"/>
+  </g>
+  <text class="cls-13" transform="translate(112.02 177)"><tspan x="0" y="0">.032</tspan></text>
+  <text class="cls-13" transform="translate(129.62 17.71) rotate(-90)"><tspan class="cls-2" x="0" y="0">B</tspan><tspan x="3.28" y="0">e</tspan><tspan class="cls-11" x="6.28" y="0">z</tspan><tspan x="8.81" y="0">el</tspan></text>
+  <text class="cls-13" transform="translate(139 17.25) rotate(-90)"><tspan class="cls-5" x="0" y="0">C</tspan><tspan x="3.41" y="0">u</tspan><tspan class="cls-3" x="6.71" y="0">t</tspan><tspan x="8.66" y="0">out</tspan></text>
+  <text class="cls-13" transform="translate(147.91 17.25) rotate(-90)"><tspan class="cls-1" x="0" y="0">R</tspan><tspan x="3.3" y="0">ack</tspan></text>
+  <text class="cls-13" transform="translate(151.94 325.15)"><tspan x="0" y="0">.032</tspan></text>
+  <text class="cls-14" transform="translate(0 102.34)"><tspan x="0" y="0">GMC 507</tspan></text>
+  <text class="cls-14" transform="translate(2.93 240.38)"><tspan x="0" y="0">GPS 175</tspan></text>
+  <text class="cls-14" transform="translate(3.37 385.76)"><tspan x="0" y="0">G</tspan><tspan class="cls-4" x="7.75" y="0">T</tspan><tspan class="cls-12" x="13.98" y="0">X 320 w/new </tspan><tspan class="cls-15" x="81.38" y="0">r</tspan><tspan x="85.25" y="0">ack</tspan></text>
+  <line class="cls-8" x1="189.05" y1="22.05" x2="189.05" y2="445.16"/>
+  <text class="cls-14" transform="translate(202.32 240.38) rotate(-90)"><tspan x="0" y="0">5.8765</tspan></text>
+</svg>
