@@ -1237,24 +1237,6 @@
     <text class="cls-44" transform="translate(591.63 730.1)"><tspan class="cls-65" x="0" y="0">W</tspan><tspan class="cls-67" x="11.1" y="0">AG</tspan></text>
     <text class="cls-51" transform="translate(648.53 730.35)"><tspan x="0" y="0">POSITION</tspan></text>
     <text class="cls-51" transform="translate(724.75 730.6)"><tspan x="0" y="0">STROBE</tspan></text>
-    <g id="Strobe-2" data-name="Strobe">
-      <g id="Switch_Cutout-10" data-name="Switch Cutout">
-        <path class="cls-5" d="M840.84,677.58v2.02h-4.32v-2.02c-8.92,1.07-15.84,8.65-15.84,17.86,0,9.94,8.06,18,18,18s18-8.06,18-18c0-9.21-6.92-16.79-15.84-17.86Z"/>
-      </g>
-      <g id="Outline-10" data-name="Outline">
-        <g>
-          <polyline class="cls-1" points="865.68 741.1 865.68 742.6 864.18 742.6"/>
-          <line class="cls-2" x1="861.18" y1="742.6" x2="814.68" y2="742.6"/>
-          <polyline class="cls-1" points="813.18 742.6 811.68 742.6 811.68 741.1"/>
-          <line class="cls-12" x1="811.68" y1="738.15" x2="811.68" y2="651.25"/>
-          <polyline class="cls-1" points="811.68 649.78 811.68 648.28 813.18 648.28"/>
-          <line class="cls-2" x1="816.18" y1="648.28" x2="862.68" y2="648.28"/>
-          <polyline class="cls-1" points="864.18 648.28 865.68 648.28 865.68 649.78"/>
-          <line class="cls-12" x1="865.68" y1="652.72" x2="865.68" y2="739.62"/>
-        </g>
-      </g>
-    </g>
-    <text class="cls-51" transform="translate(816.58 730.6)"><tspan x="0" y="0">SMOKE</tspan></text>
     <text class="cls-47" transform="translate(1192.9 117.59)"><tspan class="cls-64" x="0" y="0">W</tspan><tspan class="cls-56" x="12.95" y="0">ARNING</tspan></text>
     <text class="cls-40" transform="translate(1266.98 117.59)"><tspan x="0" y="0">CAUTION</tspan></text>
     <text class="cls-40" transform="translate(1613.96 117.84)"><tspan x="0" y="0">GLIDE</tspan></text>
