@@ -51,9 +51,10 @@
   )
 
 
-  (no_connect (at 147.32 90.17) (uuid 392a2550-0d8e-4c06-bfc3-134849dc2e5f))
-  (no_connect (at 147.32 92.71) (uuid cedf6e9d-5ccf-4fe4-a04d-92b1a5c636ce))
-
+  (wire (pts (xy 135.89 92.71) (xy 147.32 92.71))
+    (stroke (width 0) (type default))
+    (uuid 0efe3e64-7deb-4b4b-915c-da4afb082570)
+  )
   (wire (pts (xy 135.89 86.36) (xy 147.32 86.36))
     (stroke (width 0) (type default))
     (uuid 432ab591-b9c1-4e83-84ff-0f4eeb7e44ae)
@@ -62,10 +63,9 @@
     (stroke (width 0) (type default))
     (uuid cb70845c-ec16-43c0-a533-476d49b29f64)
   )
-
-  (text "For now ELT doesn't support GPS" (at 146.05 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c078c6a2-7803-46dd-a807-314c2ccc84e9)
+  (wire (pts (xy 135.89 90.17) (xy 147.32 90.17))
+    (stroke (width 0) (type default))
+    (uuid da51e366-b357-4b72-aa3a-78e00fa801c8)
   )
 
   (hierarchical_label "GPS_SERIAL_GND" (shape passive) (at 147.32 92.71 0) (fields_autoplaced)

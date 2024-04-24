@@ -980,10 +980,6 @@
     (uuid faa972a4-4194-4834-8d5d-1bea808e52cc)
   )
 
-  (text "Using SXM from GDL52" (at 66.04 142.24 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 078a18db-56e9-4e47-a7ca-a69b86bde8e8)
-  )
   (text "GAD27" (at 85.09 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0933c8d8-fe33-4d44-935a-ee6584219349)
