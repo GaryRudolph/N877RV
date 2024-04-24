@@ -707,7 +707,9 @@
     (uuid f882a7f5-9980-436b-baf5-f65f23c90a9d)
   )
 
+  (no_connect (at 81.28 209.55) (uuid 96455a0b-fd6e-47cc-ab22-01064584b7bd))
   (no_connect (at 81.28 38.1) (uuid 98c7cecf-4938-4fbc-8be7-e275e28f7a46))
+  (no_connect (at 81.28 195.58) (uuid a9d94999-e378-4b6d-af92-f9c6b35b5237))
 
   (wire (pts (xy 81.28 74.93) (xy 100.33 74.93))
     (stroke (width 0) (type default))
