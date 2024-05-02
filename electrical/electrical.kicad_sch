@@ -6,8 +6,8 @@
 
   (title_block
     (title "Electrical Overview")
-    (date "2024-02-14")
-    (rev "0.9.3")
+    (date "2024-05-02")
+    (rev "0.9.4")
     (company "N877RV")
   )
 
@@ -273,6 +273,10 @@
     (stroke (width 0) (type default))
     (uuid 777fa572-f7bd-417e-91df-e58b68636377)
   )
+  (wire (pts (xy 24.13 172.72) (xy 113.03 172.72))
+    (stroke (width 0) (type default))
+    (uuid 78288720-6416-48c3-8342-c1048eba8d1e)
+  )
   (wire (pts (xy 219.71 53.34) (xy 308.61 53.34))
     (stroke (width 0) (type default))
     (uuid 78f7fe47-2067-4c03-92b2-975adce41266)
@@ -340,6 +344,10 @@
   (wire (pts (xy 91.44 87.63) (xy 96.52 87.63))
     (stroke (width 0) (type default))
     (uuid 9f55dca0-61df-4173-93ef-b9aa82e850b5)
+  )
+  (wire (pts (xy 24.13 107.95) (xy 24.13 172.72))
+    (stroke (width 0) (type default))
+    (uuid a04b63b6-5dde-4136-9954-d6faec04455c)
   )
   (wire (pts (xy 339.09 149.86) (xy 342.9 149.86))
     (stroke (width 0) (type default))
@@ -488,6 +496,10 @@
   (wire (pts (xy 219.71 59.69) (xy 308.61 59.69))
     (stroke (width 0) (type default))
     (uuid f5260538-9170-4ca6-a4d4-2a2fa75cdf48)
+  )
+  (wire (pts (xy 52.07 107.95) (xy 24.13 107.95))
+    (stroke (width 0) (type default))
+    (uuid fb727a67-3ae0-4155-a2a6-7a2d4fa8faef)
   )
   (wire (pts (xy 44.45 149.86) (xy 50.8 149.86))
     (stroke (width 0) (type default))
@@ -911,6 +923,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 549df186-182b-4e81-965d-9852f7581f16)
     )
+    (pin "FUEL_ON" output (at 52.07 107.95 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 696ccab7-5011-4ca1-9f28-e55a5d49c3fa)
+    )
     (instances
       (project "electrical"
         (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049" (page "4"))
@@ -1202,6 +1218,10 @@
     (pin "AVIONICS_LIGHTING" output (at 156.21 153.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 4b189927-c062-489a-9f83-117a96f4cc72)
+    )
+    (pin "FUEL_ON" input (at 113.03 172.72 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1a9790fd-457d-4097-b88c-69a9e59071e1)
     )
     (instances
       (project "electrical"
