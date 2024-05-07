@@ -6,8 +6,8 @@
 
   (title_block
     (title "EIS")
-    (date "2024-05-02")
-    (rev "0.9.4")
+    (date "2024-05-07")
+    (rev "1.0")
     (company "N877RV")
   )
 
@@ -1509,11 +1509,6 @@
   (text "Bendix" (at 96.52 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7327b455-1a45-44a0-966e-47c85124ba6c)
-  )
-  (text "Using Standard Garmin Lycoming Sensors and RV7 Fuel Sensors"
-    (at 180.34 92.71 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8f59023f-e5a5-44da-adf6-0a629b608048)
   )
   (text "Configure \"VOLTS 1\" input to \"EIS Power Input 1 Volts\""
     (at 72.39 309.88 0)
