@@ -2,3 +2,4 @@
 **/.DS_Store
 **/*.lck
 **/*.bak
+**/fp-info-cache
