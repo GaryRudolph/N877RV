@@ -1,1500 +1,4715 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 80f7ecd5-f7e4-4871-9519-7d46d674459a)
-
-  (paper "USLetter" portrait)
-
-  (title_block
-    (title "PFD & ADAHRS")
-    (date "2024-05-07")
-    (rev "1.0.2")
-    (company "N877RV")
-  )
-
-  (lib_symbols
-    (symbol "Device:Antenna" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "AE" (at -1.905 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "Antenna" (at -1.905 0 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "antenna" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Antenna" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Antenna_0_1"
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -3.81)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0 -2.54)
-            (xy -1.27 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Antenna_1_1"
-        (pin input line (at 0 -5.08 90) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_Config" (in_bom yes) (on_board yes)
-      (property "Reference" "CONFIG" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_Config_1_1"
-        (rectangle (start 0 0) (end 5.08 -10.16)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 10.16 -3.81 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "BLK" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 10.16 -1.27 180) (length 5.08)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "RED" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 -8.89 180) (length 5.08)
-          (name "CLK" (effects (font (size 1.27 1.27))))
-          (number "WHT" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -6.35 180) (length 5.08)
-          (name "DATA" (effects (font (size 1.27 1.27))))
-          (number "YLW" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_G5" (in_bom yes) (on_board yes)
-      (property "Reference" "G" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "" (at 24.13 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 24.13 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 24.13 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_G5_1_1"
-        (rectangle (start 0 0) (end 24.13 -34.29)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -2.54) (end 24.13 -30.48)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (text "P51" (at 3.81 -2.54 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (pin input line (at 31.75 -33.02 180) (length 7.62)
-          (name "GPS_ANTENNA" (effects (font (size 1.27 1.27))))
-          (number "GPS" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 31.75 -22.86 180) (length 7.62)
-          (name "CAN-H" (effects (font (size 1.27 1.27))))
-          (number "P51_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 31.75 -25.4 180) (length 7.62)
-          (name "CAN-L" (effects (font (size 1.27 1.27))))
-          (number "P51_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 31.75 -29.21 180) (length 7.62)
-          (name "UNIT_ID" (effects (font (size 1.27 1.27))))
-          (number "P51_3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 31.75 -16.51 180) (length 7.62)
-          (name "RS-232_RX_1" (effects (font (size 1.27 1.27))))
-          (number "P51_4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 31.75 -13.97 180) (length 7.62)
-          (name "RS-232_TX_1" (effects (font (size 1.27 1.27))))
-          (number "P51_5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 31.75 -19.05 180) (length 7.62)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P51_6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 31.75 -5.08 180) (length 7.62)
-          (name "AIRCRAFT_POWER_1" (effects (font (size 1.27 1.27))))
-          (number "P51_7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 31.75 -7.62 180) (length 7.62)
-          (name "AIRCRAFT_POWER_2" (effects (font (size 1.27 1.27))))
-          (number "P51_8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 31.75 -10.16 180) (length 7.62)
-          (name "POWER_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P51_9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_GDU4XX" (in_bom yes) (on_board yes)
-      (property "Reference" "GDU" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_GDU4XX_1_1"
-        (rectangle (start 0 0) (end 34.29 -156.21)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -27.94) (end 34.29 -147.32)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -2.54) (end 34.29 -25.4)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (text "P4X01" (at 3.81 -2.54 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (text "P4X02" (at 3.81 -27.94 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (pin input line (at 44.45 -149.86 180) (length 10.16)
-          (name "GPS_ANTENNA" (effects (font (size 1.27 1.27))))
-          (number "GPS" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -12.7 180) (length 10.16)
-          (name "CAN_BUS_HI" (effects (font (size 1.27 1.27))))
-          (number "P4X01_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -15.24 180) (length 10.16)
-          (name "CAN_BUS_LO" (effects (font (size 1.27 1.27))))
-          (number "P4X01_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -21.59 180) (length 10.16)
-          (name "RS-232_RX" (effects (font (size 1.27 1.27))))
-          (number "P4X01_4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -19.05 180) (length 10.16)
-          (name "RS-232_TX" (effects (font (size 1.27 1.27))))
-          (number "P4X01_5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -24.13 180) (length 10.16)
-          (name "SIGNAL_GND" (effects (font (size 1.27 1.27))))
-          (number "P4X01_6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 44.45 -3.81 180) (length 10.16)
-          (name "PWR_1" (effects (font (size 1.27 1.27))))
-          (number "P4X01_7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 44.45 -6.35 180) (length 10.16)
-          (name "PWR_2" (effects (font (size 1.27 1.27))))
-          (number "P4X01_8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -8.89 180) (length 10.16)
-          (name "POWER_GND" (effects (font (size 1.27 1.27))))
-          (number "P4X01_9" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -113.03 180) (length 10.16)
-          (name "MONO_AUDIO_OUT_HI" (effects (font (size 1.27 1.27))))
-          (number "P4X02_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -130.81 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_1" (effects (font (size 1.27 1.27))))
-          (number "P4X02_10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -86.36 180) (length 10.16)
-          (name "RS-232_OUT_3" (effects (font (size 1.27 1.27))))
-          (number "P4X02_13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -80.01 180) (length 10.16)
-          (name "RS-232_IN_2" (effects (font (size 1.27 1.27))))
-          (number "P4X02_14" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -35.56 180) (length 10.16)
-          (name "POWER_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_15" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -38.1 180) (length 10.16)
-          (name "POWER_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_16" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 44.45 -50.8 180) (length 10.16)
-          (name "CONFIG_MODULE_POWER_OUT" (effects (font (size 1.27 1.27))))
-          (number "P4X02_17" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -115.57 180) (length 10.16)
-          (name "MONO_AUDIO_OUT_LO" (effects (font (size 1.27 1.27))))
-          (number "P4X02_18" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -121.92 180) (length 10.16)
-          (name "STEREO_AUDIO_OUT_RIGHT" (effects (font (size 1.27 1.27))))
-          (number "P4X02_19" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -124.46 180) (length 10.16)
-          (name "STEREO_AUDIO_OUT_LO" (effects (font (size 1.27 1.27))))
-          (number "P4X02_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -127 180) (length 10.16)
-          (name "STEREO_AUDIO_OUT_LO" (effects (font (size 1.27 1.27))))
-          (number "P4X02_20" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -97.79 180) (length 10.16)
-          (name "RS-232_IN_4" (effects (font (size 1.27 1.27))))
-          (number "P4X02_23" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -106.68 180) (length 10.16)
-          (name "RS-232_IN_5" (effects (font (size 1.27 1.27))))
-          (number "P4X02_24" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -135.89 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_3" (effects (font (size 1.27 1.27))))
-          (number "P4X02_25" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -64.77 180) (length 10.16)
-          (name "28V_LIGHTING_BUS_HI" (effects (font (size 1.27 1.27))))
-          (number "P4X02_26" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -146.05 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_27" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -46.99 180) (length 10.16)
-          (name "CAN_BUS_TERMINATION" (effects (font (size 1.27 1.27))))
-          (number "P4X02_28" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -88.9 180) (length 10.16)
-          (name "RS-232_IN_3" (effects (font (size 1.27 1.27))))
-          (number "P4X02_29" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -119.38 180) (length 10.16)
-          (name "STEREO_AUDIO_OUT_LEFT" (effects (font (size 1.27 1.27))))
-          (number "P4X02_3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -77.47 180) (length 10.16)
-          (name "RS-232_OUT_2" (effects (font (size 1.27 1.27))))
-          (number "P4X02_30" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 44.45 -33.02 180) (length 10.16)
-          (name "AIRCRAFT_POWER_2" (effects (font (size 1.27 1.27))))
-          (number "P4X02_31" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 44.45 -30.48 180) (length 10.16)
-          (name "AIRCRAFT_POWER_1" (effects (font (size 1.27 1.27))))
-          (number "P4X02_32" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -58.42 180) (length 10.16)
-          (name "CONFIG_MODULE_CLOCK" (effects (font (size 1.27 1.27))))
-          (number "P4X02_33" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -73.66 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_34" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -82.55 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_35" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -91.44 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_36" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -100.33 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_37" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -140.97 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_5" (effects (font (size 1.27 1.27))))
-          (number "P4X02_38" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -143.51 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_6" (effects (font (size 1.27 1.27))))
-          (number "P4X02_39" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -95.25 180) (length 10.16)
-          (name "RS-232_OUT_4" (effects (font (size 1.27 1.27))))
-          (number "P4X02_40" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -104.14 180) (length 10.16)
-          (name "RS-232_OUT_5" (effects (font (size 1.27 1.27))))
-          (number "P4X02_41" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -138.43 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_4" (effects (font (size 1.27 1.27))))
-          (number "P4X02_42" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -62.23 180) (length 10.16)
-          (name "14V_LIGHTING_BUS_HI" (effects (font (size 1.27 1.27))))
-          (number "P4X02_43" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -109.22 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_44" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -44.45 180) (length 10.16)
-          (name "CAN_BUS_LO" (effects (font (size 1.27 1.27))))
-          (number "P4X02_45" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -41.91 180) (length 10.16)
-          (name "CAN_BUS_HI" (effects (font (size 1.27 1.27))))
-          (number "P4X02_46" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -71.12 180) (length 10.16)
-          (name "RS-232_IN_1" (effects (font (size 1.27 1.27))))
-          (number "P4X02_47" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 44.45 -68.58 180) (length 10.16)
-          (name "RS-232_OUT_1" (effects (font (size 1.27 1.27))))
-          (number "P4X02_48" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 44.45 -53.34 180) (length 10.16)
-          (name "CONFIG_MODULE_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P4X02_49" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -55.88 180) (length 10.16)
-          (name "CONFIG_MODULE_DATA" (effects (font (size 1.27 1.27))))
-          (number "P4X02_50" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 44.45 -133.35 180) (length 10.16)
-          (name "SYSTEM_ID_PROGRAM_2" (effects (font (size 1.27 1.27))))
-          (number "P4X02_9" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -152.4 180) (length 10.16)
-          (name "SXM_ANTENNA" (effects (font (size 1.27 1.27))))
-          (number "SXM" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 44.45 -154.94 180) (length 10.16)
-          (name "VIDEO_INPUT" (effects (font (size 1.27 1.27))))
-          (number "VIDEO" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_GMU11" (in_bom yes) (on_board yes)
-      (property "Reference" "GMU" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_GMU11_1_1"
-        (rectangle (start 0 0) (end 24.13 -25.4)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -2.54) (end 24.13 -22.86)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (text "P441" (at 3.81 -2.54 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (pin bidirectional line (at 34.29 -12.7 180) (length 10.16)
-          (name "CAN_BUS_HI" (effects (font (size 1.27 1.27))))
-          (number "P441_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 34.29 -15.24 180) (length 10.16)
-          (name "CAN_BUS_LO" (effects (font (size 1.27 1.27))))
-          (number "P441_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 34.29 -19.05 180) (length 10.16)
-          (name "UNIT_ID" (effects (font (size 1.27 1.27))))
-          (number "P441_3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 34.29 -21.59 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P441_6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 34.29 -3.81 180) (length 10.16)
-          (name "AIRCRAFT_POWER_1" (effects (font (size 1.27 1.27))))
-          (number "P441_7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 34.29 -6.35 180) (length 10.16)
-          (name "AIRCRAFT_POWER_2" (effects (font (size 1.27 1.27))))
-          (number "P441_8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 34.29 -8.89 180) (length 10.16)
-          (name "POWER_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P441_9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_GSU25" (in_bom yes) (on_board yes)
-      (property "Reference" "GSU" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_GSU25_1_1"
-        (rectangle (start 0 0) (end 33.02 -68.58)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -27.94) (end 33.02 -66.04)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 2.54 -2.54) (end 33.02 -25.4)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (text "P251" (at 3.81 -2.54 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (text "P252" (at 3.81 -27.94 900)
-          (effects (font (size 1.27 1.27)) (justify right))
-        )
-        (pin bidirectional line (at 43.18 -12.7 180) (length 10.16)
-          (name "CAN_H" (effects (font (size 1.27 1.27))))
-          (number "P251_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -15.24 180) (length 10.16)
-          (name "CAN_L" (effects (font (size 1.27 1.27))))
-          (number "P251_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 43.18 -21.59 180) (length 10.16)
-          (name "RS-232_RX_1" (effects (font (size 1.27 1.27))))
-          (number "P251_4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 43.18 -19.05 180) (length 10.16)
-          (name "RS-232_TX_1" (effects (font (size 1.27 1.27))))
-          (number "P251_5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -24.13 180) (length 10.16)
-          (name "SIGNAL_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P251_6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 43.18 -3.81 180) (length 10.16)
-          (name "AIRCRAFT_POWER_1" (effects (font (size 1.27 1.27))))
-          (number "P251_7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 43.18 -6.35 180) (length 10.16)
-          (name "AIRCRAFT_POWER_2" (effects (font (size 1.27 1.27))))
-          (number "P251_8" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -8.89 180) (length 10.16)
-          (name "POWER_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P251_9" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 43.18 -53.34 180) (length 10.16)
-          (name "OAT_POWER" (effects (font (size 1.27 1.27))))
-          (number "P252_1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 43.18 -38.1 180) (length 10.16)
-          (name "RS-232_RX_3" (effects (font (size 1.27 1.27))))
-          (number "P252_10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -40.64 180) (length 10.16)
-          (name "GROUND" (effects (font (size 1.27 1.27))))
-          (number "P252_11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 43.18 -44.45 180) (length 10.16)
-          (name "RS-485_RX_A" (effects (font (size 1.27 1.27))))
-          (number "P252_12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 43.18 -46.99 180) (length 10.16)
-          (name "RS-485_RX_B" (effects (font (size 1.27 1.27))))
-          (number "P252_13" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -49.53 180) (length 10.16)
-          (name "GROUND" (effects (font (size 1.27 1.27))))
-          (number "P252_14" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 43.18 -33.02 180) (length 10.16)
-          (name "RS-232_TX_2" (effects (font (size 1.27 1.27))))
-          (number "P252_15" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 43.18 -55.88 180) (length 10.16)
-          (name "OAT_HIGH" (effects (font (size 1.27 1.27))))
-          (number "P252_2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -58.42 180) (length 10.16)
-          (name "OAT_LOW" (effects (font (size 1.27 1.27))))
-          (number "P252_3" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -64.77 180) (length 10.16)
-          (name "UNIT_ID_1_GROUND" (effects (font (size 1.27 1.27))))
-          (number "P252_4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 43.18 -62.23 180) (length 10.16)
-          (name "UNIT_ID_1" (effects (font (size 1.27 1.27))))
-          (number "P252_5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 43.18 -29.21 180) (length 10.16)
-          (name "+12V_MAGNOMETER_POWER" (effects (font (size 1.27 1.27))))
-          (number "P252_6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 43.18 -35.56 180) (length 10.16)
-          (name "RS-232_TX_3" (effects (font (size 1.27 1.27))))
-          (number "P252_9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "flyerx:Garmin_GTP59" (in_bom yes) (on_board yes)
-      (property "Reference" "GTP" (at 3.81 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Garmin_GTP59_1_1"
-        (rectangle (start 0 0) (end 7.62 -7.62)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 10.16 -6.35 180) (length 2.54)
-          (name "LOW" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 10.16 -1.27 180) (length 2.54)
-          (name "POWER" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 10.16 -3.81 180) (length 2.54)
-          (name "SENSE" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 152.4 185.42) (diameter 0) (color 0 0 0 0)
-    (uuid 28b78b7f-5486-405f-a56c-baa622e54ba2)
-  )
-  (junction (at 140.97 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid 32817ed4-fee4-4d39-adb8-d1cc18d3cc89)
-  )
-  (junction (at 142.24 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid 540fc666-f815-419f-a329-c8f7f47a1f63)
-  )
-  (junction (at 86.36 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid 775a55c1-21cb-4efe-9ed3-a72d60fec05a)
-  )
-  (junction (at 149.86 182.88) (diameter 0) (color 0 0 0 0)
-    (uuid b6e22183-fda2-4da3-a9c4-024fa3334ef2)
-  )
-  (junction (at 118.11 132.08) (diameter 0) (color 0 0 0 0)
-    (uuid d6593eb7-1ca9-497c-9d2f-703e445b370e)
-  )
-  (junction (at 119.38 129.54) (diameter 0) (color 0 0 0 0)
-    (uuid e8b31717-e9e3-47f7-9ed7-d987641bb1f0)
-  )
-  (junction (at 85.09 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid f17959af-e6ec-435a-9559-2371bdf95742)
-  )
-  (junction (at 64.77 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid f649297f-6242-4f79-82b1-59ca271b1f8d)
-  )
-
-  (no_connect (at 154.94 22.86) (uuid 0233b7e2-ea5c-4462-b02a-5255254efea7))
-  (no_connect (at 157.48 193.04) (uuid 0e422d72-298a-45b7-bee7-77a5a5d44443))
-  (no_connect (at 62.23 151.13) (uuid 488d3ab8-0741-43ce-ba11-33a569c4b81a))
-  (no_connect (at 154.94 35.56) (uuid 540fad2d-be4b-4421-8e9a-a797589bbe56))
-  (no_connect (at 62.23 156.21) (uuid 556ce447-7729-4fda-9ad7-78c347879401))
-  (no_connect (at 154.94 53.34) (uuid 5c91e00b-5231-4e56-9fcb-7361b17d29a9))
-  (no_connect (at 157.48 189.23) (uuid 5cbf5b5e-e5e7-4458-9aab-e7ee1d430cda))
-  (no_connect (at 62.23 161.29) (uuid 66bdb6f0-d09c-4f6c-a964-9c90370abd86))
-  (no_connect (at 62.23 144.78) (uuid 6b826a11-1d78-437d-855e-961878253796))
-  (no_connect (at 62.23 124.46) (uuid 6fa306b9-cfaa-4b17-9449-4815d272937f))
-  (no_connect (at 157.48 167.64) (uuid 71805cad-9048-4064-8faa-94c1ba47896d))
-  (no_connect (at 154.94 109.22) (uuid 7282fda9-85a8-4b47-abb6-800f7800e73e))
-  (no_connect (at 62.23 153.67) (uuid 76416961-2f1e-4e90-8a66-dc30a0869919))
-  (no_connect (at 62.23 64.77) (uuid 7bcddf50-6d7a-4750-987d-e66800b14b2c))
-  (no_connect (at 62.23 170.18) (uuid 84eeea4e-71da-49a1-a1a9-7b5a4316fc8f))
-  (no_connect (at 62.23 158.75) (uuid 8fbb516d-bf09-4ea3-a125-5b7baa49cffe))
-  (no_connect (at 62.23 139.7) (uuid 93fc471f-a3c0-4473-802e-07f28e8c6f58))
-  (no_connect (at 157.48 173.99) (uuid acd69d7f-0c51-4b0b-819e-e140e8263036))
-  (no_connect (at 62.23 137.16) (uuid c4cd91fd-afae-4cf0-8636-c997c5e731af))
-  (no_connect (at 62.23 142.24) (uuid cef8e82f-e905-4a74-9289-5a5a45a9e2a4))
-  (no_connect (at 62.23 50.8) (uuid d0a26e77-c66e-4de8-ac1d-8ed52f68d33a))
-
-  (wire (pts (xy 154.94 68.58) (xy 104.14 68.58))
-    (stroke (width 0) (type default))
-    (uuid 00e1dc00-8288-4695-9623-b33289225eec)
-  )
-  (wire (pts (xy 62.23 86.36) (xy 68.58 86.36))
-    (stroke (width 0) (type default))
-    (uuid 049f9edf-9b15-46d1-9fa1-904eb5bff9fb)
-  )
-  (wire (pts (xy 62.23 76.2) (xy 68.58 76.2))
-    (stroke (width 0) (type default))
-    (uuid 058d4ea9-0049-49d6-a5d4-c6b585a459fd)
-  )
-  (wire (pts (xy 153.67 105.41) (xy 154.94 105.41))
-    (stroke (width 0) (type default))
-    (uuid 08f3e920-19de-438d-bf33-2db1bdb2cb97)
-  )
-  (wire (pts (xy 118.11 132.08) (xy 161.29 132.08))
-    (stroke (width 0) (type default))
-    (uuid 0ab125a0-a204-4a42-afa5-faac00495bab)
-  )
-  (wire (pts (xy 62.23 55.88) (xy 64.77 55.88))
-    (stroke (width 0) (type default))
-    (uuid 1433d0ab-6534-46b2-9532-f74493587e5c)
-  )
-  (wire (pts (xy 62.23 39.37) (xy 102.87 39.37))
-    (stroke (width 0) (type default))
-    (uuid 17734e8a-2db9-4bae-ae93-a98cefd2ecfa)
-  )
-  (wire (pts (xy 149.86 50.8) (xy 154.94 50.8))
-    (stroke (width 0) (type default))
-    (uuid 1e173e17-e886-4096-bb97-70f7fbf5f8d8)
-  )
-  (wire (pts (xy 62.23 68.58) (xy 68.58 68.58))
-    (stroke (width 0) (type default))
-    (uuid 2242a621-662b-4ad2-9dc4-c31ed14540b1)
-  )
-  (wire (pts (xy 124.46 185.42) (xy 124.46 74.93))
-    (stroke (width 0) (type default))
-    (uuid 258c98e8-1162-401f-956f-2168dfd27795)
-  )
-  (wire (pts (xy 142.24 193.04) (xy 149.86 193.04))
-    (stroke (width 0) (type default))
-    (uuid 25915952-35d1-4ff0-b5c7-4e85f1d0f7ca)
-  )
-  (wire (pts (xy 64.77 55.88) (xy 64.77 53.34))
-    (stroke (width 0) (type default))
-    (uuid 2596da0b-d29c-4158-b6aa-56f90d501efa)
-  )
-  (wire (pts (xy 148.59 80.01) (xy 154.94 80.01))
-    (stroke (width 0) (type default))
-    (uuid 272f10ff-685d-4372-8a51-726ab9aa51a0)
-  )
-  (wire (pts (xy 85.09 62.23) (xy 140.97 62.23))
-    (stroke (width 0) (type default))
-    (uuid 2aa49308-b898-4f41-9201-5ce7873bcf60)
-  )
-  (wire (pts (xy 62.23 62.23) (xy 85.09 62.23))
-    (stroke (width 0) (type default))
-    (uuid 2cd07209-adfb-4863-a186-c8bcac74ec8e)
-  )
-  (wire (pts (xy 86.36 73.66) (xy 86.36 59.69))
-    (stroke (width 0) (type default))
-    (uuid 30c7b02a-5d4a-4e77-a4b4-5829fdf28195)
-  )
-  (wire (pts (xy 125.73 182.88) (xy 125.73 73.66))
-    (stroke (width 0) (type default))
-    (uuid 3246177c-d3d6-4974-b002-13e4472af594)
-  )
-  (wire (pts (xy 25.4 261.62) (xy 30.48 261.62))
-    (stroke (width 0) (type default))
-    (uuid 3402cbba-34fb-4da0-b18e-5beede137e78)
-  )
-  (wire (pts (xy 119.38 97.79) (xy 62.23 97.79))
-    (stroke (width 0) (type default))
-    (uuid 36046346-0952-40fd-832f-2ba979c85a8c)
-  )
-  (wire (pts (xy 132.08 31.75) (xy 154.94 31.75))
-    (stroke (width 0) (type default))
-    (uuid 36cc7885-6780-4661-86ec-c59b5f12f5a9)
-  )
-  (wire (pts (xy 101.6 71.12) (xy 101.6 41.91))
-    (stroke (width 0) (type default))
-    (uuid 37f990c4-2c06-454c-8030-4e69b82a1857)
-  )
-  (wire (pts (xy 120.65 95.25) (xy 62.23 95.25))
-    (stroke (width 0) (type default))
-    (uuid 3f2d118a-6ed7-4a67-a239-ccd2ac203889)
-  )
-  (wire (pts (xy 66.04 148.59) (xy 66.04 163.83))
-    (stroke (width 0) (type default))
-    (uuid 41a1f303-64e4-4bff-8d56-5c14e42fafd9)
-  )
-  (wire (pts (xy 104.14 36.83) (xy 104.14 68.58))
-    (stroke (width 0) (type default))
-    (uuid 42c21527-cc49-4bb3-9f4d-87efedbd79e7)
-  )
-  (wire (pts (xy 142.24 55.88) (xy 142.24 59.69))
-    (stroke (width 0) (type default))
-    (uuid 46052076-0e30-46de-b4bc-01719466948e)
-  )
-  (wire (pts (xy 62.23 109.22) (xy 68.58 109.22))
-    (stroke (width 0) (type default))
-    (uuid 4a6385b8-6812-47a5-8ca1-88bf33f46376)
-  )
-  (wire (pts (xy 102.87 39.37) (xy 102.87 66.04))
-    (stroke (width 0) (type default))
-    (uuid 507a7d0c-d477-4b7e-8a2c-80c2233f865d)
-  )
-  (wire (pts (xy 62.23 115.57) (xy 68.58 115.57))
-    (stroke (width 0) (type default))
-    (uuid 51db45ef-c6ee-49a5-9212-bb3b73dd5975)
-  )
-  (wire (pts (xy 62.23 71.12) (xy 68.58 71.12))
-    (stroke (width 0) (type default))
-    (uuid 524cec3d-88d8-4418-b9e9-521aace5e205)
-  )
-  (wire (pts (xy 118.11 179.07) (xy 118.11 132.08))
-    (stroke (width 0) (type default))
-    (uuid 5617e0e2-b183-402a-a854-582b3e2c0041)
-  )
-  (wire (pts (xy 120.65 127) (xy 120.65 95.25))
-    (stroke (width 0) (type default))
-    (uuid 5e6a1d09-d3a8-4afb-977b-ce7833921ed7)
-  )
-  (wire (pts (xy 62.23 130.81) (xy 69.85 130.81))
-    (stroke (width 0) (type default))
-    (uuid 5f3f6431-bb13-4e86-973a-4786c1d2edd4)
-  )
-  (wire (pts (xy 140.97 58.42) (xy 140.97 62.23))
-    (stroke (width 0) (type default))
-    (uuid 61e1df84-2313-4f06-a139-13f70744d490)
-  )
-  (wire (pts (xy 62.23 53.34) (xy 64.77 53.34))
-    (stroke (width 0) (type default))
-    (uuid 67492448-552c-4e20-9c9c-73a5cec868c2)
-  )
-  (wire (pts (xy 140.97 62.23) (xy 154.94 62.23))
-    (stroke (width 0) (type default))
-    (uuid 67c14734-5f29-44c1-a74e-5cc01861fb7e)
-  )
-  (wire (pts (xy 142.24 195.58) (xy 152.4 195.58))
-    (stroke (width 0) (type default))
-    (uuid 6c10588e-5851-4346-83b7-98ac0c928609)
-  )
-  (wire (pts (xy 151.13 165.1) (xy 157.48 165.1))
-    (stroke (width 0) (type default))
-    (uuid 6da90b92-3bf1-410c-926e-6fc8d52ac6c7)
-  )
-  (wire (pts (xy 154.94 66.04) (xy 102.87 66.04))
-    (stroke (width 0) (type default))
-    (uuid 6f5cb80a-4e8a-4814-946b-f4cc4089bb6d)
-  )
-  (wire (pts (xy 101.6 71.12) (xy 154.94 71.12))
-    (stroke (width 0) (type default))
-    (uuid 7311d692-6044-40c3-b292-c5986a2c3930)
-  )
-  (wire (pts (xy 62.23 167.64) (xy 66.04 167.64))
-    (stroke (width 0) (type default))
-    (uuid 75a8f946-9e74-4211-a0aa-5fe3f8440151)
-  )
-  (wire (pts (xy 149.86 182.88) (xy 157.48 182.88))
-    (stroke (width 0) (type default))
-    (uuid 79da9c2d-ee60-47ea-90b4-4d1341f9855f)
-  )
-  (wire (pts (xy 62.23 80.01) (xy 68.58 80.01))
-    (stroke (width 0) (type default))
-    (uuid 7f09f1fd-5865-49af-bdf3-9c99aba626b1)
-  )
-  (wire (pts (xy 62.23 36.83) (xy 104.14 36.83))
-    (stroke (width 0) (type default))
-    (uuid 807da518-2d24-4edc-a5a8-7a0a968d4120)
-  )
-  (wire (pts (xy 62.23 121.92) (xy 68.58 121.92))
-    (stroke (width 0) (type default))
-    (uuid 85f5e92e-18f7-4e2c-b3e7-4d7c2a699637)
-  )
-  (wire (pts (xy 157.48 179.07) (xy 118.11 179.07))
-    (stroke (width 0) (type default))
-    (uuid 86cc21c2-1ca6-4f9a-a61d-fa0a3925f89c)
-  )
-  (wire (pts (xy 124.46 74.93) (xy 85.09 74.93))
-    (stroke (width 0) (type default))
-    (uuid 8a3770ad-9d0b-4c45-a4e8-ff38e5e680ea)
-  )
-  (wire (pts (xy 138.43 55.88) (xy 142.24 55.88))
-    (stroke (width 0) (type default))
-    (uuid 8b4eb15c-ca11-4483-8052-1f84d507f9f6)
-  )
-  (wire (pts (xy 101.6 41.91) (xy 62.23 41.91))
-    (stroke (width 0) (type default))
-    (uuid 8bdb4a71-3ec1-4a84-9d6b-935d1147130a)
-  )
-  (wire (pts (xy 125.73 73.66) (xy 86.36 73.66))
-    (stroke (width 0) (type default))
-    (uuid 8e820d1f-5937-4c62-bf82-7441a850b5d8)
-  )
-  (wire (pts (xy 151.13 20.32) (xy 154.94 20.32))
-    (stroke (width 0) (type default))
-    (uuid 9133d7f7-df05-4aa9-b165-5a58395b3422)
-  )
-  (wire (pts (xy 149.86 55.88) (xy 154.94 55.88))
-    (stroke (width 0) (type default))
-    (uuid 9161a39e-b88b-4adb-902c-97e64ec0b435)
-  )
-  (wire (pts (xy 119.38 129.54) (xy 119.38 97.79))
-    (stroke (width 0) (type default))
-    (uuid 96a1194a-87c1-4cc9-be14-1a933125557d)
-  )
-  (wire (pts (xy 119.38 176.53) (xy 119.38 129.54))
-    (stroke (width 0) (type default))
-    (uuid 98bc687d-2b42-4500-8539-15bdb8594792)
-  )
-  (wire (pts (xy 138.43 58.42) (xy 140.97 58.42))
-    (stroke (width 0) (type default))
-    (uuid 9999a84c-cb92-418d-b749-c1381fbf1993)
-  )
-  (wire (pts (xy 120.65 127) (xy 161.29 127))
-    (stroke (width 0) (type default))
-    (uuid 9d12acee-0a0a-417f-a78b-3ad2a895e0a1)
-  )
-  (wire (pts (xy 62.23 133.35) (xy 69.85 133.35))
-    (stroke (width 0) (type default))
-    (uuid 9ec2714d-915e-4519-bf31-04c3f045470e)
-  )
-  (wire (pts (xy 62.23 172.72) (xy 66.04 172.72))
-    (stroke (width 0) (type default))
-    (uuid ae8b1807-9bbe-4c1d-9ba0-0bca68c213e8)
-  )
-  (wire (pts (xy 62.23 48.26) (xy 68.58 48.26))
-    (stroke (width 0) (type default))
-    (uuid b334b91b-403c-43ab-8677-8c6419b855a7)
-  )
-  (wire (pts (xy 151.13 170.18) (xy 157.48 170.18))
-    (stroke (width 0) (type default))
-    (uuid b3ee2f4f-deb2-4cb0-9a52-6982e79ae420)
-  )
-  (wire (pts (xy 118.11 100.33) (xy 62.23 100.33))
-    (stroke (width 0) (type default))
-    (uuid b54f6034-7470-4869-be5a-1eb502d7306a)
-  )
-  (wire (pts (xy 62.23 118.11) (xy 68.58 118.11))
-    (stroke (width 0) (type default))
-    (uuid b56ca241-f5d3-41c1-a3e5-8f6856255fb4)
-  )
-  (wire (pts (xy 62.23 106.68) (xy 68.58 106.68))
-    (stroke (width 0) (type default))
-    (uuid bd6fb846-bc6a-4dae-95b4-4db78d3c4555)
-  )
-  (wire (pts (xy 153.67 102.87) (xy 154.94 102.87))
-    (stroke (width 0) (type default))
-    (uuid be090d1e-2d3d-469a-aa43-17e50209961b)
-  )
-  (wire (pts (xy 157.48 176.53) (xy 119.38 176.53))
-    (stroke (width 0) (type default))
-    (uuid bebe77b9-428e-4832-8b68-81c2f7f2313f)
-  )
-  (wire (pts (xy 62.23 91.44) (xy 68.58 91.44))
-    (stroke (width 0) (type default))
-    (uuid bf0b96b5-cc25-4fcd-a4d7-27590db6e064)
-  )
-  (wire (pts (xy 62.23 104.14) (xy 68.58 104.14))
-    (stroke (width 0) (type default))
-    (uuid bf833835-e8ad-463c-8fd1-2afe3a5546b2)
-  )
-  (wire (pts (xy 62.23 88.9) (xy 68.58 88.9))
-    (stroke (width 0) (type default))
-    (uuid bfdc7d17-9b5a-4a63-86a3-503414f1172e)
-  )
-  (wire (pts (xy 153.67 100.33) (xy 154.94 100.33))
-    (stroke (width 0) (type default))
-    (uuid c1e754a2-7f1f-4c56-a878-adbf927c38a1)
-  )
-  (wire (pts (xy 62.23 59.69) (xy 86.36 59.69))
-    (stroke (width 0) (type default))
-    (uuid c215a845-4129-4e2d-9e35-fd1810acce9d)
-  )
-  (wire (pts (xy 152.4 195.58) (xy 152.4 185.42))
-    (stroke (width 0) (type default))
-    (uuid c231857b-4682-44f9-8fc1-ac65841fb57d)
-  )
-  (wire (pts (xy 125.73 182.88) (xy 149.86 182.88))
-    (stroke (width 0) (type default))
-    (uuid cb234d1a-dc09-4bd8-be94-bcbcf9f63ce0)
-  )
-  (wire (pts (xy 118.11 132.08) (xy 118.11 100.33))
-    (stroke (width 0) (type default))
-    (uuid cd317c07-1cd3-4bc5-aa72-d52dcb0e3d17)
-  )
-  (wire (pts (xy 62.23 113.03) (xy 68.58 113.03))
-    (stroke (width 0) (type default))
-    (uuid d01cefb6-e0ab-4ca4-97a1-fb8490c4cd7d)
-  )
-  (wire (pts (xy 152.4 185.42) (xy 157.48 185.42))
-    (stroke (width 0) (type default))
-    (uuid d0211f93-7a08-400d-9fb0-572925ea9f20)
-  )
-  (wire (pts (xy 86.36 59.69) (xy 142.24 59.69))
-    (stroke (width 0) (type default))
-    (uuid d15c4105-3878-42fa-aa42-a8fa0a25242a)
-  )
-  (wire (pts (xy 149.86 193.04) (xy 149.86 182.88))
-    (stroke (width 0) (type default))
-    (uuid d1e004f9-b178-48b7-802a-6111a4986921)
-  )
-  (wire (pts (xy 151.13 25.4) (xy 154.94 25.4))
-    (stroke (width 0) (type default))
-    (uuid db97f245-b4a2-495a-9e65-f470a6c2c411)
-  )
-  (wire (pts (xy 142.24 59.69) (xy 154.94 59.69))
-    (stroke (width 0) (type default))
-    (uuid df6cfaf5-cbc4-414c-88b2-37cb087d5259)
-  )
-  (wire (pts (xy 124.46 185.42) (xy 152.4 185.42))
-    (stroke (width 0) (type default))
-    (uuid dff0204c-8d49-4b55-a4dd-56844394a7f4)
-  )
-  (wire (pts (xy 62.23 127) (xy 68.58 127))
-    (stroke (width 0) (type default))
-    (uuid e2841e80-4e36-4b6a-bdb8-a41931d0fed7)
-  )
-  (wire (pts (xy 132.08 29.21) (xy 154.94 29.21))
-    (stroke (width 0) (type default))
-    (uuid e71436ca-2fca-4f88-8405-d56944b21333)
-  )
-  (wire (pts (xy 62.23 148.59) (xy 66.04 148.59))
-    (stroke (width 0) (type default))
-    (uuid e7375f4d-4a16-4638-a94a-49e185b0a0c2)
-  )
-  (wire (pts (xy 119.38 129.54) (xy 161.29 129.54))
-    (stroke (width 0) (type default))
-    (uuid eb85f633-aedd-49f6-b627-61fb667f6b05)
-  )
-  (wire (pts (xy 148.59 87.63) (xy 154.94 87.63))
-    (stroke (width 0) (type default))
-    (uuid eb981bf3-ba0c-4185-a51f-d0e2a7b82a64)
-  )
-  (wire (pts (xy 62.23 73.66) (xy 68.58 73.66))
-    (stroke (width 0) (type default))
-    (uuid ee85620c-b4d7-4e86-bc15-e76772a5acb4)
-  )
-  (wire (pts (xy 66.04 163.83) (xy 62.23 163.83))
-    (stroke (width 0) (type default))
-    (uuid f77541f8-7f10-49a1-98eb-785a79aee278)
-  )
-  (wire (pts (xy 64.77 53.34) (xy 68.58 53.34))
-    (stroke (width 0) (type default))
-    (uuid faa972a4-4194-4834-8d5d-1bea808e52cc)
-  )
-  (wire (pts (xy 85.09 74.93) (xy 85.09 62.23))
-    (stroke (width 0) (type default))
-    (uuid fe37c174-97da-47e8-9878-ebdc992c799b)
-  )
-
-  (text "GAD27" (at 85.09 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0933c8d8-fe33-4d44-935a-ee6584219349)
-  )
-  (text "To GSA 28 Pitch / Yaw" (at 113.03 26.67 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1a750c8c-e700-4910-acde-a4bf08f6fa25)
-  )
-  (text "Internal GPS is sufficient\nCan add later if not" (at 156.21 199.39 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 98901ab3-7bd3-4457-b0c9-df8227c5a562)
-  )
-  (text "To GPS175\nMapMX\nPage 24-38" (at 199.39 132.08 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 9e3191e8-8b92-4f2a-a7b5-7c5c83d52fe1)
-  )
-  (text "Need Terminator\nStart of Canbus in Fuselage\nWill connect to Servos first"
-    (at 149.86 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid bab80beb-5521-4d23-928e-7384493833d9)
-  )
-  (text "To GSU 25\nGarmin Instrument Data\nPage 24-13" (at 82.55 35.56 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bf4a0b7d-3f1a-487f-aff1-4f6de01e2f07)
-  )
-  (text "To GDL 52R\nConnect 57600\nPage 24-24" (at 87.63 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d5b9abc7-da4d-4385-87ad-c2f7855c6ebb)
-  )
-  (text "To GPS175\nMapMX\nFormat 1" (at 113.03 95.25 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e928957a-1c40-4bfd-b819-9cb548f2359e)
-  )
-  (text "To GPS175\nConnext 57600 Baud\nPage 24-38" (at 96.52 109.22 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ff5bce72-6c14-4780-b5fe-1044a10a5998)
-  )
-
-  (global_label "GND" (shape passive) (at 151.13 170.18 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3ccbf1c9-1065-40bd-a04c-8f9560b7875f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.3856 170.18 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GND" (shape passive) (at 30.48 261.62 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 60844d79-bc47-4dc5-a742-2c2040cc75f8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 36.2244 261.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GND" (shape passive) (at 149.86 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a3377c9a-39be-4bb4-a6a7-59e484e40ff9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.1156 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GND" (shape passive) (at 68.58 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b3d98007-1f33-4478-b7d8-88f2c5250a77)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 74.3244 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GND" (shape passive) (at 151.13 25.4 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid bb20cf77-c803-4511-8b21-c2da252a666f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.3856 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (hierarchical_label "ADSB_SERIAL_GND" (shape passive) (at 68.58 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 060afdc1-7582-4d82-9889-43b9835aefaa)
-  )
-  (hierarchical_label "LIGHTING_HI" (shape input) (at 68.58 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 28fc1fd6-4b7a-4c24-9692-fa13388a0fd0)
-  )
-  (hierarchical_label "CANBUS_HI_GMU_OUT" (shape output) (at 132.08 29.21 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2bdbaa3e-f371-42ce-9f23-5f310d64ea50)
-  )
-  (hierarchical_label "GMU11_PWR" (shape input) (at 151.13 20.32 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2d37894b-053b-4689-98bf-0872fcef5c77)
-  )
-  (hierarchical_label "EIS_SERIAL_GND" (shape passive) (at 68.58 118.11 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 35781db0-004d-4aa3-9f97-26d691bbefe1)
-  )
-  (hierarchical_label "GDU4XX_PWR" (shape input) (at 68.58 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 37537ce2-2c67-4957-8f79-fe0193a0c479)
-  )
-  (hierarchical_label "AUDIO_HI" (shape output) (at 69.85 130.81 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 39f1412f-280e-4f8d-9a98-81be8abd554a)
-  )
-  (hierarchical_label "NAV_MAPMX_SERIAL_GND" (shape passive) (at 161.29 132.08 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3c6ef3ff-3091-4e05-9806-c4bb601ecda3)
-  )
-  (hierarchical_label "EIS_SERIAL_OUT" (shape output) (at 68.58 113.03 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4ac74df5-d766-441b-85b1-80870368db77)
-  )
-  (hierarchical_label "CANBUS_LO_OUT" (shape output) (at 138.43 58.42 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4d7ea674-9ed1-46e8-9e1b-b29f132e8312)
-  )
-  (hierarchical_label "NAV_MAPMX_SERIAL_OUT" (shape output) (at 161.29 127 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4dbe70b8-23d8-4fc7-9398-ea19b81ac6ab)
-  )
-  (hierarchical_label "ELT_SERIAL_GND" (shape passive) (at 68.58 127 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5253eaf7-625a-4127-8ea6-46f19493a8ec)
-  )
-  (hierarchical_label "NAV_CONNEXT_SERIAL_OUT" (shape output) (at 68.58 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5d0e23ca-39e6-4619-8e71-2c76cd1d4efd)
-  )
-  (hierarchical_label "ADSB_SERIAL_IN" (shape input) (at 68.58 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6258aa91-226e-44d5-b9d5-6c7aa5f587a3)
-  )
-  (hierarchical_label "ELT_SERIAL_OUT" (shape output) (at 68.58 121.92 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 69bfdfd9-8155-4b12-bfc4-1c7569621230)
-  )
-  (hierarchical_label "CANBUS_LO_GMU_OUT" (shape output) (at 132.08 31.75 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6ac2be54-7ef8-4ce3-8d59-98db3a0b6d99)
-  )
-  (hierarchical_label "NAV_MAPMX_SERIAL_IN" (shape input) (at 161.29 129.54 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 732c852a-fcfd-400b-b4e3-abadb71daaa1)
-  )
-  (hierarchical_label "GND_BUS" (shape input) (at 25.4 261.62 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7889ed80-caa3-4cf8-8c6b-22ff92dfb254)
-  )
-  (hierarchical_label "CANBUS_LO_IN" (shape input) (at 142.24 195.58 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7d934f72-060e-4a32-99fc-b0b79f0eb221)
-  )
-  (hierarchical_label "NAV_CONNEXT_SERIAL_GND" (shape passive) (at 68.58 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 859728c9-0093-4edc-9053-706811c0bd7f)
-  )
-  (hierarchical_label "AUDIO_LO" (shape output) (at 69.85 133.35 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8ef6b403-87e3-4f08-bfa8-9d9b00a0512d)
-  )
-  (hierarchical_label "G5_PWR" (shape input) (at 151.13 165.1 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 97128acb-f106-4024-9751-b008ad4a648e)
-  )
-  (hierarchical_label "NAV_CONNEXT_SERIAL_IN" (shape input) (at 68.58 106.68 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9f439b00-86a0-4817-8e5d-89d7552323ab)
-  )
-  (hierarchical_label "GSU25_PWR" (shape input) (at 149.86 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a41dc09e-f8a7-4a75-b776-a08727d5fd12)
-  )
-  (hierarchical_label "ADSB_SERIAL_OUT" (shape output) (at 68.58 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a8db912c-2205-4fff-a541-bdc106bc3100)
-  )
-  (hierarchical_label "AIRDATA_SERIAL_GND" (shape passive) (at 148.59 87.63 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b6c9d10a-8f53-432e-b2d9-c4063989de25)
-  )
-  (hierarchical_label "EIS_SERIAL_IN" (shape input) (at 68.58 115.57 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b8fd4965-2d7f-43b1-af02-a5d126cbf03e)
-  )
-  (hierarchical_label "CANBUS_HI_OUT" (shape output) (at 138.43 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid dcfb8257-91fd-4b13-8ab6-be70fdfeecc7)
-  )
-  (hierarchical_label "CANBUS_HI_IN" (shape input) (at 142.24 193.04 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ecc4ff25-8dbc-4071-8f57-920cb893726c)
-  )
-  (hierarchical_label "AIRDATA_SERIAL_OUT" (shape output) (at 148.59 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f5e52b07-b249-41fe-9140-a24c8f12e1be)
-  )
-
-  (symbol (lib_id "flyerx:Garmin_GTP59") (at 143.51 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d2881d1-7084-45dd-8c7c-7e816563c290)
-    (property "Reference" "GTP59" (at 147.32 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 143.51 99.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 143.51 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 143.51 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 46f23da8-aa4d-45b6-b6ee-48b24ad16f48))
-    (pin "" (uuid 06ad48b3-f4ab-4c1c-bac5-0758874abb15))
-    (pin "" (uuid 7f6c5f63-7228-488c-af41-c03f0bbc7250))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GTP59") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Antenna") (at 71.12 172.72 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 24fbca02-7278-41da-b455-33eeef54da04)
-    (property "Reference" "CAMERA" (at 74.93 172.72 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Antenna" (at 74.93 173.99 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "" (at 71.12 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 71.12 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid acaf08af-4372-41fa-9774-a239adeb81fa))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "CAMERA") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "flyerx:Garmin_GSU25") (at 198.12 46.99 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4f34516c-404d-4e93-a089-8bea36d913c0)
-    (property "Reference" "GSU25" (at 181.61 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 198.12 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 198.12 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 198.12 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "P251_1" (uuid 9ff2961e-0581-4279-86b8-545e11ea73b6))
-    (pin "P251_5" (uuid ff11397a-46c6-4dfc-baf3-12f03d898ff5))
-    (pin "P251_6" (uuid 6d1ff6d3-b983-45f3-b53c-9e5f339166e9))
-    (pin "P251_7" (uuid 4268f8c7-6fb9-42ad-a123-4885b3ba6f98))
-    (pin "P251_8" (uuid fc7994b7-d139-40a8-85d0-73adaa0b818d))
-    (pin "P251_9" (uuid fc9778fc-e4fd-449e-8e2a-d1b7d22fc56d))
-    (pin "P252_1" (uuid f0046bee-3ab8-4858-b309-0e9dcfbf2af3))
-    (pin "P252_10" (uuid 3d8a9227-a498-4ff1-9f73-f4c6f7f945e1))
-    (pin "P252_5" (uuid fbb71b31-00c7-448b-a31b-3021a98f8b79))
-    (pin "P252_6" (uuid 01688167-2013-4186-a12e-499a8a39b2b8))
-    (pin "P252_9" (uuid 9917cd9f-3cac-4399-a5a8-6a9261024555))
-    (pin "P251_2" (uuid f2f435a8-7b83-4426-860c-0a1695c18bdb))
-    (pin "P252_11" (uuid dffe1afc-86a1-4779-80da-a89c897039dd))
-    (pin "P252_12" (uuid 7b701c42-2dfa-48f9-a592-370f2b58a3bc))
-    (pin "P252_13" (uuid 28ad7f02-6eb1-48f9-a090-0b1f2b7361e9))
-    (pin "P252_14" (uuid b5ff5c91-07c9-4102-8396-bbfdca8e31ef))
-    (pin "P252_15" (uuid 825a972f-60d4-4f18-90cf-ee6b906e19a2))
-    (pin "P252_2" (uuid 6cec1114-5c9e-4d08-ae4f-5c99ba3f010d))
-    (pin "P252_3" (uuid 55e1c7eb-de88-49fd-9cc1-66affeae3123))
-    (pin "P252_4" (uuid f51f5a6d-7755-4273-86fa-cbe533ec4eaf))
-    (pin "P251_4" (uuid 7bf8830a-899c-4176-b5c5-b3bf88f6e199))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GSU25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "flyerx:Garmin_G5") (at 189.23 160.02 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 51da5dc4-ef78-40ad-a1dd-1379127d72ac)
-    (property "Reference" "G5" (at 177.165 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 165.1 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "GPS" (uuid 1c5d90d0-8a62-41b6-b901-db028a9e6541))
-    (pin "P51_6" (uuid 7be6d9a3-0a53-440f-9ab9-19506a0c18a5))
-    (pin "P51_5" (uuid daeffaa8-faac-4418-8137-da4560c5c3aa))
-    (pin "P51_3" (uuid 7138ef15-8511-4f22-bbed-10561cbdca4a))
-    (pin "P51_1" (uuid 651b2ebe-ba16-44dc-91a5-b10c5f139cb8))
-    (pin "P51_2" (uuid ecddda1f-e5c7-403f-8d91-f8de8e3c0a84))
-    (pin "P51_7" (uuid 7bf40bcc-a1c8-48b8-a202-e10b5dea0fbc))
-    (pin "P51_4" (uuid 48e675c0-41df-425b-a474-ab65abdce60a))
-    (pin "P51_9" (uuid 2dfa0da7-7b87-4025-bf87-94247e482aff))
-    (pin "P51_8" (uuid 5b68aebd-02dd-47d8-809a-ee3c03d1abbf))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "G5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Antenna") (at 71.12 167.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 878dbb61-75a7-42be-bf4b-4106d5b359d1)
-    (property "Reference" "GPS_BAK_ANT" (at 74.93 167.64 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Antenna" (at 74.93 168.91 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "" (at 71.12 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 71.12 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8849003-b9ab-4f18-b1e5-0cbf78855c5b))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GPS_BAK_ANT") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "flyerx:Garmin_Config") (at 78.74 67.31 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8edfb975-225a-4340-83b2-77365cbe9820)
-    (property "Reference" "GDU4XX_CONFIG" (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 78.74 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 78.74 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 78.74 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "BLK" (uuid fd698f2b-314b-4435-a7f0-c50528511a7a))
-    (pin "RED" (uuid 38957110-61a9-424e-a952-991747010e66))
-    (pin "WHT" (uuid 27bd27ed-d320-46a6-a35f-b51399280c19))
-    (pin "YLW" (uuid 0ae667e8-66d9-4546-b65b-9405bbe321a5))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GDU4XX_CONFIG") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "flyerx:Garmin_GDU4XX") (at 17.78 17.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b3aa43c8-2563-4d09-ab76-ea38367ffa77)
-    (property "Reference" "GDU450" (at 34.925 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 20.32 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 20.32 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 20.32 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "GPS" (uuid 5306a172-f22a-4fdd-b530-adf5c5310a05))
-    (pin "P4X01_1" (uuid b027ede6-9186-424e-bfa2-439fc6ccd61f))
-    (pin "P4X01_2" (uuid 84524921-d32d-4060-9060-234fafb48160))
-    (pin "P4X01_4" (uuid dc01b615-6c1a-433d-87b7-f9fb09fe1ea3))
-    (pin "P4X01_5" (uuid a7ea4ab5-1f36-47f9-80b2-9bbf5b2f859b))
-    (pin "P4X01_6" (uuid f1ae8548-938b-4b15-afea-4f3096bc46be))
-    (pin "P4X01_7" (uuid 499bea13-8882-46dd-b8a3-3732e9be1a58))
-    (pin "P4X01_8" (uuid 9ba728f4-0e67-4609-8dc9-476da660a0bc))
-    (pin "P4X01_9" (uuid 9be953b3-aae0-49b1-ba42-7ec78defc4d3))
-    (pin "P4X02_1" (uuid 50578407-5687-458a-b761-8a75950d695a))
-    (pin "P4X02_10" (uuid 8b34ed8f-112a-430a-9eb7-b344ec12791a))
-    (pin "P4X02_13" (uuid 17d5200d-67cc-435e-8732-c5e54eaa6edd))
-    (pin "P4X02_14" (uuid 8c72854e-c817-4148-adbb-52b25d363478))
-    (pin "P4X02_15" (uuid 14cdd08a-e9f5-43ea-b91f-3fcfb10e6549))
-    (pin "P4X02_16" (uuid 7f83683a-31e3-4da2-8282-9aa1c1854f9e))
-    (pin "P4X02_17" (uuid 0a6212ae-3f4c-406a-b495-0818de64649d))
-    (pin "P4X02_18" (uuid f6731f8b-b092-4fe2-8b9c-7114264ce4e1))
-    (pin "P4X02_19" (uuid 7f5a65cf-ee11-4ae8-a6c1-9c0594ee7010))
-    (pin "P4X02_2" (uuid 667c2490-3ea7-4f8f-968d-42a39f29a3f3))
-    (pin "P4X02_20" (uuid f82a8d2b-ac09-4d18-8c44-9a143708602b))
-    (pin "P4X02_23" (uuid ef5fd22b-e01e-4fd3-a0a8-f1bebaba5435))
-    (pin "P4X02_24" (uuid 36052aba-2b0b-4805-a7a5-c8c92306196d))
-    (pin "P4X02_25" (uuid f92ac972-31d2-4caf-9893-02bc7ebeba41))
-    (pin "P4X02_26" (uuid 2d82f538-7ef8-4540-825b-e77812ad0516))
-    (pin "P4X02_27" (uuid 64f4faf0-0db3-466f-ba8a-a0b16d28bb14))
-    (pin "P4X02_28" (uuid fdd608bd-bd85-46fe-a653-87a3399ec309))
-    (pin "P4X02_29" (uuid 35099291-9bd5-4ee6-b563-fa1a50873e88))
-    (pin "P4X02_3" (uuid 9b452ca9-c6a1-4323-a85d-7f4e3d864205))
-    (pin "P4X02_30" (uuid f57e268a-f452-4cba-8a82-a1d03abce644))
-    (pin "P4X02_31" (uuid ff6bba21-176b-4215-8aaf-aab37477251d))
-    (pin "P4X02_32" (uuid ffbc71ee-4f81-4e46-beed-960801b14893))
-    (pin "P4X02_33" (uuid d1428f74-b302-4be9-9745-05f8b5dce310))
-    (pin "P4X02_34" (uuid 082232da-9862-4cb5-8d93-a4fe65f5fed8))
-    (pin "P4X02_35" (uuid b1e6ce3d-4086-44a2-8a69-95fbb75d770e))
-    (pin "P4X02_36" (uuid ada683c2-e157-4d35-816f-4a5955d2e131))
-    (pin "P4X02_37" (uuid e71d8b65-653e-4013-9043-46ab1e2d7c46))
-    (pin "P4X02_38" (uuid 3474a8ed-5bd2-4436-98f8-9b497c154ac1))
-    (pin "P4X02_39" (uuid e5d513bc-6325-4409-b5bf-68d08ba3b9e9))
-    (pin "P4X02_40" (uuid 56104c0b-1d93-4989-b5a0-3519ce42747e))
-    (pin "P4X02_41" (uuid 67aaec8f-1195-4f02-bea7-69f118018971))
-    (pin "P4X02_42" (uuid 107c9c81-aef2-45df-97f5-f6cc6074453d))
-    (pin "P4X02_43" (uuid 5a89f503-6caa-49f5-8c31-e564366ba69d))
-    (pin "P4X02_44" (uuid 0d260b58-4937-4ca1-985f-dadef23c95bd))
-    (pin "P4X02_45" (uuid bee802fd-8087-44fd-ab5c-e4e55081c14f))
-    (pin "P4X02_46" (uuid 3684cccb-1722-4236-bf6d-b3f081a88f36))
-    (pin "P4X02_47" (uuid 6e1669c3-1276-4bbe-a844-a4744d589831))
-    (pin "P4X02_48" (uuid 02bf5d44-1b91-47d0-b6c6-01377c7eeae8))
-    (pin "P4X02_49" (uuid e75d72e8-6865-4b3b-afd5-2f56c0a608c4))
-    (pin "P4X02_50" (uuid 6b12d31a-abfe-476d-9a07-858ef3c06a36))
-    (pin "P4X02_9" (uuid c0c61f67-a08f-4ded-9f45-40282e457b6f))
-    (pin "SXM" (uuid 81bfe963-26c7-4adc-8aba-8aab5307c0f0))
-    (pin "VIDEO" (uuid ab9e6ef7-3ace-47db-bca9-8f7547635e1c))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GDU450") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "flyerx:Garmin_GMU11") (at 189.23 16.51 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ff475512-327f-423e-b8e5-b8f4c20ecd92)
-    (property "Reference" "GMU11" (at 177.165 13.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 189.23 16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 189.23 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 189.23 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "P441_9" (uuid eeaf69db-fe40-49a2-ae74-b4bad8d500d5))
-    (pin "P441_2" (uuid a1d51141-e525-484e-a605-c919fad4cf6f))
-    (pin "P441_7" (uuid 70b55af5-0343-47e0-b4b6-09f50b83930e))
-    (pin "P441_3" (uuid 8aacd22e-de2a-4a59-be22-81a643f01683))
-    (pin "P441_6" (uuid 0e5a38e0-0ee9-43a3-8cc7-7c778b930500))
-    (pin "P441_8" (uuid da6427c6-326b-407e-84a5-4c569b799009))
-    (pin "P441_1" (uuid 257b6ebc-dac1-410f-9213-8812b5054682))
-    (instances
-      (project "electrical"
-        (path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-          (reference "GMU11") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "80f7ecd5-f7e4-4871-9519-7d46d674459a")
+	(paper "USLetter" portrait)
+	(title_block
+		(title "PFD & ADAHRS")
+		(date "2024-05-07")
+		(rev "1.0.2")
+		(company "N877RV")
+	)
+	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_Config"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CONFIG"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_Config_1_1"
+				(rectangle
+					(start 0 0)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -1.27 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -3.81 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "BLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -6.35 180)
+					(length 5.08)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "YLW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -8.89 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "WHT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_G5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "G"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_G5_1_1"
+				(rectangle
+					(start 0 0)
+					(end 24.13 -34.29)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 24.13 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "P51"
+					(at 3.81 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at 31.75 -5.08 180)
+					(length 7.62)
+					(name "AIRCRAFT_POWER_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 31.75 -7.62 180)
+					(length 7.62)
+					(name "AIRCRAFT_POWER_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -10.16 180)
+					(length 7.62)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 31.75 -13.97 180)
+					(length 7.62)
+					(name "RS-232_TX_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 31.75 -16.51 180)
+					(length 7.62)
+					(name "RS-232_RX_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -19.05 180)
+					(length 7.62)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -22.86 180)
+					(length 7.62)
+					(name "CAN-H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -25.4 180)
+					(length 7.62)
+					(name "CAN-L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -29.21 180)
+					(length 7.62)
+					(name "UNIT_ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P51_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 31.75 -33.02 180)
+					(length 7.62)
+					(name "GPS_ANTENNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_GDU4XX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GDU"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_GDU4XX_1_1"
+				(rectangle
+					(start 0 0)
+					(end 34.29 -156.21)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 34.29 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -27.94)
+					(end 34.29 -147.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "P4X01"
+					(at 3.81 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "P4X02"
+					(at 3.81 -27.94 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at 44.45 -3.81 180)
+					(length 10.16)
+					(name "PWR_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 44.45 -6.35 180)
+					(length 10.16)
+					(name "PWR_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -8.89 180)
+					(length 10.16)
+					(name "POWER_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -12.7 180)
+					(length 10.16)
+					(name "CAN_BUS_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -15.24 180)
+					(length 10.16)
+					(name "CAN_BUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -19.05 180)
+					(length 10.16)
+					(name "RS-232_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -21.59 180)
+					(length 10.16)
+					(name "RS-232_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -24.13 180)
+					(length 10.16)
+					(name "SIGNAL_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X01_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 44.45 -30.48 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 44.45 -33.02 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -35.56 180)
+					(length 10.16)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -38.1 180)
+					(length 10.16)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -41.91 180)
+					(length 10.16)
+					(name "CAN_BUS_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -44.45 180)
+					(length 10.16)
+					(name "CAN_BUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -46.99 180)
+					(length 10.16)
+					(name "CAN_BUS_TERMINATION"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 44.45 -50.8 180)
+					(length 10.16)
+					(name "CONFIG_MODULE_POWER_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -53.34 180)
+					(length 10.16)
+					(name "CONFIG_MODULE_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -55.88 180)
+					(length 10.16)
+					(name "CONFIG_MODULE_DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -58.42 180)
+					(length 10.16)
+					(name "CONFIG_MODULE_CLOCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -62.23 180)
+					(length 10.16)
+					(name "14V_LIGHTING_BUS_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -64.77 180)
+					(length 10.16)
+					(name "28V_LIGHTING_BUS_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -68.58 180)
+					(length 10.16)
+					(name "RS-232_OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -71.12 180)
+					(length 10.16)
+					(name "RS-232_IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -73.66 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -77.47 180)
+					(length 10.16)
+					(name "RS-232_OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -80.01 180)
+					(length 10.16)
+					(name "RS-232_IN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -82.55 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -86.36 180)
+					(length 10.16)
+					(name "RS-232_OUT_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -88.9 180)
+					(length 10.16)
+					(name "RS-232_IN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -91.44 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -95.25 180)
+					(length 10.16)
+					(name "RS-232_OUT_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -97.79 180)
+					(length 10.16)
+					(name "RS-232_IN_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -100.33 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -104.14 180)
+					(length 10.16)
+					(name "RS-232_OUT_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -106.68 180)
+					(length 10.16)
+					(name "RS-232_IN_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -109.22 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -113.03 180)
+					(length 10.16)
+					(name "MONO_AUDIO_OUT_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -115.57 180)
+					(length 10.16)
+					(name "MONO_AUDIO_OUT_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -119.38 180)
+					(length 10.16)
+					(name "STEREO_AUDIO_OUT_LEFT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 44.45 -121.92 180)
+					(length 10.16)
+					(name "STEREO_AUDIO_OUT_RIGHT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -124.46 180)
+					(length 10.16)
+					(name "STEREO_AUDIO_OUT_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -127 180)
+					(length 10.16)
+					(name "STEREO_AUDIO_OUT_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -130.81 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -133.35 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -135.89 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -138.43 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -140.97 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 44.45 -143.51 180)
+					(length 10.16)
+					(name "SYSTEM_ID_PROGRAM_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 44.45 -146.05 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4X02_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -149.86 180)
+					(length 10.16)
+					(name "GPS_ANTENNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -152.4 180)
+					(length 10.16)
+					(name "SXM_ANTENNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SXM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 -154.94 180)
+					(length 10.16)
+					(name "VIDEO_INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VIDEO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_GMU11"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GMU"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_GMU11_1_1"
+				(rectangle
+					(start 0 0)
+					(end 24.13 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 24.13 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "P441"
+					(at 3.81 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at 34.29 -3.81 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 34.29 -6.35 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -8.89 180)
+					(length 10.16)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 34.29 -12.7 180)
+					(length 10.16)
+					(name "CAN_BUS_HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 34.29 -15.24 180)
+					(length 10.16)
+					(name "CAN_BUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 34.29 -19.05 180)
+					(length 10.16)
+					(name "UNIT_ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -21.59 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P441_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_GSU25"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GSU"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_GSU25_1_1"
+				(rectangle
+					(start 0 0)
+					(end 33.02 -68.58)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 33.02 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -27.94)
+					(end 33.02 -66.04)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "P251"
+					(at 3.81 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "P252"
+					(at 3.81 -27.94 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -3.81 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -6.35 180)
+					(length 10.16)
+					(name "AIRCRAFT_POWER_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -8.89 180)
+					(length 10.16)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -12.7 180)
+					(length 10.16)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -15.24 180)
+					(length 10.16)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -19.05 180)
+					(length 10.16)
+					(name "RS-232_TX_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -21.59 180)
+					(length 10.16)
+					(name "RS-232_RX_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -24.13 180)
+					(length 10.16)
+					(name "SIGNAL_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P251_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 -29.21 180)
+					(length 10.16)
+					(name "+12V_MAGNOMETER_POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -33.02 180)
+					(length 10.16)
+					(name "RS-232_TX_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -35.56 180)
+					(length 10.16)
+					(name "RS-232_TX_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -38.1 180)
+					(length 10.16)
+					(name "RS-232_RX_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -40.64 180)
+					(length 10.16)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -44.45 180)
+					(length 10.16)
+					(name "RS-485_RX_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -46.99 180)
+					(length 10.16)
+					(name "RS-485_RX_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -49.53 180)
+					(length 10.16)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 -53.34 180)
+					(length 10.16)
+					(name "OAT_POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -55.88 180)
+					(length 10.16)
+					(name "OAT_HIGH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -58.42 180)
+					(length 10.16)
+					(name "OAT_LOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -62.23 180)
+					(length 10.16)
+					(name "UNIT_ID_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -64.77 180)
+					(length 10.16)
+					(name "UNIT_ID_1_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P252_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_GTP59"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GTP"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_GTP59_1_1"
+				(rectangle
+					(start 0 0)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "SENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "LOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GAD27"
+		(exclude_from_sim no)
+		(at 85.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0933c8d8-fe33-4d44-935a-ee6584219349")
+	)
+	(text "To GSA 28 Pitch / Yaw"
+		(exclude_from_sim no)
+		(at 113.03 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a750c8c-e700-4910-acde-a4bf08f6fa25")
+	)
+	(text "Internal GPS is sufficient\nCan add later if not"
+		(exclude_from_sim no)
+		(at 156.21 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98901ab3-7bd3-4457-b0c9-df8227c5a562")
+	)
+	(text "To GPS175\nMapMX\nPage 24-38"
+		(exclude_from_sim no)
+		(at 199.39 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e3191e8-8b92-4f2a-a7b5-7c5c83d52fe1")
+	)
+	(text "Need Terminator\nStart of Canbus in Fuselage\nWill connect to Servos first"
+		(exclude_from_sim no)
+		(at 149.86 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bab80beb-5521-4d23-928e-7384493833d9")
+	)
+	(text "To GSU 25\nGarmin Instrument Data\nPage 24-13"
+		(exclude_from_sim no)
+		(at 82.55 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf4a0b7d-3f1a-487f-aff1-4f6de01e2f07")
+	)
+	(text "To GDL 52R\nConnect 57600\nPage 24-24"
+		(exclude_from_sim no)
+		(at 87.63 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5b9abc7-da4d-4385-87ad-c2f7855c6ebb")
+	)
+	(text "To GPS175\nMapMX\nFormat 1"
+		(exclude_from_sim no)
+		(at 113.03 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e928957a-1c40-4bfd-b819-9cb548f2359e")
+	)
+	(text "To GPS175\nConnext 57600 Baud\nPage 24-38"
+		(exclude_from_sim no)
+		(at 96.52 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff5bce72-6c14-4780-b5fe-1044a10a5998")
+	)
+	(junction
+		(at 152.4 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b78b7f-5486-405f-a56c-baa622e54ba2")
+	)
+	(junction
+		(at 140.97 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32817ed4-fee4-4d39-adb8-d1cc18d3cc89")
+	)
+	(junction
+		(at 142.24 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "540fc666-f815-419f-a329-c8f7f47a1f63")
+	)
+	(junction
+		(at 86.36 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "775a55c1-21cb-4efe-9ed3-a72d60fec05a")
+	)
+	(junction
+		(at 149.86 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6e22183-fda2-4da3-a9c4-024fa3334ef2")
+	)
+	(junction
+		(at 118.11 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6593eb7-1ca9-497c-9d2f-703e445b370e")
+	)
+	(junction
+		(at 119.38 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b31717-e9e3-47f7-9ed7-d987641bb1f0")
+	)
+	(junction
+		(at 85.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f17959af-e6ec-435a-9559-2371bdf95742")
+	)
+	(junction
+		(at 64.77 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f649297f-6242-4f79-82b1-59ca271b1f8d")
+	)
+	(no_connect
+		(at 154.94 22.86)
+		(uuid "0233b7e2-ea5c-4462-b02a-5255254efea7")
+	)
+	(no_connect
+		(at 157.48 193.04)
+		(uuid "0e422d72-298a-45b7-bee7-77a5a5d44443")
+	)
+	(no_connect
+		(at 62.23 151.13)
+		(uuid "488d3ab8-0741-43ce-ba11-33a569c4b81a")
+	)
+	(no_connect
+		(at 154.94 35.56)
+		(uuid "540fad2d-be4b-4421-8e9a-a797589bbe56")
+	)
+	(no_connect
+		(at 62.23 156.21)
+		(uuid "556ce447-7729-4fda-9ad7-78c347879401")
+	)
+	(no_connect
+		(at 154.94 53.34)
+		(uuid "5c91e00b-5231-4e56-9fcb-7361b17d29a9")
+	)
+	(no_connect
+		(at 157.48 189.23)
+		(uuid "5cbf5b5e-e5e7-4458-9aab-e7ee1d430cda")
+	)
+	(no_connect
+		(at 62.23 161.29)
+		(uuid "66bdb6f0-d09c-4f6c-a964-9c90370abd86")
+	)
+	(no_connect
+		(at 62.23 144.78)
+		(uuid "6b826a11-1d78-437d-855e-961878253796")
+	)
+	(no_connect
+		(at 62.23 124.46)
+		(uuid "6fa306b9-cfaa-4b17-9449-4815d272937f")
+	)
+	(no_connect
+		(at 157.48 167.64)
+		(uuid "71805cad-9048-4064-8faa-94c1ba47896d")
+	)
+	(no_connect
+		(at 154.94 109.22)
+		(uuid "7282fda9-85a8-4b47-abb6-800f7800e73e")
+	)
+	(no_connect
+		(at 62.23 153.67)
+		(uuid "76416961-2f1e-4e90-8a66-dc30a0869919")
+	)
+	(no_connect
+		(at 62.23 64.77)
+		(uuid "7bcddf50-6d7a-4750-987d-e66800b14b2c")
+	)
+	(no_connect
+		(at 62.23 170.18)
+		(uuid "84eeea4e-71da-49a1-a1a9-7b5a4316fc8f")
+	)
+	(no_connect
+		(at 62.23 158.75)
+		(uuid "8fbb516d-bf09-4ea3-a125-5b7baa49cffe")
+	)
+	(no_connect
+		(at 62.23 139.7)
+		(uuid "93fc471f-a3c0-4473-802e-07f28e8c6f58")
+	)
+	(no_connect
+		(at 157.48 173.99)
+		(uuid "acd69d7f-0c51-4b0b-819e-e140e8263036")
+	)
+	(no_connect
+		(at 62.23 137.16)
+		(uuid "c4cd91fd-afae-4cf0-8636-c997c5e731af")
+	)
+	(no_connect
+		(at 62.23 142.24)
+		(uuid "cef8e82f-e905-4a74-9289-5a5a45a9e2a4")
+	)
+	(no_connect
+		(at 62.23 50.8)
+		(uuid "d0a26e77-c66e-4de8-ac1d-8ed52f68d33a")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e1dc00-8288-4695-9623-b33289225eec")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049f9edf-9b15-46d1-9fa1-904eb5bff9fb")
+	)
+	(wire
+		(pts
+			(xy 62.23 76.2) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058d4ea9-0049-49d6-a5d4-c6b585a459fd")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 154.94 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f3e920-19de-438d-bf33-2db1bdb2cb97")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab125a0-a204-4a42-afa5-faac00495bab")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1433d0ab-6534-46b2-9532-f74493587e5c")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17734e8a-2db9-4bae-ae93-a98cefd2ecfa")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e173e17-e886-4096-bb97-70f7fbf5f8d8")
+	)
+	(wire
+		(pts
+			(xy 62.23 68.58) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2242a621-662b-4ad2-9dc4-c31ed14540b1")
+	)
+	(wire
+		(pts
+			(xy 124.46 185.42) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258c98e8-1162-401f-956f-2168dfd27795")
+	)
+	(wire
+		(pts
+			(xy 142.24 193.04) (xy 149.86 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25915952-35d1-4ff0-b5c7-4e85f1d0f7ca")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2596da0b-d29c-4158-b6aa-56f90d501efa")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272f10ff-685d-4372-8a51-726ab9aa51a0")
+	)
+	(wire
+		(pts
+			(xy 85.09 62.23) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa49308-b898-4f41-9201-5ce7873bcf60")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd07209-adfb-4863-a186-c8bcac74ec8e")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c7b02a-5d4a-4e77-a4b4-5829fdf28195")
+	)
+	(wire
+		(pts
+			(xy 125.73 182.88) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3246177c-d3d6-4974-b002-13e4472af594")
+	)
+	(wire
+		(pts
+			(xy 25.4 261.62) (xy 30.48 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3402cbba-34fb-4da0-b18e-5beede137e78")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36046346-0952-40fd-832f-2ba979c85a8c")
+	)
+	(wire
+		(pts
+			(xy 132.08 31.75) (xy 154.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cc7885-6780-4661-86ec-c59b5f12f5a9")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f990c4-2c06-454c-8030-4e69b82a1857")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 62.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2d118a-6ed7-4a67-a239-ccd2ac203889")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 66.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a1f303-64e4-4bff-8d56-5c14e42fafd9")
+	)
+	(wire
+		(pts
+			(xy 104.14 36.83) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c21527-cc49-4bb3-9f4d-87efedbd79e7")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46052076-0e30-46de-b4bc-01719466948e")
+	)
+	(wire
+		(pts
+			(xy 62.23 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6385b8-6812-47a5-8ca1-88bf33f46376")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507a7d0c-d477-4b7e-8a2c-80c2233f865d")
+	)
+	(wire
+		(pts
+			(xy 62.23 115.57) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51db45ef-c6ee-49a5-9212-bb3b73dd5975")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524cec3d-88d8-4418-b9e9-521aace5e205")
+	)
+	(wire
+		(pts
+			(xy 118.11 179.07) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5617e0e2-b183-402a-a854-582b3e2c0041")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6a1d09-d3a8-4afb-977b-ce7833921ed7")
+	)
+	(wire
+		(pts
+			(xy 62.23 130.81) (xy 69.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3f6431-bb13-4e86-973a-4786c1d2edd4")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e1df84-2313-4f06-a139-13f70744d490")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67492448-552c-4e20-9c9c-73a5cec868c2")
+	)
+	(wire
+		(pts
+			(xy 140.97 62.23) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c14734-5f29-44c1-a74e-5cc01861fb7e")
+	)
+	(wire
+		(pts
+			(xy 142.24 195.58) (xy 152.4 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c10588e-5851-4346-83b7-98ac0c928609")
+	)
+	(wire
+		(pts
+			(xy 151.13 165.1) (xy 157.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da90b92-3bf1-410c-926e-6fc8d52ac6c7")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5cb80a-4e8a-4814-946b-f4cc4089bb6d")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7311d692-6044-40c3-b292-c5986a2c3930")
+	)
+	(wire
+		(pts
+			(xy 62.23 167.64) (xy 66.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a8f946-9e74-4211-a0aa-5fe3f8440151")
+	)
+	(wire
+		(pts
+			(xy 149.86 182.88) (xy 157.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79da9c2d-ee60-47ea-90b4-4d1341f9855f")
+	)
+	(wire
+		(pts
+			(xy 62.23 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f09f1fd-5865-49af-bdf3-9c99aba626b1")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 104.14 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807da518-2d24-4edc-a5a8-7a0a968d4120")
+	)
+	(wire
+		(pts
+			(xy 62.23 121.92) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f5e92e-18f7-4e2c-b3e7-4d7c2a699637")
+	)
+	(wire
+		(pts
+			(xy 157.48 179.07) (xy 118.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cc21c2-1ca6-4f9a-a61d-fa0a3925f89c")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3770ad-9d0b-4c45-a4e8-ff38e5e680ea")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4eb15c-ca11-4483-8052-1f84d507f9f6")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdb4a71-3ec1-4a84-9d6b-935d1147130a")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e820d1f-5937-4c62-bf82-7441a850b5d8")
+	)
+	(wire
+		(pts
+			(xy 151.13 20.32) (xy 154.94 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9133d7f7-df05-4aa9-b165-5a58395b3422")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9161a39e-b88b-4adb-902c-97e64ec0b435")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a1194a-87c1-4cc9-be14-1a933125557d")
+	)
+	(wire
+		(pts
+			(xy 119.38 176.53) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bc687d-2b42-4500-8539-15bdb8594792")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9999a84c-cb92-418d-b749-c1381fbf1993")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d12acee-0a0a-417f-a78b-3ad2a895e0a1")
+	)
+	(wire
+		(pts
+			(xy 62.23 133.35) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec2714d-915e-4519-bf31-04c3f045470e")
+	)
+	(wire
+		(pts
+			(xy 62.23 172.72) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8b1807-9bbe-4c1d-9ba0-0bca68c213e8")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b334b91b-403c-43ab-8677-8c6419b855a7")
+	)
+	(wire
+		(pts
+			(xy 151.13 170.18) (xy 157.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ee2f4f-deb2-4cb0-9a52-6982e79ae420")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54f6034-7470-4869-be5a-1eb502d7306a")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56ca241-f5d3-41c1-a3e5-8f6856255fb4")
+	)
+	(wire
+		(pts
+			(xy 62.23 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6fb846-bc6a-4dae-95b4-4db78d3c4555")
+	)
+	(wire
+		(pts
+			(xy 153.67 102.87) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be090d1e-2d3d-469a-aa43-17e50209961b")
+	)
+	(wire
+		(pts
+			(xy 157.48 176.53) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebe77b9-428e-4832-8b68-81c2f7f2313f")
+	)
+	(wire
+		(pts
+			(xy 62.23 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0b96b5-cc25-4fcd-a4d7-27590db6e064")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf833835-e8ad-463c-8fd1-2afe3a5546b2")
+	)
+	(wire
+		(pts
+			(xy 62.23 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdc7d17-9b5a-4a63-86a3-503414f1172e")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e754a2-7f1f-4c56-a878-adbf927c38a1")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c215a845-4129-4e2d-9e35-fd1810acce9d")
+	)
+	(wire
+		(pts
+			(xy 152.4 195.58) (xy 152.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c231857b-4682-44f9-8fc1-ac65841fb57d")
+	)
+	(wire
+		(pts
+			(xy 125.73 182.88) (xy 149.86 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb234d1a-dc09-4bd8-be94-bcbcf9f63ce0")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd317c07-1cd3-4bc5-aa72-d52dcb0e3d17")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 68.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01cefb6-e0ab-4ca4-97a1-fb8490c4cd7d")
+	)
+	(wire
+		(pts
+			(xy 152.4 185.42) (xy 157.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0211f93-7a08-400d-9fb0-572925ea9f20")
+	)
+	(wire
+		(pts
+			(xy 86.36 59.69) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15c4105-3878-42fa-aa42-a8fa0a25242a")
+	)
+	(wire
+		(pts
+			(xy 149.86 193.04) (xy 149.86 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e004f9-b178-48b7-802a-6111a4986921")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 154.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db97f245-b4a2-495a-9e65-f470a6c2c411")
+	)
+	(wire
+		(pts
+			(xy 142.24 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6cfaf5-cbc4-414c-88b2-37cb087d5259")
+	)
+	(wire
+		(pts
+			(xy 124.46 185.42) (xy 152.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff0204c-8d49-4b55-a4dd-56844394a7f4")
+	)
+	(wire
+		(pts
+			(xy 62.23 127) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2841e80-4e36-4b6a-bdb8-a41931d0fed7")
+	)
+	(wire
+		(pts
+			(xy 132.08 29.21) (xy 154.94 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71436ca-2fca-4f88-8405-d56944b21333")
+	)
+	(wire
+		(pts
+			(xy 62.23 148.59) (xy 66.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7375f4d-4a16-4638-a94a-49e185b0a0c2")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 161.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb85f633-aedd-49f6-b627-61fb667f6b05")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb981bf3-ba0c-4185-a51f-d0e2a7b82a64")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee85620c-b4d7-4e86-bc15-e76772a5acb4")
+	)
+	(wire
+		(pts
+			(xy 66.04 163.83) (xy 62.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77541f8-7f10-49a1-98eb-785a79aee278")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa972a4-4194-4834-8d5d-1bea808e52cc")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe37c174-97da-47e8-9878-ebdc992c799b")
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 151.13 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ccbf1c9-1065-40bd-a04c-8f9560b7875f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3856 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 30.48 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60844d79-bc47-4dc5-a742-2c2040cc75f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.2244 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 149.86 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3377c9a-39be-4bb4-a6a7-59e484e40ff9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.1156 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 68.58 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3d98007-1f33-4478-b7d8-88f2c5250a77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.3244 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 151.13 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb20cf77-c803-4511-8b21-c2da252a666f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3856 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "ADSB_SERIAL_GND"
+		(shape passive)
+		(at 68.58 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "060afdc1-7582-4d82-9889-43b9835aefaa")
+	)
+	(hierarchical_label "LIGHTING_HI"
+		(shape input)
+		(at 68.58 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28fc1fd6-4b7a-4c24-9692-fa13388a0fd0")
+	)
+	(hierarchical_label "CANBUS_HI_GMU_OUT"
+		(shape output)
+		(at 132.08 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bdbaa3e-f371-42ce-9f23-5f310d64ea50")
+	)
+	(hierarchical_label "GMU11_PWR"
+		(shape input)
+		(at 151.13 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d37894b-053b-4689-98bf-0872fcef5c77")
+	)
+	(hierarchical_label "EIS_SERIAL_GND"
+		(shape passive)
+		(at 68.58 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35781db0-004d-4aa3-9f97-26d691bbefe1")
+	)
+	(hierarchical_label "GDU4XX_PWR"
+		(shape input)
+		(at 68.58 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37537ce2-2c67-4957-8f79-fe0193a0c479")
+	)
+	(hierarchical_label "AUDIO_HI"
+		(shape output)
+		(at 69.85 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39f1412f-280e-4f8d-9a98-81be8abd554a")
+	)
+	(hierarchical_label "NAV_MAPMX_SERIAL_GND"
+		(shape passive)
+		(at 161.29 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c6ef3ff-3091-4e05-9806-c4bb601ecda3")
+	)
+	(hierarchical_label "EIS_SERIAL_OUT"
+		(shape output)
+		(at 68.58 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ac74df5-d766-441b-85b1-80870368db77")
+	)
+	(hierarchical_label "CANBUS_LO_OUT"
+		(shape output)
+		(at 138.43 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d7ea674-9ed1-46e8-9e1b-b29f132e8312")
+	)
+	(hierarchical_label "NAV_MAPMX_SERIAL_OUT"
+		(shape output)
+		(at 161.29 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4dbe70b8-23d8-4fc7-9398-ea19b81ac6ab")
+	)
+	(hierarchical_label "ELT_SERIAL_GND"
+		(shape passive)
+		(at 68.58 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5253eaf7-625a-4127-8ea6-46f19493a8ec")
+	)
+	(hierarchical_label "NAV_CONNEXT_SERIAL_OUT"
+		(shape output)
+		(at 68.58 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d0e23ca-39e6-4619-8e71-2c76cd1d4efd")
+	)
+	(hierarchical_label "ADSB_SERIAL_IN"
+		(shape input)
+		(at 68.58 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6258aa91-226e-44d5-b9d5-6c7aa5f587a3")
+	)
+	(hierarchical_label "ELT_SERIAL_OUT"
+		(shape output)
+		(at 68.58 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69bfdfd9-8155-4b12-bfc4-1c7569621230")
+	)
+	(hierarchical_label "CANBUS_LO_GMU_OUT"
+		(shape output)
+		(at 132.08 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ac2be54-7ef8-4ce3-8d59-98db3a0b6d99")
+	)
+	(hierarchical_label "NAV_MAPMX_SERIAL_IN"
+		(shape input)
+		(at 161.29 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "732c852a-fcfd-400b-b4e3-abadb71daaa1")
+	)
+	(hierarchical_label "GND_BUS"
+		(shape input)
+		(at 25.4 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7889ed80-caa3-4cf8-8c6b-22ff92dfb254")
+	)
+	(hierarchical_label "CANBUS_LO_IN"
+		(shape input)
+		(at 142.24 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d934f72-060e-4a32-99fc-b0b79f0eb221")
+	)
+	(hierarchical_label "NAV_CONNEXT_SERIAL_GND"
+		(shape passive)
+		(at 68.58 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "859728c9-0093-4edc-9053-706811c0bd7f")
+	)
+	(hierarchical_label "AUDIO_LO"
+		(shape output)
+		(at 69.85 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ef6b403-87e3-4f08-bfa8-9d9b00a0512d")
+	)
+	(hierarchical_label "G5_PWR"
+		(shape input)
+		(at 151.13 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97128acb-f106-4024-9751-b008ad4a648e")
+	)
+	(hierarchical_label "NAV_CONNEXT_SERIAL_IN"
+		(shape input)
+		(at 68.58 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f439b00-86a0-4817-8e5d-89d7552323ab")
+	)
+	(hierarchical_label "GSU25_PWR"
+		(shape input)
+		(at 149.86 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a41dc09e-f8a7-4a75-b776-a08727d5fd12")
+	)
+	(hierarchical_label "ADSB_SERIAL_OUT"
+		(shape output)
+		(at 68.58 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8db912c-2205-4fff-a541-bdc106bc3100")
+	)
+	(hierarchical_label "AIRDATA_SERIAL_GND"
+		(shape passive)
+		(at 148.59 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6c9d10a-8f53-432e-b2d9-c4063989de25")
+	)
+	(hierarchical_label "EIS_SERIAL_IN"
+		(shape input)
+		(at 68.58 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8fd4965-2d7f-43b1-af02-a5d126cbf03e")
+	)
+	(hierarchical_label "CANBUS_HI_OUT"
+		(shape output)
+		(at 138.43 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcfb8257-91fd-4b13-8ab6-be70fdfeecc7")
+	)
+	(hierarchical_label "CANBUS_HI_IN"
+		(shape input)
+		(at 142.24 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecc4ff25-8dbc-4071-8f57-920cb893726c")
+	)
+	(hierarchical_label "AIRDATA_SERIAL_OUT"
+		(shape output)
+		(at 148.59 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5e52b07-b249-41fe-9140-a24c8f12e1be")
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_GTP59")
+		(at 143.51 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2881d1-7084-45dd-8c7c-7e816563c290")
+		(property "Reference" "GTP59"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "46f23da8-aa4d-45b6-b6ee-48b24ad16f48")
+		)
+		(pin ""
+			(uuid "06ad48b3-f4ab-4c1c-bac5-0758874abb15")
+		)
+		(pin ""
+			(uuid "7f6c5f63-7228-488c-af41-c03f0bbc7250")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GTP59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 71.12 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24fbca02-7278-41da-b455-33eeef54da04")
+		(property "Reference" "CAMERA"
+			(at 74.93 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 74.93 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acaf08af-4372-41fa-9774-a239adeb81fa")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "CAMERA")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_GSU25")
+		(at 198.12 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f34516c-404d-4e93-a089-8bea36d913c0")
+		(property "Reference" "GSU25"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P251_1"
+			(uuid "9ff2961e-0581-4279-86b8-545e11ea73b6")
+		)
+		(pin "P251_5"
+			(uuid "ff11397a-46c6-4dfc-baf3-12f03d898ff5")
+		)
+		(pin "P251_6"
+			(uuid "6d1ff6d3-b983-45f3-b53c-9e5f339166e9")
+		)
+		(pin "P251_7"
+			(uuid "4268f8c7-6fb9-42ad-a123-4885b3ba6f98")
+		)
+		(pin "P251_8"
+			(uuid "fc7994b7-d139-40a8-85d0-73adaa0b818d")
+		)
+		(pin "P251_9"
+			(uuid "fc9778fc-e4fd-449e-8e2a-d1b7d22fc56d")
+		)
+		(pin "P252_1"
+			(uuid "f0046bee-3ab8-4858-b309-0e9dcfbf2af3")
+		)
+		(pin "P252_10"
+			(uuid "3d8a9227-a498-4ff1-9f73-f4c6f7f945e1")
+		)
+		(pin "P252_5"
+			(uuid "fbb71b31-00c7-448b-a31b-3021a98f8b79")
+		)
+		(pin "P252_6"
+			(uuid "01688167-2013-4186-a12e-499a8a39b2b8")
+		)
+		(pin "P252_9"
+			(uuid "9917cd9f-3cac-4399-a5a8-6a9261024555")
+		)
+		(pin "P251_2"
+			(uuid "f2f435a8-7b83-4426-860c-0a1695c18bdb")
+		)
+		(pin "P252_11"
+			(uuid "dffe1afc-86a1-4779-80da-a89c897039dd")
+		)
+		(pin "P252_12"
+			(uuid "7b701c42-2dfa-48f9-a592-370f2b58a3bc")
+		)
+		(pin "P252_13"
+			(uuid "28ad7f02-6eb1-48f9-a090-0b1f2b7361e9")
+		)
+		(pin "P252_14"
+			(uuid "b5ff5c91-07c9-4102-8396-bbfdca8e31ef")
+		)
+		(pin "P252_15"
+			(uuid "825a972f-60d4-4f18-90cf-ee6b906e19a2")
+		)
+		(pin "P252_2"
+			(uuid "6cec1114-5c9e-4d08-ae4f-5c99ba3f010d")
+		)
+		(pin "P252_3"
+			(uuid "55e1c7eb-de88-49fd-9cc1-66affeae3123")
+		)
+		(pin "P252_4"
+			(uuid "f51f5a6d-7755-4273-86fa-cbe533ec4eaf")
+		)
+		(pin "P251_4"
+			(uuid "7bf8830a-899c-4176-b5c5-b3bf88f6e199")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GSU25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_G5")
+		(at 189.23 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51da5dc4-ef78-40ad-a1dd-1379127d72ac")
+		(property "Reference" "G5"
+			(at 177.165 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GPS"
+			(uuid "1c5d90d0-8a62-41b6-b901-db028a9e6541")
+		)
+		(pin "P51_6"
+			(uuid "7be6d9a3-0a53-440f-9ab9-19506a0c18a5")
+		)
+		(pin "P51_5"
+			(uuid "daeffaa8-faac-4418-8137-da4560c5c3aa")
+		)
+		(pin "P51_3"
+			(uuid "7138ef15-8511-4f22-bbed-10561cbdca4a")
+		)
+		(pin "P51_1"
+			(uuid "651b2ebe-ba16-44dc-91a5-b10c5f139cb8")
+		)
+		(pin "P51_2"
+			(uuid "ecddda1f-e5c7-403f-8d91-f8de8e3c0a84")
+		)
+		(pin "P51_7"
+			(uuid "7bf40bcc-a1c8-48b8-a202-e10b5dea0fbc")
+		)
+		(pin "P51_4"
+			(uuid "48e675c0-41df-425b-a474-ab65abdce60a")
+		)
+		(pin "P51_9"
+			(uuid "2dfa0da7-7b87-4025-bf87-94247e482aff")
+		)
+		(pin "P51_8"
+			(uuid "5b68aebd-02dd-47d8-809a-ee3c03d1abbf")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 71.12 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "878dbb61-75a7-42be-bf4b-4106d5b359d1")
+		(property "Reference" "GPS_BAK_ANT"
+			(at 74.93 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 74.93 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8849003-b9ab-4f18-b1e5-0cbf78855c5b")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GPS_BAK_ANT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_Config")
+		(at 78.74 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8edfb975-225a-4340-83b2-77365cbe9820")
+		(property "Reference" "GDU4XX_CONFIG"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "BLK"
+			(uuid "fd698f2b-314b-4435-a7f0-c50528511a7a")
+		)
+		(pin "RED"
+			(uuid "38957110-61a9-424e-a952-991747010e66")
+		)
+		(pin "WHT"
+			(uuid "27bd27ed-d320-46a6-a35f-b51399280c19")
+		)
+		(pin "YLW"
+			(uuid "0ae667e8-66d9-4546-b65b-9405bbe321a5")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GDU4XX_CONFIG")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_GDU4XX")
+		(at 17.78 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3aa43c8-2563-4d09-ab76-ea38367ffa77")
+		(property "Reference" "GDU450"
+			(at 34.925 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GPS"
+			(uuid "5306a172-f22a-4fdd-b530-adf5c5310a05")
+		)
+		(pin "P4X01_1"
+			(uuid "b027ede6-9186-424e-bfa2-439fc6ccd61f")
+		)
+		(pin "P4X01_2"
+			(uuid "84524921-d32d-4060-9060-234fafb48160")
+		)
+		(pin "P4X01_4"
+			(uuid "dc01b615-6c1a-433d-87b7-f9fb09fe1ea3")
+		)
+		(pin "P4X01_5"
+			(uuid "a7ea4ab5-1f36-47f9-80b2-9bbf5b2f859b")
+		)
+		(pin "P4X01_6"
+			(uuid "f1ae8548-938b-4b15-afea-4f3096bc46be")
+		)
+		(pin "P4X01_7"
+			(uuid "499bea13-8882-46dd-b8a3-3732e9be1a58")
+		)
+		(pin "P4X01_8"
+			(uuid "9ba728f4-0e67-4609-8dc9-476da660a0bc")
+		)
+		(pin "P4X01_9"
+			(uuid "9be953b3-aae0-49b1-ba42-7ec78defc4d3")
+		)
+		(pin "P4X02_1"
+			(uuid "50578407-5687-458a-b761-8a75950d695a")
+		)
+		(pin "P4X02_10"
+			(uuid "8b34ed8f-112a-430a-9eb7-b344ec12791a")
+		)
+		(pin "P4X02_13"
+			(uuid "17d5200d-67cc-435e-8732-c5e54eaa6edd")
+		)
+		(pin "P4X02_14"
+			(uuid "8c72854e-c817-4148-adbb-52b25d363478")
+		)
+		(pin "P4X02_15"
+			(uuid "14cdd08a-e9f5-43ea-b91f-3fcfb10e6549")
+		)
+		(pin "P4X02_16"
+			(uuid "7f83683a-31e3-4da2-8282-9aa1c1854f9e")
+		)
+		(pin "P4X02_17"
+			(uuid "0a6212ae-3f4c-406a-b495-0818de64649d")
+		)
+		(pin "P4X02_18"
+			(uuid "f6731f8b-b092-4fe2-8b9c-7114264ce4e1")
+		)
+		(pin "P4X02_19"
+			(uuid "7f5a65cf-ee11-4ae8-a6c1-9c0594ee7010")
+		)
+		(pin "P4X02_2"
+			(uuid "667c2490-3ea7-4f8f-968d-42a39f29a3f3")
+		)
+		(pin "P4X02_20"
+			(uuid "f82a8d2b-ac09-4d18-8c44-9a143708602b")
+		)
+		(pin "P4X02_23"
+			(uuid "ef5fd22b-e01e-4fd3-a0a8-f1bebaba5435")
+		)
+		(pin "P4X02_24"
+			(uuid "36052aba-2b0b-4805-a7a5-c8c92306196d")
+		)
+		(pin "P4X02_25"
+			(uuid "f92ac972-31d2-4caf-9893-02bc7ebeba41")
+		)
+		(pin "P4X02_26"
+			(uuid "2d82f538-7ef8-4540-825b-e77812ad0516")
+		)
+		(pin "P4X02_27"
+			(uuid "64f4faf0-0db3-466f-ba8a-a0b16d28bb14")
+		)
+		(pin "P4X02_28"
+			(uuid "fdd608bd-bd85-46fe-a653-87a3399ec309")
+		)
+		(pin "P4X02_29"
+			(uuid "35099291-9bd5-4ee6-b563-fa1a50873e88")
+		)
+		(pin "P4X02_3"
+			(uuid "9b452ca9-c6a1-4323-a85d-7f4e3d864205")
+		)
+		(pin "P4X02_30"
+			(uuid "f57e268a-f452-4cba-8a82-a1d03abce644")
+		)
+		(pin "P4X02_31"
+			(uuid "ff6bba21-176b-4215-8aaf-aab37477251d")
+		)
+		(pin "P4X02_32"
+			(uuid "ffbc71ee-4f81-4e46-beed-960801b14893")
+		)
+		(pin "P4X02_33"
+			(uuid "d1428f74-b302-4be9-9745-05f8b5dce310")
+		)
+		(pin "P4X02_34"
+			(uuid "082232da-9862-4cb5-8d93-a4fe65f5fed8")
+		)
+		(pin "P4X02_35"
+			(uuid "b1e6ce3d-4086-44a2-8a69-95fbb75d770e")
+		)
+		(pin "P4X02_36"
+			(uuid "ada683c2-e157-4d35-816f-4a5955d2e131")
+		)
+		(pin "P4X02_37"
+			(uuid "e71d8b65-653e-4013-9043-46ab1e2d7c46")
+		)
+		(pin "P4X02_38"
+			(uuid "3474a8ed-5bd2-4436-98f8-9b497c154ac1")
+		)
+		(pin "P4X02_39"
+			(uuid "e5d513bc-6325-4409-b5bf-68d08ba3b9e9")
+		)
+		(pin "P4X02_40"
+			(uuid "56104c0b-1d93-4989-b5a0-3519ce42747e")
+		)
+		(pin "P4X02_41"
+			(uuid "67aaec8f-1195-4f02-bea7-69f118018971")
+		)
+		(pin "P4X02_42"
+			(uuid "107c9c81-aef2-45df-97f5-f6cc6074453d")
+		)
+		(pin "P4X02_43"
+			(uuid "5a89f503-6caa-49f5-8c31-e564366ba69d")
+		)
+		(pin "P4X02_44"
+			(uuid "0d260b58-4937-4ca1-985f-dadef23c95bd")
+		)
+		(pin "P4X02_45"
+			(uuid "bee802fd-8087-44fd-ab5c-e4e55081c14f")
+		)
+		(pin "P4X02_46"
+			(uuid "3684cccb-1722-4236-bf6d-b3f081a88f36")
+		)
+		(pin "P4X02_47"
+			(uuid "6e1669c3-1276-4bbe-a844-a4744d589831")
+		)
+		(pin "P4X02_48"
+			(uuid "02bf5d44-1b91-47d0-b6c6-01377c7eeae8")
+		)
+		(pin "P4X02_49"
+			(uuid "e75d72e8-6865-4b3b-afd5-2f56c0a608c4")
+		)
+		(pin "P4X02_50"
+			(uuid "6b12d31a-abfe-476d-9a07-858ef3c06a36")
+		)
+		(pin "P4X02_9"
+			(uuid "c0c61f67-a08f-4ded-9f45-40282e457b6f")
+		)
+		(pin "SXM"
+			(uuid "81bfe963-26c7-4adc-8aba-8aab5307c0f0")
+		)
+		(pin "VIDEO"
+			(uuid "ab9e6ef7-3ace-47db-bca9-8f7547635e1c")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GDU450")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_GMU11")
+		(at 189.23 16.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff475512-327f-423e-b8e5-b8f4c20ecd92")
+		(property "Reference" "GMU11"
+			(at 177.165 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P441_9"
+			(uuid "eeaf69db-fe40-49a2-ae74-b4bad8d500d5")
+		)
+		(pin "P441_2"
+			(uuid "a1d51141-e525-484e-a605-c919fad4cf6f")
+		)
+		(pin "P441_7"
+			(uuid "70b55af5-0343-47e0-b4b6-09f50b83930e")
+		)
+		(pin "P441_3"
+			(uuid "8aacd22e-de2a-4a59-be22-81a643f01683")
+		)
+		(pin "P441_6"
+			(uuid "0e5a38e0-0ee9-43a3-8cc7-7c778b930500")
+		)
+		(pin "P441_8"
+			(uuid "da6427c6-326b-407e-84a5-4c569b799009")
+		)
+		(pin "P441_1"
+			(uuid "257b6ebc-dac1-410f-9213-8812b5054682")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
+					(reference "GMU11")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
