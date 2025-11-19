@@ -255,6 +255,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -431,6 +432,10 @@
     [
       "e8ec215a-dbe2-4eba-a577-e50a0a128049",
       "Root"
+    ],
+    [
+      "790e4037-818d-4b58-abc9-1756b4f195f3",
+      "Lycoming"
     ],
     [
       "2852c073-fbc9-4469-a6bf-ba3e911c7f5a",
