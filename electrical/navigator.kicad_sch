@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "A" portrait)
 	(title_block
-		(date "2024-05-21")
-		(rev "1.0.3")
+		(date "2025-11-19")
+		(rev "1.1")
 		(company "N877RV")
 	)
 	(lib_symbols

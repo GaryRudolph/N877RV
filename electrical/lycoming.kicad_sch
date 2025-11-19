@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lycoming")
-		(date "2025-11-01")
+		(date "2025-11-19")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -2518,18 +2518,6 @@
 		(uuid "2a3f6ec2-2295-4698-8b93-c9078573af4c")
 	)
 	(junction
-		(at 109.22 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32a25aa3-91bd-425c-b16b-ebaebfddd98e")
-	)
-	(junction
-		(at 31.75 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3663de58-ffa0-4674-9b58-a2372923423d")
-	)
-	(junction
 		(at 109.22 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 72.39) (xy 31.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6fc5a6-d2d0-40d0-87ac-1dc9f218a9b5")
-	)
-	(wire
-		(pts
 			(xy 62.23 97.79) (xy 109.22 97.79)
 		)
 		(stroke
@@ -2737,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 157.48) (xy 110.49 157.48)
+			(xy 71.12 153.67) (xy 110.49 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2837,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 154.94) (xy 109.22 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e28582b-298e-467b-b06f-7d9c8460ed41")
-	)
-	(wire
-		(pts
 			(xy 64.77 43.18) (xy 64.77 50.8)
 		)
 		(stroke
@@ -2854,16 +2822,6 @@
 			(type default)
 		)
 		(uuid "40f42171-88ee-4fea-a54a-cc5ffe500f6f")
-	)
-	(wire
-		(pts
-			(xy 17.78 72.39) (xy 17.78 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430fd0d7-e610-4a0b-a8e8-73de23811a1d")
 	)
 	(wire
 		(pts
@@ -3037,16 +2995,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 153.67) (xy 110.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbb9d75-c5eb-477c-8a0f-8cba57cc0215")
-	)
-	(wire
-		(pts
 			(xy 73.66 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -3067,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 60.96 157.48)
+			(xy 55.88 153.67) (xy 60.96 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 154.94) (xy 55.88 157.48)
+			(xy 55.88 151.13) (xy 55.88 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 154.94) (xy 109.22 154.94)
+			(xy 55.88 151.13) (xy 109.22 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3414,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "efb2a1c0-e6e5-400e-a239-e9cb975ab911")
-	)
-	(wire
-		(pts
-			(xy 17.78 151.13) (xy 109.22 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f329ff01-f5bf-4bdb-a310-dd7693892dd6")
 	)
 	(wire
 		(pts
@@ -3738,7 +3676,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 66.04 157.48 0)
+		(at 66.04 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3746,7 +3684,7 @@
 		(dnp no)
 		(uuid "0718ef04-0f7f-4fcc-b950-38a87966a3c0")
 		(property "Reference" "SFLY_LEFT_SW"
-			(at 66.294 160.274 0)
+			(at 66.294 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3692,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.04 153.67 0)
+			(at 66.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 157.48 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 157.48 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 157.48 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

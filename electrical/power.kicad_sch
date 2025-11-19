@@ -6,7 +6,7 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2025-11-02")
+		(date "2025-11-19")
 		(rev "1.1")
 		(company "N877RV")
 	)
@@ -694,179 +694,6 @@
 				)
 			)
 			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1810,12 +1637,6 @@
 		(uuid "8f280682-2b23-4cf0-a5a0-db81632ab0f1")
 	)
 	(junction
-		(at 156.21 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a51e446e-066f-44bc-8f17-cf1fc21a5119")
-	)
-	(junction
 		(at 153.67 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2377,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 189.23) (xy 161.29 189.23)
+			(xy 147.32 189.23) (xy 161.29 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2497,16 +2318,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 173.99) (xy 177.8 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3988fb84-c1b1-4bca-b2cd-f9ae7e3361e6")
-	)
-	(wire
-		(pts
 			(xy 165.1 231.14) (xy 170.18 231.14)
 		)
 		(stroke
@@ -2574,16 +2385,6 @@
 			(type default)
 		)
 		(uuid "40150d0e-23a8-4baa-a8ee-9148e02c2ebb")
-	)
-	(wire
-		(pts
-			(xy 163.83 173.99) (xy 156.21 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b34fa9-988e-49fe-b3c7-959b3baf9160")
 	)
 	(wire
 		(pts
@@ -2694,16 +2495,6 @@
 			(type default)
 		)
 		(uuid "5086bfa3-8a66-4252-b7d3-dcec0da1c1d0")
-	)
-	(wire
-		(pts
-			(xy 147.32 189.23) (xy 156.21 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520d28f7-6829-4dcf-82da-ae6355c632f2")
 	)
 	(bus
 		(pts
@@ -3284,16 +3075,6 @@
 			(type default)
 		)
 		(uuid "bea7e50c-bb29-4e44-b8fc-9b0e9f542c82")
-	)
-	(wire
-		(pts
-			(xy 156.21 173.99) (xy 156.21 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdc272a-c328-4652-b9d2-6f15f3dc8d4b")
 	)
 	(wire
 		(pts
@@ -4239,17 +4020,6 @@
 		)
 		(uuid "6bdfd82e-50d2-49ea-a9b7-4c733b69b989")
 	)
-	(hierarchical_label "FUEL_PUMP_ON"
-		(shape output)
-		(at 177.8 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7767acd1-ea3d-4191-98f3-8207dcb3c51e")
-	)
 	(hierarchical_label "G5_PWR"
 		(shape output)
 		(at 157.48 62.23 0)
@@ -4952,74 +4722,6 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
 					(reference "POSITION_LT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 167.64 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37966db9-0cf5-45a7-9d49-80841356dc5b")
-		(property "Reference" "FUEL_PUMP_ON_R"
-			(at 167.64 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K 1W"
-			(at 167.64 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.894 172.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 167.64 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f527d6c1-d605-4ab2-bab4-09880e9b84aa")
-		)
-		(pin "1"
-			(uuid "a5cb391c-c29d-4f7b-9a92-34765dd22746")
-		)
-		(instances
-			(project "electrical"
-				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
-					(reference "FUEL_PUMP_ON_R")
 					(unit 1)
 				)
 			)
