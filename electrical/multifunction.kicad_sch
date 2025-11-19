@@ -6,7 +6,7 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Flaps, Lights & Trim")
-		(date "2025-11-02")
+		(date "2025-11-19")
 		(rev "1.1")
 		(company "N877RV")
 	)
@@ -3819,6 +3819,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Not sure if using the Roll Trim\nwill work for smoke"
+		(exclude_from_sim no)
+		(at 145.542 185.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6dce439-bab7-490c-855f-00193cae601b")
+	)
 	(text_box "Some flap & trim functions are in the EIS drawing, specifically the position sensors for the Flaps & Trim."
 		(exclude_from_sim no)
 		(at 57.15 234.95 0)
@@ -4092,16 +4103,6 @@
 			(type default)
 		)
 		(uuid "1305a4d7-0c0c-4695-a9d8-73be6934d279")
-	)
-	(wire
-		(pts
-			(xy 81.28 46.99) (xy 87.63 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148a794a-8a56-4b03-afb1-85685a9346d7")
 	)
 	(wire
 		(pts
@@ -4695,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a984a48-82ad-42f3-bd41-c7bd1bd311a8")
+	)
+	(wire
+		(pts
 			(xy 118.11 95.25) (xy 113.03 95.25)
 		)
 		(stroke
@@ -5112,16 +5123,6 @@
 			(type default)
 		)
 		(uuid "d3dfbc49-9912-472e-b62b-c9c779b028fa")
-	)
-	(wire
-		(pts
-			(xy 81.28 49.53) (xy 87.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5aa136f-c656-42ac-a6fa-04f73066a8af")
 	)
 	(wire
 		(pts
@@ -5723,7 +5724,7 @@
 	)
 	(global_label "SMOKE_ON"
 		(shape input)
-		(at 87.63 49.53 0)
+		(at 87.63 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5733,7 +5734,7 @@
 		)
 		(uuid "71bda3a3-5b4b-40e3-b5c4-234d44d0fdbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 49.53 0)
+			(at 100.6542 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,17 +6128,6 @@
 			(justify left)
 		)
 		(uuid "e1b6dcaf-7b0d-470b-a4a5-357fb7e1d54a")
-	)
-	(hierarchical_label "FUEL_PUMP_ON"
-		(shape input)
-		(at 87.63 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e25c54a5-8952-4fc2-a2a8-383e57d26179")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")

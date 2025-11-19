@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Transponder")
-		(date "2024-05-07")
-		(rev "1.0.2")
+		(date "2025-11-19")
+		(rev "1.1")
 		(company "N877RV")
 	)
 	(lib_symbols
