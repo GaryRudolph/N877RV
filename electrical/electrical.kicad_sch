@@ -6,14 +6,14 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2024-05-21")
-		(rev "1.0.3")
+		(date "2025-11-01")
+		(rev "1.1")
 		(company "N877RV")
 	)
 	(lib_symbols)
 	(text_box "Canbus Order\nGMU11\nGSA28 Yaw\nGSA28 Pitch\nG5\nGDU460\nGSU25\nGTR20\nGMC507\nGAD29\nGEA24\nGAD27\nGSA28 Roll"
 		(exclude_from_sim no)
-		(at 16.51 16.51 0)
+		(at 18.034 13.462 0)
 		(size 19.05 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -30,6 +30,26 @@
 			(justify left top)
 		)
 		(uuid "02b7fa7a-cbf4-4f53-b240-3bd77a5b98f8")
+	)
+	(text_box "Standard Colors\n\nCanbus\nHi: White\nLo: White/Blue\n\nSerial\nTx: White\nRx: White/Blue\nGnd: White/Orange\n\nAudio\nLeft: White\nRight: White/Blue\nLo: White/Orange"
+		(exclude_from_sim no)
+		(at 39.37 187.198 0)
+		(size 34.29 51.054)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e8c4d090-bfed-4f70-b270-6c8496946933")
 	)
 	(junction
 		(at 298.45 123.19)
@@ -195,6 +215,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 55.88) (xy 52.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10819c50-7d11-4be5-a8e6-003219f15883")
+	)
+	(wire
+		(pts
 			(xy 91.44 55.88) (xy 182.88 55.88)
 		)
 		(stroke
@@ -252,16 +282,6 @@
 			(type default)
 		)
 		(uuid "1b9b0e9f-0573-4b65-8c70-1266db6a63dc")
-	)
-	(wire
-		(pts
-			(xy 47.625 109.22) (xy 47.625 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d227d20-9abf-4750-b190-c87fa9313f58")
 	)
 	(wire
 		(pts
@@ -425,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 126.365) (xy 50.8 126.365)
+			(xy 45.72 123.19) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 45.72 126.365)
+			(xy 45.72 106.68) (xy 45.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -512,6 +532,16 @@
 			(type default)
 		)
 		(uuid "45544efd-1dc2-479a-afdb-76f0e47b9400")
+	)
+	(wire
+		(pts
+			(xy 20.32 142.24) (xy 20.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45547ca1-22e5-40a8-98b4-8487c2426b05")
 	)
 	(wire
 		(pts
@@ -605,6 +635,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 142.24) (xy 20.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd08ca2-7b4b-4623-b883-5e2e5c70140d")
+	)
+	(wire
+		(pts
 			(xy 355.6 48.26) (xy 364.49 48.26)
 		)
 		(stroke
@@ -612,6 +652,16 @@
 			(type default)
 		)
 		(uuid "50384a82-8529-445f-9a83-902d55308092")
+	)
+	(wire
+		(pts
+			(xy 17.78 167.64) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5152f526-2893-425c-8fdc-6199f98b2549")
 	)
 	(wire
 		(pts
@@ -755,6 +805,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 62.23) (xy 52.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da6f1d1-b7d4-42bb-b46f-5fb1e8cc84f9")
+	)
+	(wire
+		(pts
 			(xy 196.85 199.39) (xy 200.66 199.39)
 		)
 		(stroke
@@ -772,6 +832,16 @@
 			(type default)
 		)
 		(uuid "7235e17d-9df0-488c-983b-e34f89a92f01")
+	)
+	(wire
+		(pts
+			(xy 20.32 66.04) (xy 22.352 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c2143b-4aae-4b86-86ea-fc2f7a46b55a")
 	)
 	(wire
 		(pts
@@ -1005,13 +1075,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 47.625 109.22)
+			(xy 46.99 58.42) (xy 52.07 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2a56902-9f0a-451b-b819-8bfb6155bdea")
+		(uuid "a59ed654-08d2-4c88-a60f-568fa95f6ec1")
 	)
 	(wire
 		(pts
@@ -1042,6 +1112,16 @@
 			(type default)
 		)
 		(uuid "b44e704d-21ea-49f7-bfed-38f960b247e7")
+	)
+	(wire
+		(pts
+			(xy 13.97 168.91) (xy 17.78 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b775d31e-ecd2-46e3-bf60-aa511bf3ee8b")
 	)
 	(wire
 		(pts
@@ -1275,6 +1355,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 50.8) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7af478-9957-41ce-b0fb-351ed422be06")
+	)
+	(wire
+		(pts
 			(xy 292.1 140.97) (xy 95.25 140.97)
 		)
 		(stroke
@@ -1345,6 +1435,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 50.8) (xy 13.97 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13b3689-9e40-4224-80e6-5aff70e62d10")
+	)
+	(wire
+		(pts
 			(xy 308.61 116.84) (xy 292.1 116.84)
 		)
 		(stroke
@@ -1405,16 +1505,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 123.825) (xy 50.8 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7dce33a-9559-4ee8-9a4c-044b3b0ac2cb")
-	)
-	(wire
-		(pts
 			(xy 367.03 196.85) (xy 367.03 127)
 		)
 		(stroke
@@ -1422,6 +1512,16 @@
 			(type default)
 		)
 		(uuid "f90d773c-35e8-4704-b07b-81058f9a5cb2")
+	)
+	(wire
+		(pts
+			(xy 17.78 168.91) (xy 17.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca842d6-30f6-4211-8e64-b588e2eb1767")
 	)
 	(wire
 		(pts
@@ -2561,16 +2661,6 @@
 				(justify right)
 			)
 		)
-		(pin "BAK_BATTERY_VOLTS" output
-			(at 52.07 109.22 180)
-			(uuid "04a8c1d3-8966-4510-9e87-323b62081128")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GMC507_PWR" output
 			(at 91.44 101.6 0)
 			(uuid "7ecab1d3-b9cd-4b7d-8c19-3bb7695a3d6b")
@@ -2612,7 +2702,7 @@
 			)
 		)
 		(pin "AIRCRAFT_PWR" input
-			(at 52.07 48.26 180)
+			(at 52.07 55.88 180)
 			(uuid "8c71457c-1cc2-4116-a828-e1fa2127ffa2")
 			(effects
 				(font
@@ -2642,7 +2732,7 @@
 			)
 		)
 		(pin "AIRCRAFT_GROUND" input
-			(at 52.07 50.8 180)
+			(at 52.07 58.42 180)
 			(uuid "ff93dc3b-011a-4a27-87d5-31b025efe995")
 			(effects
 				(font
@@ -2699,6 +2789,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IGN_BAK_LOW" output
+			(at 52.07 85.09 180)
+			(uuid "16a1b548-55c9-4e25-b4cc-75d0f2a5d70c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGN_BAK_VOLTS" output
+			(at 52.07 87.63 180)
+			(uuid "535a1a86-70a4-460c-a282-cdfb36228f36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGN_PWR" output
+			(at 52.07 62.23 180)
+			(uuid "6661d672-805b-4c39-802c-f4c877e375cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMOKE_PWR" output
+			(at 52.07 50.8 180)
+			(uuid "27c11f74-1f97-40a6-a535-b7f2f74c0ae8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3519,6 +3649,16 @@
 				(justify right)
 			)
 		)
+		(pin "SMOKE_PWR" input
+			(at 105.41 167.64 180)
+			(uuid "b96c5ac2-e8a5-4c9f-8b80-55e126bcdfbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
@@ -3632,7 +3772,7 @@
 			)
 		)
 		(pin "BAK_BATTERY_VOLTS" input
-			(at 50.8 123.825 180)
+			(at 50.8 142.24 180)
 			(uuid "51921d1e-e5b0-4fde-99a0-32a0155e2b18")
 			(effects
 				(font
@@ -3672,7 +3812,7 @@
 			)
 		)
 		(pin "FUEL_ON" input
-			(at 50.8 126.365 180)
+			(at 50.8 123.19 180)
 			(uuid "6ecb56e9-1ba3-4838-ac27-a0077dcb66b8")
 			(effects
 				(font
@@ -3685,6 +3825,88 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.352 54.61)
+		(size 24.638 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "790e4037-818d-4b58-abc9-1756b4f195f3")
+		(property "Sheetname" "Lycoming"
+			(at 22.352 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lycoming.kicad_sch"
+			(at 22.352 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIRCRAFT_GND" passive
+			(at 46.99 58.42 0)
+			(uuid "11031a3c-24f9-4c42-b92e-57ce778cae8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIRCRAFT_PWR" output
+			(at 46.99 55.88 0)
+			(uuid "ba4bcdb6-f480-439f-a56b-53cc6c48725c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAK_BATTERY_VOLTS" output
+			(at 22.352 66.04 180)
+			(uuid "f6a87d11-eab8-4877-8cce-6028446994c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGN_PWR" input
+			(at 46.99 62.23 0)
+			(uuid "abbafebf-4ff1-4960-94f7-78e744da27f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
+					(page "3")
 				)
 			)
 		)

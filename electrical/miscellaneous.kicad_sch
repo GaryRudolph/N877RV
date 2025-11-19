@@ -146,118 +146,135 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 132.08 92.71)
+		(uuid "ab472fee-940d-4560-9aca-8216bbc1f682")
+	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 147.32 92.71)
+			(xy 132.08 87.63) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0efe3e64-7deb-4b4b-915c-da4afb082570")
+		(uuid "3cb94937-4a4d-4585-b110-ade95e8d32ec")
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 147.32 86.36)
+			(xy 132.08 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5138a933-a6a3-44eb-8948-f46a07d06c5c")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 120.65 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "432ab591-b9c1-4e83-84ff-0f4eeb7e44ae")
+		(uuid "56e9382c-1b22-4713-81ac-aac01a8e01b5")
 	)
 	(wire
 		(pts
-			(xy 135.89 83.82) (xy 147.32 83.82)
+			(xy 132.08 81.28) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb70845c-ec16-43c0-a533-476d49b29f64")
+		(uuid "89ba6805-c22e-4579-934c-75eea370c278")
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 147.32 90.17)
+			(xy 132.08 90.17) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da51e366-b357-4b72-aa3a-78e00fa801c8")
-	)
-	(hierarchical_label "GPS_SERIAL_GND"
-		(shape passive)
-		(at 147.32 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d455ef1-5bb4-4bfe-b170-7c587a9cb715")
-	)
-	(hierarchical_label "GND_BUS"
-		(shape passive)
-		(at 147.32 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2212fd66-5e9c-4380-a6ff-167e9eaeafaf")
-	)
-	(hierarchical_label "GPS_SERIAL_IN"
-		(shape input)
-		(at 147.32 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7de5e434-1ed5-42bd-b9d9-b21ed992c83d")
+		(uuid "b3675818-cde5-488b-b2c4-b7539287c537")
 	)
 	(hierarchical_label "ELT_PWR"
 		(shape input)
-		(at 147.32 83.82 0)
+		(at 120.65 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a51c0132-be7f-41a3-9a56-d5cd63dd163e")
+		(uuid "1cbeb832-0f01-40a5-bbc6-f926c6339deb")
+	)
+	(hierarchical_label "GPS_SERIAL_GND"
+		(shape passive)
+		(at 120.65 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b1288fe-ecbe-4e3e-af5d-2827195d9006")
+	)
+	(hierarchical_label "GND_BUS"
+		(shape passive)
+		(at 120.65 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6a3d400-8408-4f6c-81ea-441c0d5fb26b")
+	)
+	(hierarchical_label "GPS_SERIAL_IN"
+		(shape input)
+		(at 120.65 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec927ec5-d183-49da-a907-825fba7fccd4")
 	)
 	(symbol
 		(lib_id "flyerx:ACK_E-04")
-		(at 119.38 82.55 0)
+		(at 148.59 80.01 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d590705c-aa49-4a03-8589-8faad46b653f")
+		(uuid "87661d2d-cb20-46cf-97e7-5c94a0aa566c")
 		(property "Reference" "ELT"
-			(at 126.365 80.01 0)
+			(at 149.86 85.7249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 81.28 0)
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 81.28 0)
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,7 +283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 81.28 0)
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,7 +292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 82.55 0)
+			(at 148.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,16 +300,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b6c7537-9dc4-432e-b811-ad9da80e87b7")
+			(uuid "227c0c42-e59a-4fff-b11b-eebb84f10e0d")
 		)
 		(pin "2"
-			(uuid "e868baa8-dca8-4d0c-bf37-14c5818960be")
+			(uuid "bc391d8f-bf7f-4218-80fb-91c5775a352b")
 		)
 		(pin "4"
-			(uuid "5108f53d-24a3-4742-a1bf-ce537f8833cd")
+			(uuid "0a0667fa-bee6-4ad3-a793-da3a139b5566")
 		)
 		(pin "3"
-			(uuid "03903604-af70-4b37-9ba1-1c9fb4e4520f")
+			(uuid "dceb4e61-9f7a-45ab-9e05-bf4696f017f9")
 		)
 		(instances
 			(project "electrical"
