@@ -4976,6 +4976,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 175.26) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c2110eae-5b03-43da-9ff9-d82886b11b31")
+	)
+	(wire
+		(pts
 			(xy 81.28 74.93) (xy 100.33 74.93)
 		)
 		(stroke
@@ -5374,6 +5384,16 @@
 		)
 		(uuid "1e85d095-40d5-4faf-9052-687c1d2b63cc")
 	)
+	(label "White"
+		(at 81.28 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ea7517a-b4bd-4bda-be2f-56c870c557bd")
+	)
 	(label "White{slash}Yellow"
 		(at 134.62 71.12 180)
 		(effects
@@ -5393,6 +5413,16 @@
 			(justify right bottom)
 		)
 		(uuid "3dba8d70-72fa-4349-a12c-6fd7b61b6744")
+	)
+	(label "White"
+		(at 81.28 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46a2677c-0b20-4381-9741-2e1b99edcb9e")
 	)
 	(label "Grey"
 		(at 144.78 66.04 0)
@@ -5444,6 +5474,16 @@
 		)
 		(uuid "54ca7f72-e0a9-4b5e-bdf4-5f5a872e2305")
 	)
+	(label "White{slash}Blue"
+		(at 81.28 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f82f94f-5534-4009-b9f4-3e9fcdc38482")
+	)
 	(label "White{slash}Black"
 		(at 134.62 60.96 180)
 		(effects
@@ -5453,6 +5493,46 @@
 			(justify right bottom)
 		)
 		(uuid "7551b054-aa86-4a96-a4af-984ebb35f0b3")
+	)
+	(label "White{slash}Blue"
+		(at 111.76 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fb50a09-f93c-4d11-b16d-a08ce9a39eae")
+	)
+	(label "White"
+		(at 111.76 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "853e6a1c-4680-4d9d-889a-838b5f9dccaa")
+	)
+	(label "White"
+		(at 81.28 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b64af0e-86fb-4b5e-be2b-ce68600bce39")
+	)
+	(label "White"
+		(at 116.84 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "919208d9-b3b0-4d41-8248-a598ae57577e")
 	)
 	(label "White{slash}Purple"
 		(at 134.62 73.66 180)
@@ -5513,6 +5593,36 @@
 			(justify right bottom)
 		)
 		(uuid "b76d317b-1c11-4812-9ebd-9a619ce5a7f5")
+	)
+	(label "White{slash}Blue"
+		(at 81.28 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c342a0f3-debf-431a-84f2-1134ac73ab3a")
+	)
+	(label "White{slash}Blue"
+		(at 81.28 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca187a79-3fd9-470e-835c-a78ad2c8e41f")
+	)
+	(label "White{slash}Blue"
+		(at 116.84 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdd76cef-5716-44ea-9696-b864960794af")
 	)
 	(label "White{slash}Blue"
 		(at 81.28 35.56 0)
@@ -6883,7 +6993,7 @@
 		(dnp no)
 		(uuid "226e2438-8d0e-4076-be5e-4a4061fb30b9")
 		(property "Reference" "LEFT_LT"
-			(at 91.44 210.82 0)
+			(at 116.078 211.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8324,7 @@
 		(dnp no)
 		(uuid "e1e1fbe6-8a42-4652-b2ff-bbb1e3ebc47b")
 		(property "Reference" "RIGHT_LT"
-			(at 91.44 213.36 0)
+			(at 116.586 213.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,6 +8653,73 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/67540fe5-9b6d-4d8c-9d03-cde1487f48ae"
 					(reference "CABIN_CTL_POT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 83.82 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff86efb7-f1c7-4b87-a990-8ceaab51e3cd")
+		(property "Reference" "#PWR053"
+			(at 77.47 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 78.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0091323c-ab11-4a23-bfa1-235ae05063e1")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/67540fe5-9b6d-4d8c-9d03-cde1487f48ae"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
