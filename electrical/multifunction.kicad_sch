@@ -7,7 +7,7 @@
 	(title_block
 		(title "Flaps, Lights & Trim")
 		(date "2025-12-24")
-		(rev "1.2")
+		(rev "1.2.1")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -4351,6 +4351,16 @@
 		)
 		(uuid "0ef00a64-007d-45cd-b0f3-422f15234f63")
 	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 125.222 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19b576ec-f87f-4f77-8ea4-e8ef40a4f43e")
+	)
 	(text "Connector at panel and flap motor"
 		(exclude_from_sim no)
 		(at 102.108 227.33 0)
@@ -4361,6 +4371,16 @@
 			(justify left)
 		)
 		(uuid "1b21e0c3-bbf7-47f5-9238-6d6cb15ad8d8")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 139.7 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "429c142a-c6d0-4345-a9d6-2e0466c2ec4f")
 	)
 	(text "Connector at panel right"
 		(exclude_from_sim no)
@@ -4405,6 +4425,26 @@
 			(justify left)
 		)
 		(uuid "a2145f69-fd67-40c8-8479-6d8ff73fc65d")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 87.63 221.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa0716bc-d8bb-4f0c-a646-a5b7167b4273")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 116.84 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9971841-522f-4520-a95e-8b2463208e91")
 	)
 	(text "Active low"
 		(exclude_from_sim no)

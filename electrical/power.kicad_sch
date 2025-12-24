@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Distribution")
 		(date "2025-12-24")
-		(rev "1.2")
+		(rev "1.2.1")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -3302,6 +3302,16 @@
 		)
 		(uuid "0a9fb816-3899-4589-9682-6e056c371a5c")
 	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 109.982 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "210a63fb-287c-41f6-8381-4f05b4afd63d")
+	)
 	(text "ADAHRS"
 		(exclude_from_sim no)
 		(at 100.838 61.976 0)
@@ -3323,6 +3333,16 @@
 		)
 		(uuid "2e826aa0-edee-4e08-9e90-fb77e60be05e")
 	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 106.172 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37cf02ae-9d8b-4da8-a880-21e2569db89b")
+	)
 	(text "Install small fuse box with 6 1A fuses\nInstall ground bar on both sides of firewall with 6AWG between"
 		(exclude_from_sim no)
 		(at 21.082 262.636 0)
@@ -3334,6 +3354,16 @@
 		)
 		(uuid "38e697ae-82c6-4e25-a536-242552c32a0b")
 	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 107.696 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ad5cf98-b2e9-4920-916c-38fc1f032a85")
+	)
 	(text "Nav"
 		(exclude_from_sim no)
 		(at 173.482 54.356 0)
@@ -3343,6 +3373,16 @@
 			)
 		)
 		(uuid "4048df13-3fab-4b28-8cd3-30fc3487ab91")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 109.22 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46402a14-872e-4944-a672-39777618d655")
 	)
 	(text "Ign"
 		(exclude_from_sim no)
@@ -3404,6 +3444,46 @@
 			(justify right bottom)
 		)
 		(uuid "597c151a-abcc-4c6f-a13f-dc1677ce6e32")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 99.568 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a57e42c-968d-4980-a549-5a29153c8266")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 108.458 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5aa4128a-181f-41da-8da3-2cab046a3458")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 112.014 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d10e8f1-92bd-44d1-91bb-fa8dd97f0999")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 112.014 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6371c115-2638-4cf5-ba60-928652dad7f0")
 	)
 	(text "Connector at Panel and Pump"
 		(exclude_from_sim no)
@@ -3476,6 +3556,16 @@
 		)
 		(uuid "7e4fc9bf-ea58-4085-aeab-79de2de2bcc1")
 	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 112.268 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8881955d-f0a9-4fa4-b9ae-83821164b59b")
+	)
 	(text "Strobe"
 		(exclude_from_sim no)
 		(at 101.346 115.316 0)
@@ -3505,6 +3595,16 @@
 			)
 		)
 		(uuid "a28a2d23-ede5-4a95-9add-5a4536717b18")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 116.332 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9076ec0-7386-402b-9122-21d25b758973")
 	)
 	(text "Switched to ground"
 		(exclude_from_sim no)
@@ -3537,6 +3637,16 @@
 		)
 		(uuid "b465bb4a-b6d5-4b09-9936-c0d59c5c96ca")
 	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 186.944 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfaa4ec7-ca59-4162-a7e2-3305812a137f")
+	)
 	(text "Connector at Panel"
 		(exclude_from_sim no)
 		(at 110.49 180.848 0)
@@ -3568,6 +3678,16 @@
 		)
 		(uuid "c7c42b74-d3cd-428c-b21a-e7cb50b7b71c")
 	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 105.664 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd470883-3195-4229-bbaa-f31ad2a21b16")
+	)
 	(text "Fuel"
 		(exclude_from_sim no)
 		(at 103.378 141.224 0)
@@ -3598,6 +3718,16 @@
 			)
 		)
 		(uuid "e13cd4dc-44f1-486f-b5a3-8a19c1baa3a0")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 110.49 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec57bd1b-aeb9-451d-92ce-3441ce61e375")
 	)
 	(text "Connector at panel and at smoke motor"
 		(exclude_from_sim no)

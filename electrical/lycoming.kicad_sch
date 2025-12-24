@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lycoming")
 		(date "2025-12-24")
-		(rev "1.2")
+		(rev "1.2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -3506,6 +3506,76 @@
 		)
 		(uuid "056c4ad6-1fdf-45a1-bf22-2e6c7caf9701")
 	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 139.7 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "187a088f-2ba1-4b7a-b779-638bae48d053")
+	)
+	(text "6 AWG"
+		(exclude_from_sim no)
+		(at 98.552 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2434d8f8-bc03-454e-8a07-a1b527178923")
+	)
+	(text "6 AWG"
+		(exclude_from_sim no)
+		(at 226.822 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25a12870-d8ef-4c1f-aced-2de1007fbe87")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 85.852 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3801a6a7-0e78-406f-bbd1-1baeaf7ffc2b")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 203.708 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4cfc49e4-6e01-4e60-9ea9-ef19074d99aa")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 90.424 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ef8825d-dd27-42c8-b3d1-139a4f5893e0")
+	)
+	(text "6 AWG"
+		(exclude_from_sim no)
+		(at 179.07 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "503c26cd-ec47-48f6-8e6c-485c26ecad64")
+	)
 	(text "IBBS Output has 10A fuse\nnone needed for right"
 		(exclude_from_sim no)
 		(at 93.98 185.166 0)
@@ -3528,6 +3598,26 @@
 		)
 		(uuid "6015a52b-b891-4051-a1ed-ff86ceed96e9")
 	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 19.558 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f4db7e3-e384-44d1-be05-e10db0c25377")
+	)
+	(text "10 AWG"
+		(exclude_from_sim no)
+		(at 97.79 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "931353dd-4e3c-41be-93f2-58e9f7fd2e95")
+	)
 	(text "18 AWG Plead\n14 AWG Power/Ground"
 		(exclude_from_sim no)
 		(at 144.78 157.988 0)
@@ -3538,6 +3628,36 @@
 			(justify left)
 		)
 		(uuid "a0fce283-f700-471a-80e1-14047bbf1e82")
+	)
+	(text "10 AWG"
+		(exclude_from_sim no)
+		(at 62.484 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd229222-f041-4b91-8e05-d74ed071a990")
+	)
+	(text "6 AWG"
+		(exclude_from_sim no)
+		(at 35.56 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea43d9a7-56aa-47b4-b340-8c80fe6f87e2")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 83.312 177.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fae70860-57b7-406c-946b-83e78be90418")
 	)
 	(junction
 		(at 62.23 38.1)
