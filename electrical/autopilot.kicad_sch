@@ -7,7 +7,7 @@
 	(title_block
 		(title "Autopilot")
 		(date "2025-12-24")
-		(rev "1.2")
+		(rev "1.2.1")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -2742,6 +2742,16 @@
 			)
 		)
 		(uuid "12c00517-1da1-414d-9618-448f8c449598")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 102.362 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "265dea95-251b-4cbd-b659-259a12900f3c")
 	)
 	(text "Pitch Servo near bellcrank"
 		(exclude_from_sim no)
