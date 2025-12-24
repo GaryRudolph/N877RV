@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "A" portrait)
 	(title_block
-		(date "2025-11-19")
-		(rev "1.1")
+		(date "2025-12-24")
+		(rev "1.2")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -2635,7 +2635,7 @@
 		)
 		(uuid "3137c1c0-135f-4672-8de1-f0596c198d3c")
 	)
-	(text "To GDU 460\nConnext 57600"
+	(text "To GDL 52\nConnext 57600"
 		(exclude_from_sim no)
 		(at 105.156 87.376 0)
 		(effects
@@ -2646,16 +2646,26 @@
 		)
 		(uuid "5897a8ba-1694-49ad-aa62-8bc896bb627e")
 	)
-	(text "To GDL 52\nConnext 57600"
+	(text "To GTX 330 ES\nADS-B+ Format 1"
 		(exclude_from_sim no)
-		(at 102.87 97.79 0)
+		(at 104.648 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "6897eeae-fb5b-49da-aa44-b12f05666918")
+		(uuid "77899d4f-f9df-437d-87d4-e77a27ddcb83")
+	)
+	(text "Per Garmin, needs to be RS232 from GPS 175 to GTX 330.\nARINC doesn't support AC 20-165 as WAAS source."
+		(exclude_from_sim no)
+		(at 97.028 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abd2137c-079a-488c-8ea4-7a866743829d")
 	)
 	(text "To GAD 29\nEFIS/AirData Low Gama Format 1\nPage 24-38"
 		(exclude_from_sim no)
@@ -2668,6 +2678,17 @@
 		)
 		(uuid "abedd006-8f8d-45e4-839f-4ff04b94dad8")
 	)
+	(text "Only using MapMX to GDU 460, so that can get traffic\n& weather on the GPS 175. This means, won't be able\nto move flight plans to/from G3X. Can still BT to\nGPS 175 and do it from the iPad."
+		(exclude_from_sim no)
+		(at 67.564 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af2d7744-cf3a-4999-819a-b790ae960d1c")
+	)
 	(junction
 		(at 103.505 177.8)
 		(diameter 0)
@@ -2679,12 +2700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04f07fc9-74c4-43c2-a7e5-5da06723dc8c")
-	)
-	(junction
-		(at 68.58 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44d63f3d-8caf-4c95-8cfd-52d90ac19271")
 	)
 	(junction
 		(at 152.4 31.75)
@@ -2723,6 +2738,10 @@
 		(uuid "ac98ad98-19f5-4430-8542-2dbeb2c741c1")
 	)
 	(no_connect
+		(at 64.77 156.21)
+		(uuid "da350f46-a0c9-4872-baf0-ba45632104a2")
+	)
+	(no_connect
 		(at 158.75 41.91)
 		(uuid "de815430-eaea-4639-9635-0b2fbbc0802a")
 	)
@@ -2755,16 +2774,6 @@
 			(type default)
 		)
 		(uuid "04b6e360-01aa-44d0-9eda-dc4137a28be8")
-	)
-	(wire
-		(pts
-			(xy 64.77 156.21) (xy 68.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102ddc14-7b30-440a-b33c-67daa137d752")
 	)
 	(wire
 		(pts
@@ -2858,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 154.94 46.99)
+			(xy 154.94 35.56) (xy 154.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 152.4 43.18)
+			(xy 129.54 38.1) (xy 152.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2975,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "52109535-99e9-4b0a-9ea5-0d1aed491b1d")
-	)
-	(wire
-		(pts
-			(xy 68.58 156.21) (xy 68.58 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a0dce4-a42a-448f-a77f-a887cbea3a69")
 	)
 	(wire
 		(pts
@@ -3078,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 45.72) (xy 153.67 45.72)
+			(xy 129.54 40.64) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 152.4 31.75)
+			(xy 152.4 38.1) (xy 152.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 45.72) (xy 153.67 34.29)
+			(xy 153.67 40.64) (xy 153.67 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 154.94 46.99)
+			(xy 129.54 41.91) (xy 154.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3695,7 +3694,7 @@
 		)
 		(uuid "007a3c0d-3492-4758-9486-b9d458471205")
 	)
-	(hierarchical_label "ADSB_SERIAL_GND"
+	(hierarchical_label "TXPDR_SERIAL_GND"
 		(shape passive)
 		(at 81.28 97.79 0)
 		(effects
@@ -3706,7 +3705,7 @@
 		)
 		(uuid "0d0af9e1-da55-48c7-b25b-dce10c74fa1a")
 	)
-	(hierarchical_label "CONNEXT_SERIAL_OUT"
+	(hierarchical_label "ADSB_SERIAL_OUT"
 		(shape output)
 		(at 81.28 83.82 0)
 		(effects
@@ -3719,7 +3718,7 @@
 	)
 	(hierarchical_label "CAN_LO_OUT"
 		(shape output)
-		(at 129.54 45.72 180)
+		(at 129.54 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3730,7 +3729,7 @@
 	)
 	(hierarchical_label "CAN_HI_OUT"
 		(shape output)
-		(at 129.54 43.18 180)
+		(at 129.54 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,7 +3738,7 @@
 		)
 		(uuid "2a8ce6d5-411f-4ae8-af04-a3e55003f25b")
 	)
-	(hierarchical_label "ADSB_SERIAL_OUT"
+	(hierarchical_label "TXPDR_SERIAL_OUT"
 		(shape output)
 		(at 81.28 92.71 0)
 		(effects
@@ -3750,7 +3749,7 @@
 		)
 		(uuid "2b45d2c0-4799-4a6b-995b-124b2a05e1b6")
 	)
-	(hierarchical_label "ADSB_SERIAL_IN"
+	(hierarchical_label "TXPDR_SERIAL_IN"
 		(shape input)
 		(at 81.28 95.25 0)
 		(effects
@@ -3772,7 +3771,7 @@
 		)
 		(uuid "3524a0ae-dcc6-4140-95be-cbb8d2b5b41a")
 	)
-	(hierarchical_label "CONNEXT_SERIAL_GND"
+	(hierarchical_label "ADSB_SERIAL_GND"
 		(shape passive)
 		(at 81.28 88.9 0)
 		(effects
@@ -3849,7 +3848,7 @@
 		)
 		(uuid "bd2218fd-c6e1-49b8-9673-7c20df105191")
 	)
-	(hierarchical_label "CONNEXT_SERIAL_IN"
+	(hierarchical_label "ADSB_SERIAL_IN"
 		(shape input)
 		(at 81.28 86.36 0)
 		(effects
