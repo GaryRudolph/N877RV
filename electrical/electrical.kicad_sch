@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-12-24")
-		(rev "1.2")
+		(date "2025-12-31")
+		(rev "1.2.2")
 		(company "N877RV")
 	)
 	(lib_symbols)
@@ -112,16 +112,6 @@
 			(type default)
 		)
 		(uuid "02817ac6-1525-4387-8608-7e2829913bca")
-	)
-	(wire
-		(pts
-			(xy 128.27 148.59) (xy 118.11 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a9ebd7-6229-47b1-81c1-afd1675bbe89")
 	)
 	(wire
 		(pts
@@ -272,16 +262,6 @@
 			(type default)
 		)
 		(uuid "1268db6f-3c62-4a13-bca8-02ab0ec63354")
-	)
-	(wire
-		(pts
-			(xy 118.11 105.41) (xy 105.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17513a3e-772f-4470-bd06-4a0607a34d64")
 	)
 	(wire
 		(pts
@@ -1462,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "9fc0d6ad-1fd8-4021-ba00-8a7d649948eb")
-	)
-	(wire
-		(pts
-			(xy 118.11 148.59) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c2abd0-a345-4f72-8b16-a2126468fa4b")
 	)
 	(wire
 		(pts
@@ -3515,19 +3485,9 @@
 				(justify right)
 			)
 		)
-		(pin "SMOKE_LT" output
+		(pin "SMOKE_ON" output
 			(at 105.41 107.95 0)
 			(uuid "e51b66dd-2591-42ab-98da-02f2ba339ef0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SMOKE_SW" input
-			(at 105.41 105.41 0)
-			(uuid "6efaa564-740e-4b66-bfaa-172f022d942b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,19 +4331,9 @@
 				(justify left)
 			)
 		)
-		(pin "SMOKE_LT" input
+		(pin "SMOKE_ON" input
 			(at 128.27 151.13 180)
 			(uuid "590b77bd-c800-4c0b-83af-9494e602fbf3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SMOKE_SW" output
-			(at 128.27 148.59 180)
-			(uuid "105c7b92-bc36-40a1-9f2d-f09d1a3371e2")
 			(effects
 				(font
 					(size 1.27 1.27)
