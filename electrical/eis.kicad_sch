@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-12-24")
-		(rev "1.2")
+		(date "2026-01-01")
+		(rev "1.2.3")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -6556,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 287.02) (xy 138.43 287.02)
+			(xy 148.59 287.02) (xy 152.4 287.02)
 		)
 		(stroke
 			(width 0)
@@ -6826,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 284.48) (xy 134.62 287.02)
+			(xy 148.59 284.48) (xy 148.59 287.02)
 		)
 		(stroke
 			(width 0)
@@ -6996,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 285.75) (xy 135.89 285.75)
+			(xy 147.32 285.75) (xy 149.86 285.75)
 		)
 		(stroke
 			(width 0)
@@ -7076,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 289.56) (xy 138.43 289.56)
+			(xy 130.81 289.56) (xy 152.4 289.56)
 		)
 		(stroke
 			(width 0)
@@ -7516,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 284.48) (xy 134.62 284.48)
+			(xy 130.81 284.48) (xy 148.59 284.48)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7746,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 287.02) (xy 133.35 285.75)
+			(xy 147.32 287.02) (xy 147.32 285.75)
 		)
 		(stroke
 			(width 0)
@@ -8346,7 +8346,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 284.48) (xy 138.43 284.48)
+			(xy 149.86 284.48) (xy 152.4 284.48)
 		)
 		(stroke
 			(width 0)
@@ -8376,7 +8376,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 287.02) (xy 133.35 287.02)
+			(xy 130.81 287.02) (xy 147.32 287.02)
 		)
 		(stroke
 			(width 0)
@@ -8576,7 +8576,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 285.75) (xy 135.89 284.48)
+			(xy 149.86 285.75) (xy 149.86 284.48)
 		)
 		(stroke
 			(width 0)
@@ -8914,6 +8914,16 @@
 		)
 		(uuid "36492729-ab15-400e-b78a-afc403c6bc9f")
 	)
+	(label "Red"
+		(at 130.81 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3716782a-c30a-4251-ab86-f666d0b16117")
+	)
 	(label "White{slash}Blue"
 		(at 67.31 36.83 0)
 		(effects
@@ -9044,6 +9054,16 @@
 		)
 		(uuid "6f101c38-bacb-4d0f-a113-04d86905ff83")
 	)
+	(label "White"
+		(at 130.81 289.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ffed4a1-716a-4682-854d-73ae2c6532a9")
+	)
 	(label "White{slash}Orange"
 		(at 67.31 166.37 0)
 		(effects
@@ -9073,6 +9093,16 @@
 			(justify left bottom)
 		)
 		(uuid "8761e110-99ba-4990-ba6b-7e8db3d1c9b8")
+	)
+	(label "Yellow"
+		(at 130.81 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "977c5798-b399-492b-b948-a8f69eaa1de4")
 	)
 	(label "White{slash}Blue"
 		(at 67.31 160.02 0)
@@ -13963,7 +13993,7 @@
 	)
 	(symbol
 		(lib_id "flyerx:Ray_Allen_POS-12")
-		(at 148.59 283.21 0)
+		(at 162.56 283.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13972,7 +14002,7 @@
 		(dnp no)
 		(uuid "e2c32695-a291-448e-b06a-e8b7a3a91122")
 		(property "Reference" "FLAPS_POS"
-			(at 154.686 285.75 0)
+			(at 168.656 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +14010,7 @@
 			)
 		)
 		(property "Value" "RV-MAX"
-			(at 153.416 288.29 0)
+			(at 167.386 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +14018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 280.67 0)
+			(at 168.91 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,7 +14027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 280.67 0)
+			(at 168.91 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14006,7 +14036,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 283.21 0)
+			(at 162.56 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

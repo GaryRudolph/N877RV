@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Flaps, Lights & Trim")
-		(date "2025-12-31")
-		(rev "1.2.2")
+		(date "2026-01-01")
+		(rev "1.2.3")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -4453,16 +4453,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 217.17) (xy 138.43 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "031ef85a-2e4e-45fe-8893-64123cb8a28a")
-	)
-	(wire
-		(pts
 			(xy 142.24 66.04) (xy 157.48 66.04)
 		)
 		(stroke
@@ -4533,7 +4523,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 219.71) (xy 151.13 219.71)
+			(xy 135.89 219.71) (xy 154.94 219.71)
 		)
 		(stroke
 			(width 0)
@@ -4690,6 +4680,16 @@
 			(type default)
 		)
 		(uuid "26341f22-ab5b-44df-997d-6ce52faf0df0")
+	)
+	(wire
+		(pts
+			(xy 135.89 217.17) (xy 142.24 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269877b0-b7b6-4eb1-bb3b-517cab0dd9da")
 	)
 	(wire
 		(pts
@@ -5713,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 217.17) (xy 151.13 219.71)
+			(xy 154.94 217.17) (xy 154.94 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5961,6 +5961,16 @@
 		)
 		(uuid "1ea7517a-b4bd-4bda-be2f-56c870c557bd")
 	)
+	(label "Blue"
+		(at 135.89 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2527628a-240b-4c22-b045-ee90c9ffa83d")
+	)
 	(label "White"
 		(at 135.89 158.75 180)
 		(effects
@@ -6090,6 +6100,16 @@
 			(justify right bottom)
 		)
 		(uuid "919208d9-b3b0-4d41-8248-a598ae57577e")
+	)
+	(label "Brown"
+		(at 135.89 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cf1ca26-76ee-4adb-b387-3a7d38fe5f7c")
 	)
 	(label "White"
 		(at 157.48 78.74 180)
@@ -7146,7 +7166,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 143.51 217.17 90)
+		(at 147.32 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7155,7 +7175,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ef2d559-224d-41bd-b4c1-fb395b54fef9")
 		(property "Reference" "FLAPS"
-			(at 146.05 212.09 90)
+			(at 149.86 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7183,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 147.32 212.09 0)
+			(at 151.13 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +7193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.796 217.17 0)
+			(at 149.606 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,7 +7202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 145.796 217.17 0)
+			(at 149.606 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 217.17 0)
+			(at 147.32 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
