@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Lycoming")
-		(date "2025-12-24")
-		(rev "1.2.1")
+		(date "2026-01-01")
+		(rev "1.2.3")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -3923,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 77.47 57.15)
+			(xy 66.04 57.15) (xy 77.47 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 82.55 59.69)
+			(xy 66.04 59.69) (xy 82.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4603,7 +4603,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 57.15) (xy 64.77 57.15)
+			(xy 50.8 57.15) (xy 55.88 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4613,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 59.69) (xy 64.77 59.69)
+			(xy 50.8 59.69) (xy 55.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4760,6 +4760,26 @@
 			(type default)
 		)
 		(uuid "fe4ddffb-60f8-4d6c-8851-88bc3e9a8bf8")
+	)
+	(label "Red"
+		(at 74.93 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52a9d65d-bc5b-415d-ab29-a436d85e3f98")
+	)
+	(label "Black"
+		(at 74.93 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9685dce-78bb-4812-97ac-6e07390fbcd8")
 	)
 	(global_label "GND"
 		(shape passive)
@@ -5181,7 +5201,7 @@
 	)
 	(hierarchical_label "AMPS_HI"
 		(shape output)
-		(at 62.23 57.15 180)
+		(at 50.8 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,7 +5212,7 @@
 	)
 	(hierarchical_label "AMPS_LO"
 		(shape output)
-		(at 62.23 59.69 180)
+		(at 50.8 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5582,7 +5602,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 69.85 57.15 0)
+		(at 60.96 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5591,7 +5611,7 @@
 		(dnp no)
 		(uuid "3039b1cb-3a3c-4db6-a586-c995531e7084")
 		(property "Reference" "AMPSR"
-			(at 68.834 61.722 0)
+			(at 59.944 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5620,7 @@
 			)
 		)
 		(property "Value" "DTM2R"
-			(at 68.834 64.262 0)
+			(at 59.944 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5647,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7214,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 69.85 57.15 0)
+		(at 60.96 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7203,7 +7223,7 @@
 		(dnp no)
 		(uuid "f1e19be2-78cd-43dd-95a4-de1e0789d3ec")
 		(property "Reference" "AMPSP"
-			(at 70.739 62.23 0)
+			(at 61.849 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7232,7 @@
 			)
 		)
 		(property "Value" "DTM2P"
-			(at 70.739 64.516 0)
+			(at 61.849 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7259,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 69.85 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
