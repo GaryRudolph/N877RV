@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Communication")
-		(date "2025-11-19")
-		(rev "1.1")
+		(date "2026-01-04")
+		(rev "1.2.4")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -3287,6 +3287,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Consider DTM4 x4\n* Common (GTR)\n* 1 (Music In)\n* 2 (Aux In)\n* 3 (BT)\n\nIf so wire:\nLeft: White\nRight: White/Blue\nLo: White/Orange"
+		(exclude_from_sim no)
+		(at 118.618 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34c81cb5-0b2c-41fc-8850-415c023d4f2c")
 	)
 	(junction
 		(at 180.34 87.63)

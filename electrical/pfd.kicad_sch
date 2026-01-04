@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-12-24")
-		(rev "1.2")
+		(date "2026-01-03")
+		(rev "1.2.3")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -7596,7 +7596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fac9829-a7f1-4add-92a1-00fc3eaeb1cc")
-		(property "Reference" "GMUS"
+		(property "Reference" "GMUR"
 			(at 122.555 13.97 0)
 			(effects
 				(font
@@ -7605,7 +7605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTS"
+		(property "Value" "DT3R"
 			(at 122.555 16.51 0)
 			(effects
 				(font
@@ -7653,7 +7653,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-					(reference "GMUS")
+					(reference "GMUR")
 					(unit 1)
 				)
 			)
@@ -7745,7 +7745,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTP"
+		(property "Value" "DT3P"
 			(at 124.46 16.51 0)
 			(effects
 				(font
