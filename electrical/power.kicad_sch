@@ -3217,7 +3217,7 @@
 		)
 		(uuid "4048df13-3fab-4b28-8cd3-30fc3487ab91")
 	)
-	(text "16 AWG"
+	(text "14 AWG"
 		(exclude_from_sim no)
 		(at 109.22 132.08 0)
 		(effects
@@ -3348,6 +3348,16 @@
 			)
 		)
 		(uuid "67e5a3c1-5831-4946-9afd-5b29cb9365d4")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 161.593 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72e87155-8a1c-4853-a696-a749222ccf82")
 	)
 	(text "Nav LT"
 		(exclude_from_sim no)
