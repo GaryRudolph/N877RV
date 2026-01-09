@@ -6878,7 +6878,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 158.75 116.84 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6886,7 +6885,7 @@
 		(dnp no)
 		(uuid "1ea4b43d-bb31-42a7-947a-e71a3302a8ea")
 		(property "Reference" "AUX2P"
-			(at 158.115 109.22 0)
+			(at 159.385 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6894,7 @@
 			)
 		)
 		(property "Value" "JST4P"
-			(at 158.115 111.76 0)
+			(at 159.385 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7234,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 158.75 146.05 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7243,7 +7241,7 @@
 		(dnp no)
 		(uuid "3bf046bd-a5a2-4f95-85b6-f207edf106c4")
 		(property "Reference" "AUX3P"
-			(at 158.115 138.43 0)
+			(at 159.385 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7250,7 @@
 			)
 		)
 		(property "Value" "JST4P"
-			(at 158.115 140.97 0)
+			(at 159.385 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8306,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 157.48 99.06 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8316,7 +8313,7 @@
 		(dnp no)
 		(uuid "ae0e4348-bb40-4339-a184-37e7e9c374e1")
 		(property "Reference" "AUX1R"
-			(at 158.496 92.456 0)
+			(at 156.464 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8322,7 @@
 			)
 		)
 		(property "Value" "JST4R"
-			(at 158.496 94.234 0)
+			(at 156.464 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8455,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 157.48 99.06 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8466,7 +8462,7 @@
 		(dnp no)
 		(uuid "bb8a3c9a-3f47-4b84-8f14-45248b3b8e49")
 		(property "Reference" "AUX1P"
-			(at 156.845 91.44 0)
+			(at 158.115 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8471,7 @@
 			)
 		)
 		(property "Value" "JST4P"
-			(at 156.845 93.98 0)
+			(at 158.115 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8530,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 158.75 146.05 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8542,7 +8537,7 @@
 		(dnp no)
 		(uuid "c13d3051-ba42-4096-a361-7827319219d1")
 		(property "Reference" "AUX3R"
-			(at 159.766 138.43 0)
+			(at 157.734 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8546,7 @@
 			)
 		)
 		(property "Value" "JST4R"
-			(at 159.766 140.208 0)
+			(at 157.734 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8893,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 158.75 116.84 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8906,7 +8900,7 @@
 		(dnp no)
 		(uuid "eddd1c16-cf4e-4558-b74f-b5aefbded898")
 		(property "Reference" "AUX2R"
-			(at 159.766 109.22 0)
+			(at 157.734 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8909,7 @@
 			)
 		)
 		(property "Value" "JST4R"
-			(at 159.766 110.998 0)
+			(at 157.734 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
