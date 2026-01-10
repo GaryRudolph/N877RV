@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Communication")
-		(date "2026-01-09")
-		(rev "1.2.8")
+		(date "2026-01-10")
+		(rev "1.2.9")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -3848,12 +3848,6 @@
 		(uuid "9f9d7d3c-759f-4afd-8ed6-48cf51dfd307")
 	)
 	(junction
-		(at 203.2 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fd5752e-7e18-44f3-82d6-d4f3a1476d22")
-	)
-	(junction
 		(at 218.44 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3864,6 +3858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5535dd3-f947-4af8-9efc-a62bb0fec573")
+	)
+	(junction
+		(at 205.74 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7052b67-4adb-4e90-8c12-fc2823e889fb")
 	)
 	(junction
 		(at 204.47 97.79)
@@ -4601,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 95.25) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed1a48b-af67-4827-9a0f-78876b33fac8")
+	)
+	(wire
+		(pts
 			(xy 144.78 148.59) (xy 153.67 148.59)
 		)
 		(stroke
@@ -5148,16 +5158,6 @@
 			(type default)
 		)
 		(uuid "91534cb5-d8e4-4457-a392-474f6d09f95d")
-	)
-	(wire
-		(pts
-			(xy 203.2 100.33) (xy 203.2 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95eb50c5-8cd3-4cbd-a09a-440add3f69a1")
 	)
 	(wire
 		(pts
@@ -5931,16 +5931,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 224.79 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2061f07-664b-4fb7-9e1d-891736ef06ac")
-	)
-	(wire
-		(pts
 			(xy 138.43 102.87) (xy 149.86 102.87)
 		)
 		(stroke
@@ -6048,6 +6038,16 @@
 			(type default)
 		)
 		(uuid "fd0b19f8-38ee-41d8-b9a0-643ac6ab17d1")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 224.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde171c6-e1c3-40d1-ab99-448bd6e05753")
 	)
 	(label "White"
 		(at 152.4 99.06 180)
