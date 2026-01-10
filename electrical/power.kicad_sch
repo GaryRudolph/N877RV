@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2026-01-03")
-		(rev "1.2.4")
+		(date "2026-01-10")
+		(rev "1.2.9")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -3408,6 +3408,17 @@
 			)
 		)
 		(uuid "7e4fc9bf-ea58-4085-aeab-79de2de2bcc1")
+	)
+	(text "POSN+/- doesn't have\nto be shielded\nPOSN- can ground at wing\nor can use shield as wire"
+		(exclude_from_sim no)
+		(at 147.828 204.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "885227ae-da66-4cfe-8cbf-b1d19ec4a90d")
 	)
 	(text "16 AWG"
 		(exclude_from_sim no)
