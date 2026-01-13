@@ -2689,6 +2689,16 @@
 		)
 		(uuid "af2d7744-cf3a-4999-819a-b790ae960d1c")
 	)
+	(text "Confirm if this changed?\nI had to swap 27/28 for white/blue and white"
+		(exclude_from_sim no)
+		(at 99.822 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c798ab27-62c7-4c1e-bea9-4e91084ab67e")
+	)
 	(junction
 		(at 103.505 177.8)
 		(diameter 0)
@@ -3485,7 +3495,7 @@
 		)
 		(uuid "59346c5a-f671-475a-bc78-e6badb338560")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 64.77 162.56 0)
 		(effects
 			(font
@@ -3535,7 +3545,7 @@
 		)
 		(uuid "aa3c9d28-4051-4352-8269-08c219ef16a1")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 64.77 160.02 0)
 		(effects
 			(font

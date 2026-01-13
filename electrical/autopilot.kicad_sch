@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Autopilot")
-		(date "2025-12-24")
-		(rev "1.2.1")
+		(date "2026-01-13")
+		(rev "1.2.11")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -4131,6 +4131,16 @@
 		(uuid "ff2b0f93-c6ff-42fb-bfd5-571d4cca41d8")
 	)
 	(label "White"
+		(at 130.81 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d9db9d2-59f8-4145-aa72-4c8ba2bdf938")
+	)
+	(label "White"
 		(at 55.88 29.21 0)
 		(effects
 			(font
@@ -4209,6 +4219,16 @@
 			(justify right bottom)
 		)
 		(uuid "a3f8d9f7-48f1-422f-8d46-e16a07637eb1")
+	)
+	(label "White{slash}Blue"
+		(at 130.81 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3e6878e-03b6-44c4-88c7-a577d6b59521")
 	)
 	(label "White{slash}Orange"
 		(at 143.51 107.95 180)
