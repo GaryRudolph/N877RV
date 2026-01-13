@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Flaps, Lights & Trim")
-		(date "2026-01-08")
-		(rev "1.2.6")
+		(date "2026-01-13")
+		(rev "1.2.11")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -4071,12 +4071,6 @@
 		(uuid "3c31a30f-b708-46c3-a98e-3a5f45b45582")
 	)
 	(junction
-		(at 91.44 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cd39a10-3c30-40f3-8f8a-110614e91b41")
-	)
-	(junction
 		(at 189.23 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4326,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 163.83) (xy 91.44 163.83)
+			(xy 81.28 163.83) (xy 87.63 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4780,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 205.74) (xy 91.44 205.74)
+			(xy 81.28 205.74) (xy 96.52 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5236,16 +5230,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 163.83) (xy 91.44 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6d2f30-409e-4e77-8b32-00bb043ba8bf")
-	)
-	(wire
-		(pts
 			(xy 99.06 63.5) (xy 99.06 90.17)
 		)
 		(stroke
@@ -5493,16 +5477,6 @@
 			(type default)
 		)
 		(uuid "de6cb259-c4bc-4912-84c0-de531181d558")
-	)
-	(wire
-		(pts
-			(xy 91.44 205.74) (xy 96.52 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de773790-0e47-431e-bdc1-17a26062dc9a")
 	)
 	(wire
 		(pts
@@ -5913,6 +5887,28 @@
 			(justify left bottom)
 		)
 		(uuid "d73367e4-c79a-4b4f-9f1d-f73c73eeb9da")
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 87.63 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "066e16e3-5fa2-4f5c-874a-c0a80e3b9ece")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.3744 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LIGHTING_GND"
 		(shape passive)
