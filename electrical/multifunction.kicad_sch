@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Flaps, Lights & Trim")
-		(date "2026-01-13")
-		(rev "1.2.11")
+		(date "2026-01-15")
+		(rev "1.2.12")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -5678,7 +5678,7 @@
 		)
 		(uuid "34528e37-4f33-49ae-bfd4-2c1192af2b8a")
 	)
-	(label "White{slash}Grey"
+	(label "White{slash}Orange"
 		(at 157.48 66.04 180)
 		(effects
 			(font
@@ -5708,7 +5708,7 @@
 		)
 		(uuid "46a2677c-0b20-4381-9741-2e1b99edcb9e")
 	)
-	(label "Pink"
+	(label "Brown"
 		(at 167.64 71.12 0)
 		(effects
 			(font
@@ -5718,7 +5718,7 @@
 		)
 		(uuid "47fe33b0-4dbf-4468-b2c6-6cf71667fada")
 	)
-	(label "Grey"
+	(label "Orange"
 		(at 167.64 66.04 0)
 		(effects
 			(font
@@ -5738,7 +5738,7 @@
 		)
 		(uuid "52621bd0-6f28-4497-9195-4b4959095cb4")
 	)
-	(label "Orange"
+	(label "Grey"
 		(at 167.64 63.5 0)
 		(effects
 			(font
@@ -5838,7 +5838,7 @@
 		)
 		(uuid "b23c4d69-1762-441b-b7d9-fbdb3debccd8")
 	)
-	(label "White{slash}Orange"
+	(label "White{slash}Grey"
 		(at 157.48 63.5 180)
 		(effects
 			(font

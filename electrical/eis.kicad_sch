@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2026-01-06")
-		(rev "1.2.5")
+		(date "2026-01-15")
+		(rev "1.2.12")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -6534,7 +6534,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 280.67) (xy 120.65 280.67)
+			(xy 67.31 280.67) (xy 93.98 280.67)
 		)
 		(stroke
 			(width 0)
@@ -6794,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 275.59) (xy 120.65 275.59)
+			(xy 67.31 275.59) (xy 93.98 275.59)
 		)
 		(stroke
 			(width 0)
@@ -7404,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 281.94) (xy 120.65 281.94)
+			(xy 67.31 281.94) (xy 93.98 281.94)
 		)
 		(stroke
 			(width 0)
@@ -8264,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 278.13) (xy 120.65 278.13)
+			(xy 67.31 278.13) (xy 93.98 278.13)
 		)
 		(stroke
 			(width 0)
@@ -8712,7 +8712,7 @@
 		)
 		(uuid "512b6883-cb50-4f19-a7c6-9ab18e1beb41")
 	)
-	(label "White{slash}Yellow"
+	(label "White{slash}Green"
 		(at 67.31 257.81 0)
 		(effects
 			(font
@@ -8832,7 +8832,7 @@
 		)
 		(uuid "a2cf7277-29ef-48f5-a87b-59ecc5f6aba4")
 	)
-	(label "White{slash}Red"
+	(label "White"
 		(at 67.31 251.46 0)
 		(effects
 			(font
@@ -9081,6 +9081,17 @@
 		)
 		(uuid "09139c0b-1b04-4c93-bd9e-b08da4670730")
 	)
+	(hierarchical_label "PITCH_TRIM_LO"
+		(shape passive)
+		(at 93.98 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11814fd2-a709-4354-affb-a21a8a025d8a")
+	)
 	(hierarchical_label "GEA24_PWR"
 		(shape input)
 		(at 223.52 21.59 0)
@@ -9091,17 +9102,6 @@
 			(justify left)
 		)
 		(uuid "1f731932-e0f4-49af-8e88-0be03cfab618")
-	)
-	(hierarchical_label "PITCH_TRIM_HI"
-		(shape output)
-		(at 120.65 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29dc1c44-e86c-4e8b-bc38-b86c581e1224")
 	)
 	(hierarchical_label "L_PLEAD"
 		(shape input)
@@ -9136,16 +9136,16 @@
 		)
 		(uuid "39726d91-f119-4c19-a9dd-a61178e19cc1")
 	)
-	(hierarchical_label "PITCH_TRIM_LO"
-		(shape passive)
-		(at 120.65 280.67 0)
+	(hierarchical_label "PITCH_TRIM_POS"
+		(shape input)
+		(at 93.98 275.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6d873bb2-6013-4f94-bcaf-22796873d032")
+		(uuid "5b6acddb-21e0-43a0-80cd-52fde982e8f5")
 	)
 	(hierarchical_label "CAN_HI_IN"
 		(shape input)
@@ -9168,6 +9168,17 @@
 			(justify left)
 		)
 		(uuid "8b9d7e13-871b-4540-bb0f-ab04d60500e9")
+	)
+	(hierarchical_label "PITCH_TRIM_HI"
+		(shape output)
+		(at 93.98 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cc92939-83da-49c4-84eb-c21e6ab4bcb4")
 	)
 	(hierarchical_label "EIS_SERIAL_OUT"
 		(shape output)
@@ -9212,17 +9223,6 @@
 			(justify right)
 		)
 		(uuid "a87fdddb-6185-4b90-8b09-9001d78a3a54")
-	)
-	(hierarchical_label "PITCH_TRIM_POS"
-		(shape input)
-		(at 120.65 275.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afae3a47-5994-433d-8889-0a0d65db2e1b")
 	)
 	(hierarchical_label "CAN_HI_OUT"
 		(shape output)
