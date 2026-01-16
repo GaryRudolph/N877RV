@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Transponder")
-		(date "2026-01-13")
-		(rev "1.2.11")
+		(date "2026-01-15")
+		(rev "1.2.13")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -3389,7 +3389,7 @@
 		)
 		(uuid "00c84305-6cf5-45c6-87ab-6bc2c37a6071")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 200.66 29.21 180)
 		(effects
 			(font
@@ -3439,7 +3439,7 @@
 		)
 		(uuid "3920a452-d070-4caf-863f-5971f7c400c4")
 	)
-	(label "White{slash}Red"
+	(label "White{slash}Blue"
 		(at 200.66 39.37 180)
 		(effects
 			(font
@@ -3459,7 +3459,7 @@
 		)
 		(uuid "467b0aae-1d51-45e4-b7b7-d13865bd6aea")
 	)
-	(label "White"
+	(label "White{slash}Green"
 		(at 163.83 33.02 0)
 		(effects
 			(font
@@ -3529,7 +3529,7 @@
 		)
 		(uuid "a9fbd603-438b-4e66-8e79-d21742f1675a")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 163.83 30.48 0)
 		(effects
 			(font
@@ -3589,7 +3589,7 @@
 		)
 		(uuid "bbae9996-d89a-44f6-9218-e4a22428b498")
 	)
-	(label "White{slash}Red"
+	(label "White{slash}Blue"
 		(at 163.83 39.37 0)
 		(effects
 			(font
@@ -3609,7 +3609,7 @@
 		)
 		(uuid "c72f96af-d6d3-4547-8eed-ea7b602790fa")
 	)
-	(label "White"
+	(label "White{slash}Green"
 		(at 200.66 31.75 180)
 		(effects
 			(font
