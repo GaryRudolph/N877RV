@@ -6,14 +6,14 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-12-31")
-		(rev "1.2.2")
+		(date "2026-02-28")
+		(rev "1.3")
 		(company "N877RV")
 	)
 	(lib_symbols)
 	(text_box "Canbus Order\nG5\nGSU25\nGDU460\nGTR20\nGMC507\nGAD29\nGEA24\nGAD27\n<Connector>\nGSA28 Roll\nGSA28 Pitch\nGSA28 Yaw\nGMU11"
 		(exclude_from_sim no)
-		(at 16.51 14.478 0)
+		(at 18.542 214.122 0)
 		(size 19.05 29.718)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -305,7 +305,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 158.75) (xy 113.03 115.57)
+			(xy 113.03 153.67) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -375,23 +375,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 115.57) (xy 105.41 115.57)
+			(xy 113.03 110.49) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2161b1b4-686e-4ad6-9100-3ccbf216d695")
-	)
-	(wire
-		(pts
-			(xy 114.3 113.03) (xy 114.3 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c32854-9961-428d-8c62-836392d949aa")
 	)
 	(wire
 		(pts
@@ -425,7 +415,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 158.75) (xy 113.03 158.75)
+			(xy 128.27 153.67) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
@@ -442,16 +432,6 @@
 			(type default)
 		)
 		(uuid "23cb5d12-448d-443a-a681-be11c3fdb679")
-	)
-	(wire
-		(pts
-			(xy 115.57 110.49) (xy 115.57 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2443c3d4-4b36-481c-a39f-7489101758e0")
 	)
 	(wire
 		(pts
@@ -732,6 +712,16 @@
 			(type default)
 		)
 		(uuid "45547ca1-22e5-40a8-98b4-8487c2426b05")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 46.99 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458b0068-e320-4592-85ea-7dadaaba5de5")
 	)
 	(wire
 		(pts
@@ -1155,6 +1145,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 22.86) (xy 66.04 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba40033-aa5d-475e-8b44-f28d650600fa")
+	)
+	(wire
+		(pts
 			(xy 109.22 163.83) (xy 128.27 163.83)
 		)
 		(stroke
@@ -1305,16 +1305,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 153.67) (xy 128.27 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926f1742-55c7-4b5d-8235-387063b565ac")
-	)
-	(wire
-		(pts
 			(xy 38.1 69.85) (xy 21.59 69.85)
 		)
 		(stroke
@@ -1352,16 +1342,6 @@
 			(type default)
 		)
 		(uuid "953b14be-6ba1-4fb1-82d5-9f280ebccc32")
-	)
-	(wire
-		(pts
-			(xy 105.41 110.49) (xy 115.57 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c5b1d4-4ec2-436f-9f12-c51841a1b7be")
 	)
 	(wire
 		(pts
@@ -1462,6 +1442,16 @@
 			(type default)
 		)
 		(uuid "a64580f5-53af-42b3-b793-3142115067a7")
+	)
+	(wire
+		(pts
+			(xy 39.37 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72f39e1-f239-498d-9fa6-aba10c06d3cf")
 	)
 	(wire
 		(pts
@@ -1575,26 +1565,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 156.21) (xy 128.27 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beab0d23-21ad-4696-8ad2-1651112d45ec")
-	)
-	(wire
-		(pts
-			(xy 105.41 113.03) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0b27a9d-beff-4cc2-9a6c-00e39cc0c804")
-	)
-	(wire
-		(pts
 			(xy 105.41 40.64) (xy 196.85 40.64)
 		)
 		(stroke
@@ -1602,6 +1572,16 @@
 			(type default)
 		)
 		(uuid "c0deda5f-63c0-42c6-9f27-1c706a851d1d")
+	)
+	(wire
+		(pts
+			(xy 39.37 27.94) (xy 66.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3aa2904-6b39-4fb2-bb6f-da3b359dfdcb")
 	)
 	(wire
 		(pts
@@ -1685,6 +1665,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 176.53) (xy 128.27 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf566c5e-04c3-4025-85cb-924d8bebfb3d")
+	)
+	(wire
+		(pts
 			(xy 121.92 191.77) (xy 128.27 191.77)
 		)
 		(stroke
@@ -1715,6 +1705,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 17.78) (xy 46.99 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9552f1-cef7-494a-b150-f61dd68c8fa3")
+	)
+	(wire
+		(pts
 			(xy 109.22 132.08) (xy 196.85 132.08)
 		)
 		(stroke
@@ -1732,6 +1732,16 @@
 			(type default)
 		)
 		(uuid "e10eaa84-1e5c-45ef-86da-383751fc106a")
+	)
+	(wire
+		(pts
+			(xy 39.37 20.32) (xy 46.99 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e254cf35-34d8-48e3-9a0f-c0bcde3308da")
 	)
 	(wire
 		(pts
@@ -1805,13 +1815,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 50.8) (xy 66.04 50.8)
+			(xy 20.32 54.61) (xy 66.04 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb7af478-9957-41ce-b0fb-351ed422be06")
+	)
+	(wire
+		(pts
+			(xy 39.37 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9c49e1-94dc-4082-aeff-305d2e7358f0")
 	)
 	(wire
 		(pts
@@ -1842,6 +1862,16 @@
 			(type default)
 		)
 		(uuid "ed4ae145-a84b-4821-ad3e-b1fc64d6c1f3")
+	)
+	(wire
+		(pts
+			(xy 124.46 179.07) (xy 128.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda53259-085c-4867-a0a8-958e6d680c2e")
 	)
 	(wire
 		(pts
@@ -1885,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 50.8) (xy 20.32 173.99)
+			(xy 20.32 54.61) (xy 20.32 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2351,6 +2381,28 @@
 			)
 		)
 	)
+	(global_label "LANDING_RT"
+		(shape output)
+		(at 124.46 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d014b7f-ea2a-4ab2-bac0-fd435beeabec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.3471 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GTX330_PWR"
 		(shape input)
 		(at 378.46 48.26 0)
@@ -2364,6 +2416,50 @@
 		(uuid "4f7729a2-e220-451f-a8e6-48144754742f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 393.4798 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LANDING_LT"
+		(shape output)
+		(at 124.46 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e69cc46-4c82-41f1-97bb-f4f2f205f4da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.589 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LANDING_LT"
+		(shape input)
+		(at 46.99 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ece8be7-63a6-4e64-9b53-f60576c645ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.861 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,6 +2592,28 @@
 		(uuid "79fd6b15-cdea-4904-944e-b3bfb4693fe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 373.4018 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 46.99 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83dafcc4-78e6-4699-91a9-61635d9eb435")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7344 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,6 +2856,28 @@
 		(uuid "a0fb0176-27b6-4345-b6ab-f8f915c3c4e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.3608 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LANDING_RT"
+		(shape input)
+		(at 46.99 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a60f6460-3961-47c1-a3f5-21c0d7b4e2e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1029 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3240,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 247.65)
+		(at 286.512 248.412)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3116,7 +3256,7 @@
 		)
 		(uuid "01d03135-f9e9-4447-9fcc-7d9af2685ae2")
 		(property "Sheetname" "Overview"
-			(at 16.51 246.9384 0)
+			(at 286.512 247.7004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3265,7 @@
 			)
 		)
 		(property "Sheetfile" "overview.kicad_sch"
-			(at 16.51 263.4746 0)
+			(at 286.512 264.2366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,8 +3282,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 35.814)
-		(size 39.37 81.534)
+		(at 66.04 17.272)
+		(size 39.37 94.996)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3158,7 +3298,7 @@
 		)
 		(uuid "2852c073-fbc9-4469-a6bf-ba3e911c7f5a")
 		(property "Sheetname" "Power"
-			(at 66.04 35.1024 0)
+			(at 66.04 16.5604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3307,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 66.04 117.9326 0)
+			(at 66.04 112.8526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3566,7 @@
 			)
 		)
 		(pin "SMOKE_PWR" output
-			(at 66.04 50.8 180)
+			(at 66.04 54.61 180)
 			(uuid "27c11f74-1f97-40a6-a535-b7f2f74c0ae8")
 			(effects
 				(font
@@ -3456,28 +3596,8 @@
 			)
 		)
 		(pin "FUEL_PUMP_ON" output
-			(at 105.41 115.57 0)
-			(uuid "85d8d511-8270-4601-9513-0866ae41c91e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LANDING_LT" input
 			(at 105.41 110.49 0)
-			(uuid "67f80e3b-9d7f-403c-9687-8325a11f9a81")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LANDING_RT" input
-			(at 105.41 113.03 0)
-			(uuid "57324ab8-27d6-4996-92fa-28bd371e7b1b")
+			(uuid "85d8d511-8270-4601-9513-0866ae41c91e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,6 +3613,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BEACON_PWR" output
+			(at 66.04 25.4 180)
+			(uuid "9b3a6a65-db02-44f6-a19e-fec95c467bb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POSITION_PWR" output
+			(at 66.04 30.48 180)
+			(uuid "665e282c-338a-4497-ae20-88a4d6245b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STROBE_PWR" output
+			(at 66.04 27.94 180)
+			(uuid "275ab1d5-041f-4ddf-b6d2-a68e87a26df9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TAXI_PWR" output
+			(at 66.04 22.86 180)
+			(uuid "8b7a5982-8b2c-45e6-a107-2d437d567de6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3730,7 +3890,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -4052,7 +4212,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -4302,7 +4462,7 @@
 			)
 		)
 		(pin "FUEL_PUMP_ON" input
-			(at 128.27 158.75 180)
+			(at 128.27 153.67 180)
 			(uuid "ce79a0c6-9a01-4cdd-89a9-0af732edc8e8")
 			(effects
 				(font
@@ -4312,7 +4472,7 @@
 			)
 		)
 		(pin "LANDING_LT" output
-			(at 128.27 153.67 180)
+			(at 128.27 176.53 180)
 			(uuid "40c099d7-6a55-43b7-9475-4b35e06a6feb")
 			(effects
 				(font
@@ -4322,7 +4482,7 @@
 			)
 		)
 		(pin "LANDING_RT" output
-			(at 128.27 156.21 180)
+			(at 128.27 179.07 180)
 			(uuid "94cd0d7a-5139-4a1b-9be4-00c958b1d33e")
 			(effects
 				(font
@@ -4344,7 +4504,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -4596,7 +4756,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -4729,6 +4889,118 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.034 15.748)
+		(size 21.336 18.796)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ba8517b-031d-4040-8e06-43a754c1f282")
+		(property "Sheetname" "Light Power"
+			(at 18.034 15.0364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lights.kicad_sch"
+			(at 18.034 35.1286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BEACON_PWR" input
+			(at 39.37 25.4 0)
+			(uuid "063fce0c-f801-41dd-b59f-09d9a81044f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_BUS" input
+			(at 39.37 33.02 0)
+			(uuid "e234d3dc-cb39-44c7-a4e2-d5e154cab141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LANDING_LT" input
+			(at 39.37 17.78 0)
+			(uuid "61a3bc5d-ba29-47c2-b1b6-47694274afef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LANDING_RT" input
+			(at 39.37 20.32 0)
+			(uuid "807c8d6b-9c1f-467f-a3c9-97ed925ed619")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POSITION_PWR" input
+			(at 39.37 30.48 0)
+			(uuid "99e045e5-fef7-4524-b27c-5f785b568f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STROBE_PWR" input
+			(at 39.37 27.94 0)
+			(uuid "cd3849d8-2cf8-467a-852b-d769cec85301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TAXI_PWR" input
+			(at 39.37 22.86 0)
+			(uuid "ebddf719-9829-42d2-9277-3bdd9dd692c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
+					(page "5")
 				)
 			)
 		)
@@ -4950,7 +5222,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -5182,7 +5454,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -5364,7 +5636,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
-					(page "8")
+					(page "9")
 				)
 			)
 		)

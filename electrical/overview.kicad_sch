@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "System Overview")
-		(date "2025-12-24")
-		(rev "1.2")
+		(date "2026-02-28")
+		(rev "1.3")
 		(company "N877RV")
 	)
 	(lib_symbols)
