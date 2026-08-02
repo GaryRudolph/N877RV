@@ -453,7 +453,7 @@
         "uuid": "e8ec215a-dbe2-4eba-a577-e50a0a128049"
       }
     ],
-    "used_designators": "#PWR15,GDU1,GDU460,BAK_SW1,SFLY_LEFT_F1",
+    "used_designators": "#PWR15,#PWR31,GDU1,GDU460,BAK_SW1,SFLY_LEFT_F1",
     "variants": []
   },
   "sheets": [
