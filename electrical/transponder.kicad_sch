@@ -2716,9 +2716,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To GPS175"
+	(text "To GPS175\nNot used,\nnot supported"
 		(exclude_from_sim no)
-		(at 258.318 40.132 0)
+		(at 257.81 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2026-08-01")
-		(rev "2.0.1")
+		(date "2026-08-18")
+		(rev "2.0.2")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -4165,6 +4165,12 @@
 		(uuid "05aa6ce2-5f42-4da3-9876-e403fff3c75b")
 	)
 	(junction
+		(at 63.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1909014a-5e48-4ac9-ad3d-1802a8dbdf0e")
+	)
+	(junction
 		(at 63.5 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4193,12 +4199,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d54ab6d-452d-4a71-8894-e065a30408e9")
-	)
-	(junction
-		(at 63.5 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87c90ba0-c54b-4299-9a7f-5b42a19323b2")
 	)
 	(junction
 		(at 60.96 66.04)
@@ -4560,16 +4560,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cdd942b-0b10-4b90-8474-9bee334cf709")
-	)
-	(wire
-		(pts
 			(xy 58.42 110.49) (xy 76.2 110.49)
 		)
 		(stroke
@@ -4620,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 58.42) (xy 66.04 58.42)
+			(xy 58.42 58.42) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 69.85) (xy 66.04 69.85)
+			(xy 63.5 60.96) (xy 66.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5327,16 +5317,6 @@
 			(type dash)
 		)
 		(uuid "b13018aa-3c89-4a25-8429-e781030f5f20")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 63.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b334b91b-403c-43ab-8677-8c6419b855a7")
 	)
 	(wire
 		(pts
@@ -5737,6 +5717,16 @@
 			(type default)
 		)
 		(uuid "ff274702-904c-4dc6-a34b-62cecb34c2dd")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 63.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe60114-484f-496f-b2a0-61a244400e02")
 	)
 	(label "White{slash}Blue"
 		(at 58.42 48.26 0)
@@ -6394,9 +6384,9 @@
 			)
 		)
 	)
-	(hierarchical_label "GDU4XX_PWR_2"
+	(hierarchical_label "GDU4XX_PWR"
 		(shape input)
-		(at 66.04 69.85 0)
+		(at 66.04 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6471,7 +6461,7 @@
 		)
 		(uuid "35781db0-004d-4aa3-9f97-26d691bbefe1")
 	)
-	(hierarchical_label "GDU4XX_PWR"
+	(hierarchical_label "GDU4XX_PWR_2"
 		(shape input)
 		(at 66.04 58.42 0)
 		(effects

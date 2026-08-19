@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "A" portrait)
 	(title_block
-		(date "2026-08-01")
-		(rev "2.0")
+		(date "2026-08-18")
+		(rev "2.0.2")
 		(company "N877RV")
 	)
 	(lib_symbols
@@ -2733,9 +2733,9 @@
 		)
 		(uuid "3137c1c0-135f-4672-8de1-f0596c198d3c")
 	)
-	(text "To GDL 52\nConnext 57600"
+	(text "To GDL 52\nConnext 57600\nNot used, not supported"
 		(exclude_from_sim no)
-		(at 105.156 87.376 0)
+		(at 102.616 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)

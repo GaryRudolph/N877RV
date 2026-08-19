@@ -4,14 +4,14 @@
 1. HSDB from GDU to GPS 175
 2. Extra Power to GDU
 3. MapMX Unused on GDU
-4. GDU Battery Power
+~~4. GDU Battery Power~~
 5. Ok to retain TO/GA to GPS and GMC (per g3xpert)
 
 ## Specific Changes
 ~~1. GDU J1011 Swap Pins 6 & 9~~
 ~~2. GSU 25 SWAP Pins 6 & 9~~
-3. GDU J1011 Add GDU Bat, Fuse & Switch from Backup Battery
-4. GDU J1012 Bridge Ground to 9 & 10 to 15 & 16; Move and bridge Pin 31 to 11 & 12. Bridge 31 to 32.
+3. GDU J1011 Add GDU Bat Lead ~~Connect to Fuse & Switch~~ (Connect later when we find out what it actuall does)
+4. GDU J1012 Bridge Ground to 9 & 10 to 15 & 16; Bridge Pin 32 to 11 & 12.
 5. GDU J1012 Remove Pin 10 & 27 strap
 6. GDU Add HSDB Pins 3, 2, 20, 19
 7. GPS Add HSDB Pins 10, 32, 11, 33
